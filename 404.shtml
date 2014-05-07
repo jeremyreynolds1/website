@@ -1,0 +1,12 @@
+<html>
+	<head>
+		<title>404 Error</title>
+		<link rel="stylesheet" type="text/css" href="layout-styles.css">
+		<link rel="shortcut icon" href="favicon.ico" />
+	</head>
+	<body>
+		<h1>Oh snap!</h1>
+		<p>The page you were looking for <!--#echo var="REQUEST_URI" --> does not seem to exist!</p>
+		<a href="<!--#echo var="HTTP_REFERER" -->">Click here to go back</a>
+	</body>
+</html>

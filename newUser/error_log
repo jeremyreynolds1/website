@@ -1,0 +1,710 @@
+[25-Jan-2014 03:15:19 UTC] PHP Parse error:  syntax error, unexpected '/' in /home/jeremyreynolds/public_html/newUser/newUser.php on line 23
+[25-Jan-2014 03:15:32 UTC] PHP Notice:  Undefined variable: submitResult in /home/jeremyreynolds/public_html/newUser/newUser.php on line 23
+[25-Jan-2014 03:15:32 UTC] PHP Stack trace:
+[25-Jan-2014 03:15:32 UTC] PHP   1. {main}() /home/jeremyreynolds/public_html/newUser/newUser.php:0
+[25-Jan-2014 03:15:51 UTC] PHP Notice:  Undefined variable: submitResult in /home/jeremyreynolds/public_html/newUser/newUser.php on line 23
+[25-Jan-2014 03:15:51 UTC] PHP Stack trace:
+[25-Jan-2014 03:15:51 UTC] PHP   1. {main}() /home/jeremyreynolds/public_html/newUser/newUser.php:0
+[25-Jan-2014 03:16:03 UTC] PHP Notice:  Undefined variable: submitResult in /home/jeremyreynolds/public_html/newUser/newUser.php on line 23
+[25-Jan-2014 03:16:03 UTC] PHP Stack trace:
+[25-Jan-2014 03:16:03 UTC] PHP   1. {main}() /home/jeremyreynolds/public_html/newUser/newUser.php:0
+[25-Jan-2014 03:16:26 UTC] PHP Notice:  Undefined variable: submitResult in /home/jeremyreynolds/public_html/newUser/newUser.php on line 23
+[25-Jan-2014 03:16:26 UTC] PHP Stack trace:
+[25-Jan-2014 03:16:26 UTC] PHP   1. {main}() /home/jeremyreynolds/public_html/newUser/newUser.php:0
+[29-Jan-2014 00:54:07 UTC] PHP Notice:  Undefined index: password in /home/jeremyreynolds/public_html/newUser/newUser.php on line 13
+[29-Jan-2014 00:54:07 UTC] PHP Stack trace:
+[29-Jan-2014 00:54:07 UTC] PHP   1. {main}() /home/jeremyreynolds/public_html/newUser/newUser.php:0
+[29-Jan-2014 00:54:08 UTC] PHP Notice:  Undefined variable: submitResult in /home/jeremyreynolds/public_html/newUser/newUser.php on line 28
+[29-Jan-2014 00:54:08 UTC] PHP Stack trace:
+[29-Jan-2014 00:54:08 UTC] PHP   1. {main}() /home/jeremyreynolds/public_html/newUser/newUser.php:0
+[29-Jan-2014 00:59:14 UTC] PHP Notice:  Undefined index: password in /home/jeremyreynolds/public_html/newUser/newUser.php on line 13
+[29-Jan-2014 00:59:14 UTC] PHP Stack trace:
+[29-Jan-2014 00:59:14 UTC] PHP   1. {main}() /home/jeremyreynolds/public_html/newUser/newUser.php:0
+[29-Jan-2014 00:59:14 UTC] PHP Notice:  Undefined variable: submitResult in /home/jeremyreynolds/public_html/newUser/newUser.php on line 28
+[29-Jan-2014 00:59:14 UTC] PHP Stack trace:
+[29-Jan-2014 00:59:14 UTC] PHP   1. {main}() /home/jeremyreynolds/public_html/newUser/newUser.php:0
+[29-Jan-2014 01:07:19 UTC] PHP Notice:  Undefined index: password in /home/jeremyreynolds/public_html/newUser/newUser.php on line 13
+[29-Jan-2014 01:07:19 UTC] PHP Stack trace:
+[29-Jan-2014 01:07:19 UTC] PHP   1. {main}() /home/jeremyreynolds/public_html/newUser/newUser.php:0
+[29-Jan-2014 01:07:19 UTC] PHP Notice:  Undefined variable: submitResult in /home/jeremyreynolds/public_html/newUser/newUser.php on line 28
+[29-Jan-2014 01:07:19 UTC] PHP Stack trace:
+[29-Jan-2014 01:07:19 UTC] PHP   1. {main}() /home/jeremyreynolds/public_html/newUser/newUser.php:0
+[29-Jan-2014 01:09:54 UTC] PHP Notice:  Undefined index: password in /home/jeremyreynolds/public_html/newUser/newUser.php on line 13
+[29-Jan-2014 01:09:54 UTC] PHP Stack trace:
+[29-Jan-2014 01:09:54 UTC] PHP   1. {main}() /home/jeremyreynolds/public_html/newUser/newUser.php:0
+[29-Jan-2014 01:09:54 UTC] PHP Notice:  Undefined variable: submitResult in /home/jeremyreynolds/public_html/newUser/newUser.php on line 28
+[29-Jan-2014 01:09:54 UTC] PHP Stack trace:
+[29-Jan-2014 01:09:54 UTC] PHP   1. {main}() /home/jeremyreynolds/public_html/newUser/newUser.php:0
+[29-Jan-2014 01:11:45 UTC] PHP Notice:  Undefined variable: submitResult in /home/jeremyreynolds/public_html/newUser/newUser.php on line 28
+[29-Jan-2014 01:11:45 UTC] PHP Stack trace:
+[29-Jan-2014 01:11:45 UTC] PHP   1. {main}() /home/jeremyreynolds/public_html/newUser/newUser.php:0
+[29-Jan-2014 04:36:16 UTC] PHP Notice:  Undefined index: password in /home/jeremyreynolds/public_html/newUser/newUser.php on line 13
+[29-Jan-2014 04:36:16 UTC] PHP Stack trace:
+[29-Jan-2014 04:36:16 UTC] PHP   1. {main}() /home/jeremyreynolds/public_html/newUser/newUser.php:0
+[29-Jan-2014 04:36:16 UTC] PHP Notice:  Undefined variable: submitResult in /home/jeremyreynolds/public_html/newUser/newUser.php on line 28
+[29-Jan-2014 04:36:16 UTC] PHP Stack trace:
+[29-Jan-2014 04:36:16 UTC] PHP   1. {main}() /home/jeremyreynolds/public_html/newUser/newUser.php:0
+[29-Jan-2014 04:36:24 UTC] PHP Notice:  Undefined variable: submitResult in /home/jeremyreynolds/public_html/newUser/newUser.php on line 28
+[29-Jan-2014 04:36:24 UTC] PHP Stack trace:
+[29-Jan-2014 04:36:24 UTC] PHP   1. {main}() /home/jeremyreynolds/public_html/newUser/newUser.php:0
+[29-Jan-2014 04:36:27 UTC] PHP Notice:  Undefined index: password in /home/jeremyreynolds/public_html/newUser/newUser.php on line 13
+[29-Jan-2014 04:36:27 UTC] PHP Stack trace:
+[29-Jan-2014 04:36:27 UTC] PHP   1. {main}() /home/jeremyreynolds/public_html/newUser/newUser.php:0
+[29-Jan-2014 04:36:27 UTC] PHP Notice:  Undefined variable: submitResult in /home/jeremyreynolds/public_html/newUser/newUser.php on line 28
+[29-Jan-2014 04:36:27 UTC] PHP Stack trace:
+[29-Jan-2014 04:36:27 UTC] PHP   1. {main}() /home/jeremyreynolds/public_html/newUser/newUser.php:0
+[29-Jan-2014 04:52:16 UTC] PHP Notice:  Undefined index: password in /home/jeremyreynolds/public_html/newUser/newUser.php on line 13
+[29-Jan-2014 04:52:16 UTC] PHP Stack trace:
+[29-Jan-2014 04:52:16 UTC] PHP   1. {main}() /home/jeremyreynolds/public_html/newUser/newUser.php:0
+[29-Jan-2014 04:52:16 UTC] PHP Notice:  Undefined variable: submitResult in /home/jeremyreynolds/public_html/newUser/newUser.php on line 28
+[29-Jan-2014 04:52:16 UTC] PHP Stack trace:
+[29-Jan-2014 04:52:16 UTC] PHP   1. {main}() /home/jeremyreynolds/public_html/newUser/newUser.php:0
+[29-Jan-2014 05:50:18 UTC] PHP Notice:  Undefined index: password in /home/jeremyreynolds/public_html/newUser/newUser.php on line 13
+[29-Jan-2014 05:50:18 UTC] PHP Stack trace:
+[29-Jan-2014 05:50:18 UTC] PHP   1. {main}() /home/jeremyreynolds/public_html/newUser/newUser.php:0
+[29-Jan-2014 05:50:18 UTC] PHP Notice:  Undefined variable: submitResult in /home/jeremyreynolds/public_html/newUser/newUser.php on line 28
+[29-Jan-2014 05:50:18 UTC] PHP Stack trace:
+[29-Jan-2014 05:50:18 UTC] PHP   1. {main}() /home/jeremyreynolds/public_html/newUser/newUser.php:0
+[30-Jan-2014 18:11:23 UTC] PHP Notice:  Undefined index: password in /home/jeremyreynolds/public_html/newUser/newUser.php on line 13
+[30-Jan-2014 18:11:23 UTC] PHP Stack trace:
+[30-Jan-2014 18:11:23 UTC] PHP   1. {main}() /home/jeremyreynolds/public_html/newUser/newUser.php:0
+[30-Jan-2014 18:11:23 UTC] PHP Notice:  Undefined index: password in /home/jeremyreynolds/public_html/newUser/newUser.php on line 13
+[30-Jan-2014 18:11:23 UTC] PHP Notice:  Undefined index: password in /home/jeremyreynolds/public_html/newUser/newUser.php on line 13
+[30-Jan-2014 18:11:23 UTC] PHP Stack trace:
+[30-Jan-2014 18:11:23 UTC] PHP   1. {main}() /home/jeremyreynolds/public_html/newUser/newUser.php:0
+[30-Jan-2014 18:11:23 UTC] PHP Stack trace:
+[30-Jan-2014 18:11:23 UTC] PHP   1. {main}() /home/jeremyreynolds/public_html/newUser/newUser.php:0
+[30-Jan-2014 18:11:23 UTC] PHP Notice:  Undefined variable: submitResult in /home/jeremyreynolds/public_html/newUser/newUser.php on line 28
+[30-Jan-2014 18:11:23 UTC] PHP Stack trace:
+[30-Jan-2014 18:11:23 UTC] PHP   1. {main}() /home/jeremyreynolds/public_html/newUser/newUser.php:0
+[30-Jan-2014 18:11:23 UTC] PHP Notice:  Undefined variable: submitResult in /home/jeremyreynolds/public_html/newUser/newUser.php on line 28
+[30-Jan-2014 18:11:23 UTC] PHP Stack trace:
+[30-Jan-2014 18:11:23 UTC] PHP   1. {main}() /home/jeremyreynolds/public_html/newUser/newUser.php:0
+[30-Jan-2014 18:11:23 UTC] PHP Notice:  Undefined variable: submitResult in /home/jeremyreynolds/public_html/newUser/newUser.php on line 28
+[30-Jan-2014 18:11:23 UTC] PHP Stack trace:
+[30-Jan-2014 18:11:23 UTC] PHP   1. {main}() /home/jeremyreynolds/public_html/newUser/newUser.php:0
+[30-Jan-2014 18:21:07 UTC] PHP Notice:  Undefined index: firstName in /home/jeremyreynolds/public_html/newUser/newUser.php on line 11
+[30-Jan-2014 18:21:07 UTC] PHP Stack trace:
+[30-Jan-2014 18:21:07 UTC] PHP   1. {main}() /home/jeremyreynolds/public_html/newUser/newUser.php:0
+[30-Jan-2014 18:21:07 UTC] PHP Notice:  Undefined index: lastName in /home/jeremyreynolds/public_html/newUser/newUser.php on line 12
+[30-Jan-2014 18:21:07 UTC] PHP Stack trace:
+[30-Jan-2014 18:21:07 UTC] PHP   1. {main}() /home/jeremyreynolds/public_html/newUser/newUser.php:0
+[30-Jan-2014 18:21:07 UTC] PHP Notice:  Undefined index: userName in /home/jeremyreynolds/public_html/newUser/newUser.php on line 13
+[30-Jan-2014 18:21:07 UTC] PHP Stack trace:
+[30-Jan-2014 18:21:07 UTC] PHP   1. {main}() /home/jeremyreynolds/public_html/newUser/newUser.php:0
+[30-Jan-2014 18:21:07 UTC] PHP Notice:  Undefined index: password in /home/jeremyreynolds/public_html/newUser/newUser.php on line 14
+[30-Jan-2014 18:21:07 UTC] PHP Stack trace:
+[30-Jan-2014 18:21:07 UTC] PHP   1. {main}() /home/jeremyreynolds/public_html/newUser/newUser.php:0
+[30-Jan-2014 18:24:48 UTC] PHP Fatal error:  Function name must be a string in /home/jeremyreynolds/public_html/newUser/newUser.php on line 11
+[30-Jan-2014 18:24:48 UTC] PHP Stack trace:
+[30-Jan-2014 18:24:48 UTC] PHP   1. {main}() /home/jeremyreynolds/public_html/newUser/newUser.php:0
+[30-Jan-2014 18:27:17 UTC] PHP Fatal error:  Function name must be a string in /home/jeremyreynolds/public_html/newUser/newUser.php on line 11
+[30-Jan-2014 18:27:17 UTC] PHP Stack trace:
+[30-Jan-2014 18:27:17 UTC] PHP   1. {main}() /home/jeremyreynolds/public_html/newUser/newUser.php:0
+[30-Jan-2014 18:27:36 UTC] PHP Fatal error:  Function name must be a string in /home/jeremyreynolds/public_html/newUser/newUser.php on line 11
+[30-Jan-2014 18:27:36 UTC] PHP Stack trace:
+[30-Jan-2014 18:27:36 UTC] PHP   1. {main}() /home/jeremyreynolds/public_html/newUser/newUser.php:0
+[30-Jan-2014 18:28:20 UTC] PHP Fatal error:  Function name must be a string in /home/jeremyreynolds/public_html/newUser/newUser.php on line 12
+[30-Jan-2014 18:28:20 UTC] PHP Stack trace:
+[30-Jan-2014 18:28:20 UTC] PHP   1. {main}() /home/jeremyreynolds/public_html/newUser/newUser.php:0
+[30-Jan-2014 18:29:15 UTC] PHP Fatal error:  Function name must be a string in /home/jeremyreynolds/public_html/newUser/newUser.php on line 12
+[30-Jan-2014 18:29:15 UTC] PHP Stack trace:
+[30-Jan-2014 18:29:15 UTC] PHP   1. {main}() /home/jeremyreynolds/public_html/newUser/newUser.php:0
+[30-Jan-2014 18:29:16 UTC] PHP Fatal error:  Function name must be a string in /home/jeremyreynolds/public_html/newUser/newUser.php on line 12
+[30-Jan-2014 18:29:16 UTC] PHP Stack trace:
+[30-Jan-2014 18:29:16 UTC] PHP   1. {main}() /home/jeremyreynolds/public_html/newUser/newUser.php:0
+[30-Jan-2014 18:29:38 UTC] PHP Fatal error:  Function name must be a string in /home/jeremyreynolds/public_html/newUser/newUser.php on line 12
+[30-Jan-2014 18:29:38 UTC] PHP Stack trace:
+[30-Jan-2014 18:29:38 UTC] PHP   1. {main}() /home/jeremyreynolds/public_html/newUser/newUser.php:0
+[30-Jan-2014 18:32:08 UTC] PHP Notice:  Undefined index: firstName in /home/jeremyreynolds/public_html/newUser/newUser.php on line 14
+[30-Jan-2014 18:32:08 UTC] PHP Stack trace:
+[30-Jan-2014 18:32:08 UTC] PHP   1. {main}() /home/jeremyreynolds/public_html/newUser/newUser.php:0
+[30-Jan-2014 18:32:08 UTC] PHP Notice:  Undefined index: lastName in /home/jeremyreynolds/public_html/newUser/newUser.php on line 15
+[30-Jan-2014 18:32:08 UTC] PHP Stack trace:
+[30-Jan-2014 18:32:08 UTC] PHP   1. {main}() /home/jeremyreynolds/public_html/newUser/newUser.php:0
+[30-Jan-2014 18:32:08 UTC] PHP Notice:  Undefined index: userName in /home/jeremyreynolds/public_html/newUser/newUser.php on line 16
+[30-Jan-2014 18:32:08 UTC] PHP Stack trace:
+[30-Jan-2014 18:32:08 UTC] PHP   1. {main}() /home/jeremyreynolds/public_html/newUser/newUser.php:0
+[30-Jan-2014 18:32:08 UTC] PHP Notice:  Undefined index: password in /home/jeremyreynolds/public_html/newUser/newUser.php on line 17
+[30-Jan-2014 18:32:08 UTC] PHP Stack trace:
+[30-Jan-2014 18:32:08 UTC] PHP   1. {main}() /home/jeremyreynolds/public_html/newUser/newUser.php:0
+[30-Jan-2014 18:32:18 UTC] PHP Notice:  Undefined index: firstName in /home/jeremyreynolds/public_html/newUser/newUser.php on line 14
+[30-Jan-2014 18:32:18 UTC] PHP Stack trace:
+[30-Jan-2014 18:32:18 UTC] PHP   1. {main}() /home/jeremyreynolds/public_html/newUser/newUser.php:0
+[30-Jan-2014 18:32:18 UTC] PHP Notice:  Undefined index: lastName in /home/jeremyreynolds/public_html/newUser/newUser.php on line 15
+[30-Jan-2014 18:32:18 UTC] PHP Stack trace:
+[30-Jan-2014 18:32:18 UTC] PHP   1. {main}() /home/jeremyreynolds/public_html/newUser/newUser.php:0
+[30-Jan-2014 18:32:18 UTC] PHP Notice:  Undefined index: userName in /home/jeremyreynolds/public_html/newUser/newUser.php on line 16
+[30-Jan-2014 18:32:18 UTC] PHP Stack trace:
+[30-Jan-2014 18:32:18 UTC] PHP   1. {main}() /home/jeremyreynolds/public_html/newUser/newUser.php:0
+[30-Jan-2014 18:32:18 UTC] PHP Notice:  Undefined index: password in /home/jeremyreynolds/public_html/newUser/newUser.php on line 17
+[30-Jan-2014 18:32:18 UTC] PHP Stack trace:
+[30-Jan-2014 18:32:18 UTC] PHP   1. {main}() /home/jeremyreynolds/public_html/newUser/newUser.php:0
+[30-Jan-2014 18:32:21 UTC] PHP Notice:  Undefined index: firstName in /home/jeremyreynolds/public_html/newUser/newUser.php on line 14
+[30-Jan-2014 18:32:21 UTC] PHP Stack trace:
+[30-Jan-2014 18:32:21 UTC] PHP   1. {main}() /home/jeremyreynolds/public_html/newUser/newUser.php:0
+[30-Jan-2014 18:32:21 UTC] PHP Notice:  Undefined index: lastName in /home/jeremyreynolds/public_html/newUser/newUser.php on line 15
+[30-Jan-2014 18:32:21 UTC] PHP Stack trace:
+[30-Jan-2014 18:32:21 UTC] PHP   1. {main}() /home/jeremyreynolds/public_html/newUser/newUser.php:0
+[30-Jan-2014 18:32:21 UTC] PHP Notice:  Undefined index: userName in /home/jeremyreynolds/public_html/newUser/newUser.php on line 16
+[30-Jan-2014 18:32:21 UTC] PHP Stack trace:
+[30-Jan-2014 18:32:21 UTC] PHP   1. {main}() /home/jeremyreynolds/public_html/newUser/newUser.php:0
+[30-Jan-2014 18:32:21 UTC] PHP Notice:  Undefined index: password in /home/jeremyreynolds/public_html/newUser/newUser.php on line 17
+[30-Jan-2014 18:32:21 UTC] PHP Stack trace:
+[30-Jan-2014 18:32:21 UTC] PHP   1. {main}() /home/jeremyreynolds/public_html/newUser/newUser.php:0
+[30-Jan-2014 18:32:44 UTC] PHP Fatal error:  Function name must be a string in /home/jeremyreynolds/public_html/newUser/newUser.php on line 12
+[30-Jan-2014 18:32:44 UTC] PHP Stack trace:
+[30-Jan-2014 18:32:44 UTC] PHP   1. {main}() /home/jeremyreynolds/public_html/newUser/newUser.php:0
+[30-Jan-2014 18:34:10 UTC] PHP Fatal error:  Function name must be a string in /home/jeremyreynolds/public_html/newUser/newUser.php on line 14
+[30-Jan-2014 18:34:10 UTC] PHP Stack trace:
+[30-Jan-2014 18:34:10 UTC] PHP   1. {main}() /home/jeremyreynolds/public_html/newUser/newUser.php:0
+[30-Jan-2014 18:35:00 UTC] PHP Fatal error:  Function name must be a string in /home/jeremyreynolds/public_html/newUser/newUser.php on line 15
+[30-Jan-2014 18:35:00 UTC] PHP Stack trace:
+[30-Jan-2014 18:35:00 UTC] PHP   1. {main}() /home/jeremyreynolds/public_html/newUser/newUser.php:0
+[30-Jan-2014 18:35:27 UTC] PHP Fatal error:  Function name must be a string in /home/jeremyreynolds/public_html/newUser/newUser.php on line 15
+[30-Jan-2014 18:35:27 UTC] PHP Stack trace:
+[30-Jan-2014 18:35:27 UTC] PHP   1. {main}() /home/jeremyreynolds/public_html/newUser/newUser.php:0
+[30-Jan-2014 18:36:04 UTC] PHP Fatal error:  Function name must be a string in /home/jeremyreynolds/public_html/newUser/newUser.php on line 15
+[30-Jan-2014 18:36:04 UTC] PHP Stack trace:
+[30-Jan-2014 18:36:04 UTC] PHP   1. {main}() /home/jeremyreynolds/public_html/newUser/newUser.php:0
+[30-Jan-2014 18:36:38 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/jeremyreynolds/public_html/newUser/newUser.php on line 53
+[31-Jan-2014 00:17:52 UTC] PHP Parse error:  syntax error, unexpected '$dontSubmit' (T_VARIABLE) in /home/jeremyreynolds/public_html/newUser/newUser.php on line 39
+[31-Jan-2014 00:19:00 UTC] PHP Parse error:  syntax error, unexpected '$dontSubmit' (T_VARIABLE) in /home/jeremyreynolds/public_html/newUser/newUser.php on line 39
+[31-Jan-2014 02:18:03 UTC] PHP Fatal error:  Call to undefined function mysql_connect_errno() in /home/jeremyreynolds/public_html/newUser/newUser.php on line 18
+[31-Jan-2014 02:18:03 UTC] PHP Stack trace:
+[31-Jan-2014 02:18:03 UTC] PHP   1. {main}() /home/jeremyreynolds/public_html/newUser/newUser.php:0
+[31-Jan-2014 02:20:15 UTC] PHP Fatal error:  Call to undefined function mysql_connect_errno() in /home/jeremyreynolds/public_html/newUser/newUser.php on line 18
+[31-Jan-2014 02:20:15 UTC] PHP Stack trace:
+[31-Jan-2014 02:20:15 UTC] PHP   1. {main}() /home/jeremyreynolds/public_html/newUser/newUser.php:0
+[31-Jan-2014 02:21:38 UTC] PHP Fatal error:  Call to undefined function mysql_connect_errno() in /home/jeremyreynolds/public_html/newUser/newUser.php on line 18
+[31-Jan-2014 02:21:38 UTC] PHP Stack trace:
+[31-Jan-2014 02:21:38 UTC] PHP   1. {main}() /home/jeremyreynolds/public_html/newUser/newUser.php:0
+[31-Jan-2014 02:21:47 UTC] PHP Fatal error:  Call to undefined function mysql_connect_errno() in /home/jeremyreynolds/public_html/newUser/newUser.php on line 18
+[31-Jan-2014 02:21:47 UTC] PHP Stack trace:
+[31-Jan-2014 02:21:47 UTC] PHP   1. {main}() /home/jeremyreynolds/public_html/newUser/newUser.php:0
+[31-Jan-2014 02:23:19 UTC] PHP Fatal error:  Call to undefined function mysql_connect_errno() in /home/jeremyreynolds/public_html/newUser/newUser.php on line 18
+[31-Jan-2014 02:23:19 UTC] PHP Stack trace:
+[31-Jan-2014 02:23:19 UTC] PHP   1. {main}() /home/jeremyreynolds/public_html/newUser/newUser.php:0
+[31-Jan-2014 02:23:46 UTC] PHP Fatal error:  Call to undefined function mysql_connect_errno() in /home/jeremyreynolds/public_html/newUser/newUser.php on line 18
+[31-Jan-2014 02:23:46 UTC] PHP Stack trace:
+[31-Jan-2014 02:23:46 UTC] PHP   1. {main}() /home/jeremyreynolds/public_html/newUser/newUser.php:0
+[31-Jan-2014 02:23:57 UTC] PHP Fatal error:  Call to undefined function mysql_connect_errno() in /home/jeremyreynolds/public_html/newUser/newUser.php on line 18
+[31-Jan-2014 02:23:57 UTC] PHP Stack trace:
+[31-Jan-2014 02:23:57 UTC] PHP   1. {main}() /home/jeremyreynolds/public_html/newUser/newUser.php:0
+[31-Jan-2014 02:26:09 UTC] PHP Fatal error:  Call to undefined function mysql_connect_errno() in /home/jeremyreynolds/public_html/newUser/newUser.php on line 18
+[31-Jan-2014 02:26:09 UTC] PHP Stack trace:
+[31-Jan-2014 02:26:09 UTC] PHP   1. {main}() /home/jeremyreynolds/public_html/newUser/newUser.php:0
+[31-Jan-2014 02:26:28 UTC] PHP Fatal error:  Call to undefined function mysql_connect_errno() in /home/jeremyreynolds/public_html/newUser/newUser.php on line 18
+[31-Jan-2014 02:26:28 UTC] PHP Stack trace:
+[31-Jan-2014 02:26:28 UTC] PHP   1. {main}() /home/jeremyreynolds/public_html/newUser/newUser.php:0
+[31-Jan-2014 02:27:33 UTC] PHP Fatal error:  Call to undefined function mysql_connect_errno() in /home/jeremyreynolds/public_html/newUser/newUser.php on line 18
+[31-Jan-2014 02:27:33 UTC] PHP Stack trace:
+[31-Jan-2014 02:27:33 UTC] PHP   1. {main}() /home/jeremyreynolds/public_html/newUser/newUser.php:0
+[31-Jan-2014 02:27:39 UTC] PHP Fatal error:  Call to undefined function mysql_connect_errno() in /home/jeremyreynolds/public_html/newUser/newUser.php on line 18
+[31-Jan-2014 02:27:39 UTC] PHP Stack trace:
+[31-Jan-2014 02:27:39 UTC] PHP   1. {main}() /home/jeremyreynolds/public_html/newUser/newUser.php:0
+[31-Jan-2014 02:28:05 UTC] PHP Fatal error:  Call to undefined function mysql_connect_errno() in /home/jeremyreynolds/public_html/newUser/newUser.php on line 18
+[31-Jan-2014 02:28:05 UTC] PHP Stack trace:
+[31-Jan-2014 02:28:05 UTC] PHP   1. {main}() /home/jeremyreynolds/public_html/newUser/newUser.php:0
+[31-Jan-2014 02:31:12 UTC] PHP Fatal error:  Call to undefined function mysql_connect_errno() in /home/jeremyreynolds/public_html/newUser/newUser.php on line 18
+[31-Jan-2014 02:31:12 UTC] PHP Stack trace:
+[31-Jan-2014 02:31:12 UTC] PHP   1. {main}() /home/jeremyreynolds/public_html/newUser/newUser.php:0
+[31-Jan-2014 02:32:39 UTC] PHP Fatal error:  Call to undefined function mysql_connect_errno() in /home/jeremyreynolds/public_html/newUser/newUser.php on line 18
+[31-Jan-2014 02:32:39 UTC] PHP Stack trace:
+[31-Jan-2014 02:32:39 UTC] PHP   1. {main}() /home/jeremyreynolds/public_html/newUser/newUser.php:0
+[31-Jan-2014 02:47:39 UTC] PHP Parse error:  syntax error, unexpected '{' in /home/jeremyreynolds/public_html/newUser/newUser.php on line 69
+[31-Jan-2014 02:47:39 UTC] PHP Parse error:  syntax error, unexpected '{' in /home/jeremyreynolds/public_html/newUser/newUser.php on line 69
+[31-Jan-2014 02:47:45 UTC] PHP Parse error:  syntax error, unexpected '{' in /home/jeremyreynolds/public_html/newUser/newUser.php on line 69
+[31-Jan-2014 02:48:14 UTC] PHP Parse error:  syntax error, unexpected '{' in /home/jeremyreynolds/public_html/newUser/newUser.php on line 69
+[31-Jan-2014 02:48:44 UTC] PHP Parse error:  syntax error, unexpected '{' in /home/jeremyreynolds/public_html/newUser/newUser.php on line 69
+[31-Jan-2014 02:49:06 UTC] PHP Parse error:  syntax error, unexpected '{' in /home/jeremyreynolds/public_html/newUser/newUser.php on line 69
+[31-Jan-2014 02:52:03 UTC] PHP Parse error:  syntax error, unexpected '{' in /home/jeremyreynolds/public_html/newUser/newUser.php on line 69
+[31-Jan-2014 15:16:56 UTC] PHP Parse error:  syntax error, unexpected '{' in /home/jeremyreynolds/public_html/newUser/newUser.php on line 69
+[31-Jan-2014 15:17:15 UTC] PHP Parse error:  syntax error, unexpected '{' in /home/jeremyreynolds/public_html/newUser/newUser.php on line 69
+[31-Jan-2014 15:18:54 UTC] PHP Parse error:  syntax error, unexpected '{' in /home/jeremyreynolds/public_html/newUser/newUser.php on line 69
+[31-Jan-2014 15:18:56 UTC] PHP Parse error:  syntax error, unexpected '{' in /home/jeremyreynolds/public_html/newUser/newUser.php on line 69
+[31-Jan-2014 15:24:28 UTC] PHP Parse error:  syntax error, unexpected '{' in /home/jeremyreynolds/public_html/newUser/newUser.php on line 69
+[31-Jan-2014 15:24:53 UTC] PHP Parse error:  syntax error, unexpected '{' in /home/jeremyreynolds/public_html/newUser/newUser.php on line 69
+[31-Jan-2014 15:29:46 UTC] PHP Parse error:  syntax error, unexpected '$userName' (T_VARIABLE) in /home/jeremyreynolds/public_html/newUser/newUser.php on line 74
+[31-Jan-2014 15:33:27 UTC] PHP Parse error:  syntax error, unexpected ',' in /home/jeremyreynolds/public_html/newUser/newUser.php on line 69
+[31-Jan-2014 15:33:40 UTC] PHP Parse error:  syntax error, unexpected '{' in /home/jeremyreynolds/public_html/newUser/newUser.php on line 70
+[31-Jan-2014 15:33:48 UTC] PHP Parse error:  syntax error, unexpected ',' in /home/jeremyreynolds/public_html/newUser/newUser.php on line 69
+[31-Jan-2014 15:35:50 UTC] PHP Parse error:  syntax error, unexpected '{' in /home/jeremyreynolds/public_html/newUser/newUser.php on line 71
+[31-Jan-2014 15:36:51 UTC] PHP Parse error:  syntax error, unexpected '{' in /home/jeremyreynolds/public_html/newUser/newUser.php on line 71
+[31-Jan-2014 15:38:15 UTC] PHP Parse error:  syntax error, unexpected '{' in /home/jeremyreynolds/public_html/newUser/newUser.php on line 71
+[31-Jan-2014 15:41:42 UTC] PHP Parse error:  syntax error, unexpected '$userNameQuery' (T_VARIABLE) in /home/jeremyreynolds/public_html/newUser/newUser.php on line 71
+[31-Jan-2014 15:42:00 UTC] PHP Parse error:  syntax error, unexpected 'Username' (T_STRING) in /home/jeremyreynolds/public_html/newUser/newUser.php on line 73
+[31-Jan-2014 15:46:52 UTC] PHP Warning:  mysqli_query() expects at least 2 parameters, 1 given in /home/jeremyreynolds/public_html/newUser/newUser.php on line 71
+[31-Jan-2014 15:46:52 UTC] PHP Stack trace:
+[31-Jan-2014 15:46:52 UTC] PHP   1. {main}() /home/jeremyreynolds/public_html/newUser/newUser.php:0
+[31-Jan-2014 15:46:52 UTC] PHP   2. mysqli_query() /home/jeremyreynolds/public_html/newUser/newUser.php:71
+[31-Jan-2014 15:48:45 UTC] PHP Warning:  mysqli_query() expects at least 2 parameters, 1 given in /home/jeremyreynolds/public_html/newUser/newUser.php on line 71
+[31-Jan-2014 15:48:45 UTC] PHP Stack trace:
+[31-Jan-2014 15:48:45 UTC] PHP   1. {main}() /home/jeremyreynolds/public_html/newUser/newUser.php:0
+[31-Jan-2014 15:48:45 UTC] PHP   2. mysqli_query() /home/jeremyreynolds/public_html/newUser/newUser.php:71
+[31-Jan-2014 15:48:45 UTC] PHP Fatal error:  Call to undefined function quit() in /home/jeremyreynolds/public_html/newUser/newUser.php on line 78
+[31-Jan-2014 15:48:45 UTC] PHP Stack trace:
+[31-Jan-2014 15:48:45 UTC] PHP   1. {main}() /home/jeremyreynolds/public_html/newUser/newUser.php:0
+[31-Jan-2014 15:49:06 UTC] PHP Warning:  mysqli_query() expects at least 2 parameters, 1 given in /home/jeremyreynolds/public_html/newUser/newUser.php on line 71
+[31-Jan-2014 15:49:06 UTC] PHP Stack trace:
+[31-Jan-2014 15:49:06 UTC] PHP   1. {main}() /home/jeremyreynolds/public_html/newUser/newUser.php:0
+[31-Jan-2014 15:49:06 UTC] PHP   2. mysqli_query() /home/jeremyreynolds/public_html/newUser/newUser.php:71
+[31-Jan-2014 15:49:44 UTC] PHP Warning:  mysqli_query() expects at least 2 parameters, 1 given in /home/jeremyreynolds/public_html/newUser/newUser.php on line 71
+[31-Jan-2014 15:49:44 UTC] PHP Stack trace:
+[31-Jan-2014 15:49:44 UTC] PHP   1. {main}() /home/jeremyreynolds/public_html/newUser/newUser.php:0
+[31-Jan-2014 15:49:44 UTC] PHP   2. mysqli_query() /home/jeremyreynolds/public_html/newUser/newUser.php:71
+[31-Jan-2014 15:54:02 UTC] PHP Warning:  mysqli_query() expects at least 2 parameters, 1 given in /home/jeremyreynolds/public_html/newUser/newUser.php on line 71
+[31-Jan-2014 15:54:02 UTC] PHP Stack trace:
+[31-Jan-2014 15:54:02 UTC] PHP   1. {main}() /home/jeremyreynolds/public_html/newUser/newUser.php:0
+[31-Jan-2014 15:54:02 UTC] PHP   2. mysqli_query() /home/jeremyreynolds/public_html/newUser/newUser.php:71
+[31-Jan-2014 15:54:02 UTC] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, null given in /home/jeremyreynolds/public_html/newUser/newUser.php on line 72
+[31-Jan-2014 15:54:02 UTC] PHP Stack trace:
+[31-Jan-2014 15:54:02 UTC] PHP   1. {main}() /home/jeremyreynolds/public_html/newUser/newUser.php:0
+[31-Jan-2014 15:54:02 UTC] PHP   2. mysql_num_rows() /home/jeremyreynolds/public_html/newUser/newUser.php:72
+[31-Jan-2014 15:54:14 UTC] PHP Warning:  mysqli_query() expects at least 2 parameters, 1 given in /home/jeremyreynolds/public_html/newUser/newUser.php on line 71
+[31-Jan-2014 15:54:14 UTC] PHP Stack trace:
+[31-Jan-2014 15:54:14 UTC] PHP   1. {main}() /home/jeremyreynolds/public_html/newUser/newUser.php:0
+[31-Jan-2014 15:54:14 UTC] PHP   2. mysqli_query() /home/jeremyreynolds/public_html/newUser/newUser.php:71
+[31-Jan-2014 15:54:14 UTC] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, null given in /home/jeremyreynolds/public_html/newUser/newUser.php on line 72
+[31-Jan-2014 15:54:14 UTC] PHP Stack trace:
+[31-Jan-2014 15:54:14 UTC] PHP   1. {main}() /home/jeremyreynolds/public_html/newUser/newUser.php:0
+[31-Jan-2014 15:54:14 UTC] PHP   2. mysql_num_rows() /home/jeremyreynolds/public_html/newUser/newUser.php:72
+[31-Jan-2014 15:54:54 UTC] PHP Warning:  mysqli_query() expects at least 2 parameters, 1 given in /home/jeremyreynolds/public_html/newUser/newUser.php on line 71
+[31-Jan-2014 15:54:54 UTC] PHP Stack trace:
+[31-Jan-2014 15:54:54 UTC] PHP   1. {main}() /home/jeremyreynolds/public_html/newUser/newUser.php:0
+[31-Jan-2014 15:54:54 UTC] PHP   2. mysqli_query() /home/jeremyreynolds/public_html/newUser/newUser.php:71
+[31-Jan-2014 15:54:54 UTC] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, null given in /home/jeremyreynolds/public_html/newUser/newUser.php on line 72
+[31-Jan-2014 15:54:54 UTC] PHP Stack trace:
+[31-Jan-2014 15:54:54 UTC] PHP   1. {main}() /home/jeremyreynolds/public_html/newUser/newUser.php:0
+[31-Jan-2014 15:54:54 UTC] PHP   2. mysql_num_rows() /home/jeremyreynolds/public_html/newUser/newUser.php:72
+[31-Jan-2014 15:55:17 UTC] PHP Warning:  mysqli_query() expects at least 2 parameters, 1 given in /home/jeremyreynolds/public_html/newUser/newUser.php on line 71
+[31-Jan-2014 15:55:17 UTC] PHP Stack trace:
+[31-Jan-2014 15:55:17 UTC] PHP   1. {main}() /home/jeremyreynolds/public_html/newUser/newUser.php:0
+[31-Jan-2014 15:55:17 UTC] PHP   2. mysqli_query() /home/jeremyreynolds/public_html/newUser/newUser.php:71
+[31-Jan-2014 15:55:17 UTC] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, null given in /home/jeremyreynolds/public_html/newUser/newUser.php on line 72
+[31-Jan-2014 15:55:17 UTC] PHP Stack trace:
+[31-Jan-2014 15:55:17 UTC] PHP   1. {main}() /home/jeremyreynolds/public_html/newUser/newUser.php:0
+[31-Jan-2014 15:55:17 UTC] PHP   2. mysql_num_rows() /home/jeremyreynolds/public_html/newUser/newUser.php:72
+[31-Jan-2014 15:55:36 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/jeremyreynolds/public_html/newUser/newUser.php on line 119
+[31-Jan-2014 15:55:52 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/jeremyreynolds/public_html/newUser/newUser.php on line 119
+[31-Jan-2014 15:56:39 UTC] PHP Warning:  mysqli_query() expects at least 2 parameters, 1 given in /home/jeremyreynolds/public_html/newUser/newUser.php on line 71
+[31-Jan-2014 15:56:39 UTC] PHP Stack trace:
+[31-Jan-2014 15:56:39 UTC] PHP   1. {main}() /home/jeremyreynolds/public_html/newUser/newUser.php:0
+[31-Jan-2014 15:56:39 UTC] PHP   2. mysqli_query() /home/jeremyreynolds/public_html/newUser/newUser.php:71
+[31-Jan-2014 15:56:39 UTC] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, null given in /home/jeremyreynolds/public_html/newUser/newUser.php on line 72
+[31-Jan-2014 15:56:39 UTC] PHP Stack trace:
+[31-Jan-2014 15:56:39 UTC] PHP   1. {main}() /home/jeremyreynolds/public_html/newUser/newUser.php:0
+[31-Jan-2014 15:56:39 UTC] PHP   2. mysql_num_rows() /home/jeremyreynolds/public_html/newUser/newUser.php:72
+[31-Jan-2014 15:56:54 UTC] PHP Warning:  mysqli_query() expects at least 2 parameters, 1 given in /home/jeremyreynolds/public_html/newUser/newUser.php on line 71
+[31-Jan-2014 15:56:54 UTC] PHP Stack trace:
+[31-Jan-2014 15:56:54 UTC] PHP   1. {main}() /home/jeremyreynolds/public_html/newUser/newUser.php:0
+[31-Jan-2014 15:56:54 UTC] PHP   2. mysqli_query() /home/jeremyreynolds/public_html/newUser/newUser.php:71
+[31-Jan-2014 15:56:54 UTC] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, null given in /home/jeremyreynolds/public_html/newUser/newUser.php on line 72
+[31-Jan-2014 15:56:54 UTC] PHP Stack trace:
+[31-Jan-2014 15:56:54 UTC] PHP   1. {main}() /home/jeremyreynolds/public_html/newUser/newUser.php:0
+[31-Jan-2014 15:56:54 UTC] PHP   2. mysql_num_rows() /home/jeremyreynolds/public_html/newUser/newUser.php:72
+[31-Jan-2014 15:57:06 UTC] PHP Warning:  mysqli_query() expects at least 2 parameters, 1 given in /home/jeremyreynolds/public_html/newUser/newUser.php on line 71
+[31-Jan-2014 15:57:06 UTC] PHP Stack trace:
+[31-Jan-2014 15:57:06 UTC] PHP   1. {main}() /home/jeremyreynolds/public_html/newUser/newUser.php:0
+[31-Jan-2014 15:57:06 UTC] PHP   2. mysqli_query() /home/jeremyreynolds/public_html/newUser/newUser.php:71
+[31-Jan-2014 15:57:06 UTC] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, null given in /home/jeremyreynolds/public_html/newUser/newUser.php on line 72
+[31-Jan-2014 15:57:06 UTC] PHP Stack trace:
+[31-Jan-2014 15:57:06 UTC] PHP   1. {main}() /home/jeremyreynolds/public_html/newUser/newUser.php:0
+[31-Jan-2014 15:57:06 UTC] PHP   2. mysql_num_rows() /home/jeremyreynolds/public_html/newUser/newUser.php:72
+[31-Jan-2014 15:57:16 UTC] PHP Warning:  mysqli_query() expects at least 2 parameters, 1 given in /home/jeremyreynolds/public_html/newUser/newUser.php on line 71
+[31-Jan-2014 15:57:16 UTC] PHP Stack trace:
+[31-Jan-2014 15:57:16 UTC] PHP   1. {main}() /home/jeremyreynolds/public_html/newUser/newUser.php:0
+[31-Jan-2014 15:57:16 UTC] PHP   2. mysqli_query() /home/jeremyreynolds/public_html/newUser/newUser.php:71
+[31-Jan-2014 15:57:16 UTC] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, null given in /home/jeremyreynolds/public_html/newUser/newUser.php on line 72
+[31-Jan-2014 15:57:16 UTC] PHP Stack trace:
+[31-Jan-2014 15:57:16 UTC] PHP   1. {main}() /home/jeremyreynolds/public_html/newUser/newUser.php:0
+[31-Jan-2014 15:57:16 UTC] PHP   2. mysql_num_rows() /home/jeremyreynolds/public_html/newUser/newUser.php:72
+[31-Jan-2014 15:59:50 UTC] PHP Warning:  mysqli_query() expects at least 2 parameters, 1 given in /home/jeremyreynolds/public_html/newUser/newUser.php on line 71
+[31-Jan-2014 15:59:50 UTC] PHP Stack trace:
+[31-Jan-2014 15:59:50 UTC] PHP   1. {main}() /home/jeremyreynolds/public_html/newUser/newUser.php:0
+[31-Jan-2014 15:59:50 UTC] PHP   2. mysqli_query() /home/jeremyreynolds/public_html/newUser/newUser.php:71
+[31-Jan-2014 15:59:50 UTC] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, null given in /home/jeremyreynolds/public_html/newUser/newUser.php on line 72
+[31-Jan-2014 15:59:50 UTC] PHP Stack trace:
+[31-Jan-2014 15:59:50 UTC] PHP   1. {main}() /home/jeremyreynolds/public_html/newUser/newUser.php:0
+[31-Jan-2014 15:59:50 UTC] PHP   2. mysql_num_rows() /home/jeremyreynolds/public_html/newUser/newUser.php:72
+[31-Jan-2014 16:00:14 UTC] PHP Warning:  mysqli_query() expects at least 2 parameters, 1 given in /home/jeremyreynolds/public_html/newUser/newUser.php on line 71
+[31-Jan-2014 16:00:14 UTC] PHP Stack trace:
+[31-Jan-2014 16:00:14 UTC] PHP   1. {main}() /home/jeremyreynolds/public_html/newUser/newUser.php:0
+[31-Jan-2014 16:00:14 UTC] PHP   2. mysqli_query() /home/jeremyreynolds/public_html/newUser/newUser.php:71
+[31-Jan-2014 16:00:14 UTC] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, null given in /home/jeremyreynolds/public_html/newUser/newUser.php on line 72
+[31-Jan-2014 16:00:14 UTC] PHP Stack trace:
+[31-Jan-2014 16:00:14 UTC] PHP   1. {main}() /home/jeremyreynolds/public_html/newUser/newUser.php:0
+[31-Jan-2014 16:00:14 UTC] PHP   2. mysql_num_rows() /home/jeremyreynolds/public_html/newUser/newUser.php:72
+[31-Jan-2014 16:00:24 UTC] PHP Warning:  mysqli_query() expects at least 2 parameters, 1 given in /home/jeremyreynolds/public_html/newUser/newUser.php on line 71
+[31-Jan-2014 16:00:24 UTC] PHP Stack trace:
+[31-Jan-2014 16:00:24 UTC] PHP   1. {main}() /home/jeremyreynolds/public_html/newUser/newUser.php:0
+[31-Jan-2014 16:00:24 UTC] PHP   2. mysqli_query() /home/jeremyreynolds/public_html/newUser/newUser.php:71
+[31-Jan-2014 16:00:24 UTC] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, null given in /home/jeremyreynolds/public_html/newUser/newUser.php on line 72
+[31-Jan-2014 16:00:24 UTC] PHP Stack trace:
+[31-Jan-2014 16:00:24 UTC] PHP   1. {main}() /home/jeremyreynolds/public_html/newUser/newUser.php:0
+[31-Jan-2014 16:00:24 UTC] PHP   2. mysql_num_rows() /home/jeremyreynolds/public_html/newUser/newUser.php:72
+[31-Jan-2014 16:00:33 UTC] PHP Warning:  mysqli_query() expects at least 2 parameters, 1 given in /home/jeremyreynolds/public_html/newUser/newUser.php on line 71
+[31-Jan-2014 16:00:33 UTC] PHP Stack trace:
+[31-Jan-2014 16:00:33 UTC] PHP   1. {main}() /home/jeremyreynolds/public_html/newUser/newUser.php:0
+[31-Jan-2014 16:00:33 UTC] PHP   2. mysqli_query() /home/jeremyreynolds/public_html/newUser/newUser.php:71
+[31-Jan-2014 16:00:33 UTC] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, null given in /home/jeremyreynolds/public_html/newUser/newUser.php on line 72
+[31-Jan-2014 16:00:33 UTC] PHP Stack trace:
+[31-Jan-2014 16:00:33 UTC] PHP   1. {main}() /home/jeremyreynolds/public_html/newUser/newUser.php:0
+[31-Jan-2014 16:00:33 UTC] PHP   2. mysql_num_rows() /home/jeremyreynolds/public_html/newUser/newUser.php:72
+[31-Jan-2014 16:15:10 UTC] PHP Warning:  mysqli_query() expects at least 2 parameters, 1 given in /home/jeremyreynolds/public_html/newUser/newUser.php on line 71
+[31-Jan-2014 16:15:10 UTC] PHP Stack trace:
+[31-Jan-2014 16:15:10 UTC] PHP   1. {main}() /home/jeremyreynolds/public_html/newUser/newUser.php:0
+[31-Jan-2014 16:15:10 UTC] PHP   2. mysqli_query() /home/jeremyreynolds/public_html/newUser/newUser.php:71
+[31-Jan-2014 16:15:48 UTC] PHP Notice:  Object of class mysqli_result could not be converted to int in /home/jeremyreynolds/public_html/newUser/newUser.php on line 72
+[31-Jan-2014 16:15:48 UTC] PHP Stack trace:
+[31-Jan-2014 16:15:48 UTC] PHP   1. {main}() /home/jeremyreynolds/public_html/newUser/newUser.php:0
+[31-Jan-2014 16:22:52 UTC] PHP Notice:  Undefined variable: userNameError in /home/jeremyreynolds/public_html/newUser/login.php on line 17
+[31-Jan-2014 16:22:52 UTC] PHP Stack trace:
+[31-Jan-2014 16:22:52 UTC] PHP   1. {main}() /home/jeremyreynolds/public_html/newUser/login.php:0
+[31-Jan-2014 16:22:52 UTC] PHP Notice:  Undefined variable: passError in /home/jeremyreynolds/public_html/newUser/login.php on line 18
+[31-Jan-2014 16:22:52 UTC] PHP Stack trace:
+[31-Jan-2014 16:22:52 UTC] PHP   1. {main}() /home/jeremyreynolds/public_html/newUser/login.php:0
+[31-Jan-2014 16:23:24 UTC] PHP Notice:  Undefined variable: userNameError in /home/jeremyreynolds/public_html/newUser/login.php on line 17
+[31-Jan-2014 16:23:24 UTC] PHP Stack trace:
+[31-Jan-2014 16:23:24 UTC] PHP   1. {main}() /home/jeremyreynolds/public_html/newUser/login.php:0
+[31-Jan-2014 16:23:24 UTC] PHP Notice:  Undefined variable: passError in /home/jeremyreynolds/public_html/newUser/login.php on line 18
+[31-Jan-2014 16:23:24 UTC] PHP Stack trace:
+[31-Jan-2014 16:23:24 UTC] PHP   1. {main}() /home/jeremyreynolds/public_html/newUser/login.php:0
+[31-Jan-2014 17:35:20 UTC] PHP Notice:  Object of class mysqli_result could not be converted to int in /home/jeremyreynolds/public_html/newUser/newUser.php on line 72
+[31-Jan-2014 17:35:20 UTC] PHP Stack trace:
+[31-Jan-2014 17:35:20 UTC] PHP   1. {main}() /home/jeremyreynolds/public_html/newUser/newUser.php:0
+[31-Jan-2014 17:35:26 UTC] PHP Notice:  Object of class mysqli_result could not be converted to int in /home/jeremyreynolds/public_html/newUser/newUser.php on line 72
+[31-Jan-2014 17:35:26 UTC] PHP Stack trace:
+[31-Jan-2014 17:35:26 UTC] PHP   1. {main}() /home/jeremyreynolds/public_html/newUser/newUser.php:0
+[31-Jan-2014 17:35:54 UTC] PHP Notice:  Object of class mysqli_result could not be converted to int in /home/jeremyreynolds/public_html/newUser/newUser.php on line 72
+[31-Jan-2014 17:35:54 UTC] PHP Stack trace:
+[31-Jan-2014 17:35:54 UTC] PHP   1. {main}() /home/jeremyreynolds/public_html/newUser/newUser.php:0
+[31-Jan-2014 17:41:55 UTC] PHP Notice:  Object of class mysqli_result could not be converted to int in /home/jeremyreynolds/public_html/newUser/newUser.php on line 72
+[31-Jan-2014 17:41:55 UTC] PHP Stack trace:
+[31-Jan-2014 17:41:55 UTC] PHP   1. {main}() /home/jeremyreynolds/public_html/newUser/newUser.php:0
+[31-Jan-2014 17:42:45 UTC] PHP Notice:  Object of class mysqli_result could not be converted to int in /home/jeremyreynolds/public_html/newUser/newUser.php on line 72
+[31-Jan-2014 17:42:45 UTC] PHP Stack trace:
+[31-Jan-2014 17:42:45 UTC] PHP   1. {main}() /home/jeremyreynolds/public_html/newUser/newUser.php:0
+[31-Jan-2014 17:42:53 UTC] PHP Notice:  Object of class mysqli_result could not be converted to int in /home/jeremyreynolds/public_html/newUser/newUser.php on line 72
+[31-Jan-2014 17:42:53 UTC] PHP Stack trace:
+[31-Jan-2014 17:42:53 UTC] PHP   1. {main}() /home/jeremyreynolds/public_html/newUser/newUser.php:0
+[31-Jan-2014 17:47:35 UTC] PHP Notice:  Object of class mysqli_result could not be converted to int in /home/jeremyreynolds/public_html/newUser/newUser.php on line 71
+[31-Jan-2014 17:47:35 UTC] PHP Stack trace:
+[31-Jan-2014 17:47:35 UTC] PHP   1. {main}() /home/jeremyreynolds/public_html/newUser/newUser.php:0
+[31-Jan-2014 17:47:35 UTC] PHP   2. intval() /home/jeremyreynolds/public_html/newUser/newUser.php:71
+[31-Jan-2014 17:48:33 UTC] PHP Notice:  Object of class mysqli_result could not be converted to int in /home/jeremyreynolds/public_html/newUser/newUser.php on line 71
+[31-Jan-2014 17:48:33 UTC] PHP Stack trace:
+[31-Jan-2014 17:48:33 UTC] PHP   1. {main}() /home/jeremyreynolds/public_html/newUser/newUser.php:0
+[31-Jan-2014 17:48:33 UTC] PHP   2. intval() /home/jeremyreynolds/public_html/newUser/newUser.php:71
+[31-Jan-2014 17:49:08 UTC] PHP Notice:  Object of class mysqli_result could not be converted to int in /home/jeremyreynolds/public_html/newUser/newUser.php on line 71
+[31-Jan-2014 17:49:08 UTC] PHP Stack trace:
+[31-Jan-2014 17:49:08 UTC] PHP   1. {main}() /home/jeremyreynolds/public_html/newUser/newUser.php:0
+[31-Jan-2014 17:49:08 UTC] PHP   2. intval() /home/jeremyreynolds/public_html/newUser/newUser.php:71
+[31-Jan-2014 17:49:47 UTC] PHP Notice:  Object of class mysqli_result could not be converted to int in /home/jeremyreynolds/public_html/newUser/newUser.php on line 72
+[31-Jan-2014 17:49:47 UTC] PHP Stack trace:
+[31-Jan-2014 17:49:47 UTC] PHP   1. {main}() /home/jeremyreynolds/public_html/newUser/newUser.php:0
+[31-Jan-2014 17:49:47 UTC] PHP   2. intval() /home/jeremyreynolds/public_html/newUser/newUser.php:72
+[31-Jan-2014 17:51:12 UTC] PHP Notice:  Object of class mysqli_result could not be converted to int in /home/jeremyreynolds/public_html/newUser/newUser.php on line 72
+[31-Jan-2014 17:51:12 UTC] PHP Stack trace:
+[31-Jan-2014 17:51:12 UTC] PHP   1. {main}() /home/jeremyreynolds/public_html/newUser/newUser.php:0
+[31-Jan-2014 17:51:12 UTC] PHP   2. intval() /home/jeremyreynolds/public_html/newUser/newUser.php:72
+[31-Jan-2014 17:54:01 UTC] PHP Notice:  Object of class mysqli_result could not be converted to int in /home/jeremyreynolds/public_html/newUser/newUser.php on line 79
+[31-Jan-2014 17:54:01 UTC] PHP Stack trace:
+[31-Jan-2014 17:54:01 UTC] PHP   1. {main}() /home/jeremyreynolds/public_html/newUser/newUser.php:0
+[31-Jan-2014 17:54:01 UTC] PHP   2. intval() /home/jeremyreynolds/public_html/newUser/newUser.php:79
+[31-Jan-2014 17:58:11 UTC] PHP Warning:  mysqli_query() expects at least 2 parameters, 1 given in /home/jeremyreynolds/public_html/newUser/newUser.php on line 87
+[31-Jan-2014 17:58:11 UTC] PHP Stack trace:
+[31-Jan-2014 17:58:11 UTC] PHP   1. {main}() /home/jeremyreynolds/public_html/newUser/newUser.php:0
+[31-Jan-2014 17:58:11 UTC] PHP   2. mysqli_query() /home/jeremyreynolds/public_html/newUser/newUser.php:87
+[31-Jan-2014 17:58:15 UTC] PHP Warning:  mysqli_query() expects at least 2 parameters, 1 given in /home/jeremyreynolds/public_html/newUser/newUser.php on line 87
+[31-Jan-2014 17:58:15 UTC] PHP Stack trace:
+[31-Jan-2014 17:58:15 UTC] PHP   1. {main}() /home/jeremyreynolds/public_html/newUser/newUser.php:0
+[31-Jan-2014 17:58:15 UTC] PHP   2. mysqli_query() /home/jeremyreynolds/public_html/newUser/newUser.php:87
+[31-Jan-2014 18:00:32 UTC] PHP Warning:  mysqli_query() expects at least 2 parameters, 1 given in /home/jeremyreynolds/public_html/newUser/newUser.php on line 71
+[31-Jan-2014 18:00:32 UTC] PHP Stack trace:
+[31-Jan-2014 18:00:32 UTC] PHP   1. {main}() /home/jeremyreynolds/public_html/newUser/newUser.php:0
+[31-Jan-2014 18:00:32 UTC] PHP   2. mysqli_query() /home/jeremyreynolds/public_html/newUser/newUser.php:71
+[31-Jan-2014 18:01:26 UTC] PHP Warning:  mysqli_query() expects at least 2 parameters, 1 given in /home/jeremyreynolds/public_html/newUser/newUser.php on line 71
+[31-Jan-2014 18:01:26 UTC] PHP Stack trace:
+[31-Jan-2014 18:01:26 UTC] PHP   1. {main}() /home/jeremyreynolds/public_html/newUser/newUser.php:0
+[31-Jan-2014 18:01:26 UTC] PHP   2. mysqli_query() /home/jeremyreynolds/public_html/newUser/newUser.php:71
+[31-Jan-2014 18:01:31 UTC] PHP Warning:  mysqli_query() expects at least 2 parameters, 1 given in /home/jeremyreynolds/public_html/newUser/newUser.php on line 71
+[31-Jan-2014 18:01:31 UTC] PHP Stack trace:
+[31-Jan-2014 18:01:31 UTC] PHP   1. {main}() /home/jeremyreynolds/public_html/newUser/newUser.php:0
+[31-Jan-2014 18:01:31 UTC] PHP   2. mysqli_query() /home/jeremyreynolds/public_html/newUser/newUser.php:71
+[03-Feb-2014 23:41:16 UTC] PHP Notice:  Object of class mysqli_result could not be converted to int in /home/jeremyreynolds/public_html/newUser/newUser.php on line 79
+[03-Feb-2014 23:41:16 UTC] PHP Stack trace:
+[03-Feb-2014 23:41:16 UTC] PHP   1. {main}() /home/jeremyreynolds/public_html/newUser/newUser.php:0
+[03-Feb-2014 23:41:16 UTC] PHP   2. intval() /home/jeremyreynolds/public_html/newUser/newUser.php:79
+[03-Feb-2014 23:42:56 UTC] PHP Notice:  Object of class mysqli_result could not be converted to int in /home/jeremyreynolds/public_html/newUser/newUser.php on line 79
+[03-Feb-2014 23:42:56 UTC] PHP Stack trace:
+[03-Feb-2014 23:42:56 UTC] PHP   1. {main}() /home/jeremyreynolds/public_html/newUser/newUser.php:0
+[03-Feb-2014 23:42:56 UTC] PHP   2. intval() /home/jeremyreynolds/public_html/newUser/newUser.php:79
+[03-Feb-2014 23:44:45 UTC] PHP Notice:  Object of class mysqli_result could not be converted to int in /home/jeremyreynolds/public_html/newUser/newUser.php on line 79
+[03-Feb-2014 23:44:45 UTC] PHP Stack trace:
+[03-Feb-2014 23:44:45 UTC] PHP   1. {main}() /home/jeremyreynolds/public_html/newUser/newUser.php:0
+[03-Feb-2014 23:44:45 UTC] PHP   2. intval() /home/jeremyreynolds/public_html/newUser/newUser.php:79
+[03-Feb-2014 23:47:50 UTC] PHP Warning:  mysql_fetch_row() expects parameter 1 to be resource, object given in /home/jeremyreynolds/public_html/newUser/newUser.php on line 79
+[03-Feb-2014 23:47:50 UTC] PHP Stack trace:
+[03-Feb-2014 23:47:50 UTC] PHP   1. {main}() /home/jeremyreynolds/public_html/newUser/newUser.php:0
+[03-Feb-2014 23:47:50 UTC] PHP   2. mysql_fetch_row() /home/jeremyreynolds/public_html/newUser/newUser.php:79
+[03-Feb-2014 23:48:02 UTC] PHP Warning:  mysql_fetch_row() expects parameter 1 to be resource, object given in /home/jeremyreynolds/public_html/newUser/newUser.php on line 79
+[03-Feb-2014 23:48:02 UTC] PHP Stack trace:
+[03-Feb-2014 23:48:02 UTC] PHP   1. {main}() /home/jeremyreynolds/public_html/newUser/newUser.php:0
+[03-Feb-2014 23:48:02 UTC] PHP   2. mysql_fetch_row() /home/jeremyreynolds/public_html/newUser/newUser.php:79
+[03-Feb-2014 23:48:10 UTC] PHP Warning:  mysql_fetch_row() expects parameter 1 to be resource, object given in /home/jeremyreynolds/public_html/newUser/newUser.php on line 79
+[03-Feb-2014 23:48:10 UTC] PHP Stack trace:
+[03-Feb-2014 23:48:10 UTC] PHP   1. {main}() /home/jeremyreynolds/public_html/newUser/newUser.php:0
+[03-Feb-2014 23:48:10 UTC] PHP   2. mysql_fetch_row() /home/jeremyreynolds/public_html/newUser/newUser.php:79
+[03-Feb-2014 23:49:37 UTC] PHP Warning:  mysql_fetch_row() expects parameter 1 to be resource, object given in /home/jeremyreynolds/public_html/newUser/newUser.php on line 79
+[03-Feb-2014 23:49:37 UTC] PHP Stack trace:
+[03-Feb-2014 23:49:37 UTC] PHP   1. {main}() /home/jeremyreynolds/public_html/newUser/newUser.php:0
+[03-Feb-2014 23:49:37 UTC] PHP   2. mysql_fetch_row() /home/jeremyreynolds/public_html/newUser/newUser.php:79
+[03-Feb-2014 23:49:46 UTC] PHP Warning:  mysql_fetch_row() expects parameter 1 to be resource, object given in /home/jeremyreynolds/public_html/newUser/newUser.php on line 79
+[03-Feb-2014 23:49:46 UTC] PHP Stack trace:
+[03-Feb-2014 23:49:46 UTC] PHP   1. {main}() /home/jeremyreynolds/public_html/newUser/newUser.php:0
+[03-Feb-2014 23:49:46 UTC] PHP   2. mysql_fetch_row() /home/jeremyreynolds/public_html/newUser/newUser.php:79
+[03-Feb-2014 23:50:02 UTC] PHP Warning:  mysql_fetch_row() expects parameter 1 to be resource, object given in /home/jeremyreynolds/public_html/newUser/newUser.php on line 79
+[03-Feb-2014 23:50:02 UTC] PHP Stack trace:
+[03-Feb-2014 23:50:02 UTC] PHP   1. {main}() /home/jeremyreynolds/public_html/newUser/newUser.php:0
+[03-Feb-2014 23:50:02 UTC] PHP   2. mysql_fetch_row() /home/jeremyreynolds/public_html/newUser/newUser.php:79
+[03-Feb-2014 23:50:05 UTC] PHP Warning:  mysql_fetch_row() expects parameter 1 to be resource, object given in /home/jeremyreynolds/public_html/newUser/newUser.php on line 79
+[03-Feb-2014 23:50:05 UTC] PHP Stack trace:
+[03-Feb-2014 23:50:05 UTC] PHP   1. {main}() /home/jeremyreynolds/public_html/newUser/newUser.php:0
+[03-Feb-2014 23:50:05 UTC] PHP   2. mysql_fetch_row() /home/jeremyreynolds/public_html/newUser/newUser.php:79
+[03-Feb-2014 23:56:34 UTC] PHP Parse error:  syntax error, unexpected '$userName' (T_VARIABLE) in /home/jeremyreynolds/public_html/newUser/newUser.php on line 78
+[04-Feb-2014 04:03:54 UTC] PHP Warning:  mysqli_query() expects at least 2 parameters, 1 given in /home/jeremyreynolds/public_html/newUser/newUser.php on line 88
+[04-Feb-2014 04:03:54 UTC] PHP Stack trace:
+[04-Feb-2014 04:03:54 UTC] PHP   1. {main}() /home/jeremyreynolds/public_html/newUser/newUser.php:0
+[04-Feb-2014 04:03:54 UTC] PHP   2. mysqli_query() /home/jeremyreynolds/public_html/newUser/newUser.php:88
+[04-Feb-2014 04:03:54 UTC] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, null given in /home/jeremyreynolds/public_html/newUser/newUser.php on line 89
+[04-Feb-2014 04:03:54 UTC] PHP Stack trace:
+[04-Feb-2014 04:03:54 UTC] PHP   1. {main}() /home/jeremyreynolds/public_html/newUser/newUser.php:0
+[04-Feb-2014 04:03:54 UTC] PHP   2. mysql_num_rows() /home/jeremyreynolds/public_html/newUser/newUser.php:89
+[04-Feb-2014 04:04:00 UTC] PHP Warning:  mysqli_query() expects at least 2 parameters, 1 given in /home/jeremyreynolds/public_html/newUser/newUser.php on line 88
+[04-Feb-2014 04:04:00 UTC] PHP Stack trace:
+[04-Feb-2014 04:04:00 UTC] PHP   1. {main}() /home/jeremyreynolds/public_html/newUser/newUser.php:0
+[04-Feb-2014 04:04:00 UTC] PHP   2. mysqli_query() /home/jeremyreynolds/public_html/newUser/newUser.php:88
+[04-Feb-2014 04:04:00 UTC] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, null given in /home/jeremyreynolds/public_html/newUser/newUser.php on line 89
+[04-Feb-2014 04:04:00 UTC] PHP Stack trace:
+[04-Feb-2014 04:04:00 UTC] PHP   1. {main}() /home/jeremyreynolds/public_html/newUser/newUser.php:0
+[04-Feb-2014 04:04:00 UTC] PHP   2. mysql_num_rows() /home/jeremyreynolds/public_html/newUser/newUser.php:89
+[04-Feb-2014 04:04:21 UTC] PHP Warning:  mysqli_query() expects at least 2 parameters, 1 given in /home/jeremyreynolds/public_html/newUser/newUser.php on line 88
+[04-Feb-2014 04:04:21 UTC] PHP Stack trace:
+[04-Feb-2014 04:04:21 UTC] PHP   1. {main}() /home/jeremyreynolds/public_html/newUser/newUser.php:0
+[04-Feb-2014 04:04:21 UTC] PHP   2. mysqli_query() /home/jeremyreynolds/public_html/newUser/newUser.php:88
+[04-Feb-2014 04:04:21 UTC] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, null given in /home/jeremyreynolds/public_html/newUser/newUser.php on line 89
+[04-Feb-2014 04:04:21 UTC] PHP Stack trace:
+[04-Feb-2014 04:04:21 UTC] PHP   1. {main}() /home/jeremyreynolds/public_html/newUser/newUser.php:0
+[04-Feb-2014 04:04:21 UTC] PHP   2. mysql_num_rows() /home/jeremyreynolds/public_html/newUser/newUser.php:89
+[04-Feb-2014 04:04:29 UTC] PHP Warning:  mysqli_query() expects at least 2 parameters, 1 given in /home/jeremyreynolds/public_html/newUser/newUser.php on line 88
+[04-Feb-2014 04:04:29 UTC] PHP Stack trace:
+[04-Feb-2014 04:04:29 UTC] PHP   1. {main}() /home/jeremyreynolds/public_html/newUser/newUser.php:0
+[04-Feb-2014 04:04:29 UTC] PHP   2. mysqli_query() /home/jeremyreynolds/public_html/newUser/newUser.php:88
+[04-Feb-2014 04:04:29 UTC] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, null given in /home/jeremyreynolds/public_html/newUser/newUser.php on line 89
+[04-Feb-2014 04:04:29 UTC] PHP Stack trace:
+[04-Feb-2014 04:04:29 UTC] PHP   1. {main}() /home/jeremyreynolds/public_html/newUser/newUser.php:0
+[04-Feb-2014 04:04:29 UTC] PHP   2. mysql_num_rows() /home/jeremyreynolds/public_html/newUser/newUser.php:89
+[04-Feb-2014 04:04:40 UTC] PHP Warning:  mysqli_query() expects at least 2 parameters, 1 given in /home/jeremyreynolds/public_html/newUser/newUser.php on line 88
+[04-Feb-2014 04:04:40 UTC] PHP Stack trace:
+[04-Feb-2014 04:04:40 UTC] PHP   1. {main}() /home/jeremyreynolds/public_html/newUser/newUser.php:0
+[04-Feb-2014 04:04:40 UTC] PHP   2. mysqli_query() /home/jeremyreynolds/public_html/newUser/newUser.php:88
+[04-Feb-2014 04:04:40 UTC] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, null given in /home/jeremyreynolds/public_html/newUser/newUser.php on line 89
+[04-Feb-2014 04:04:40 UTC] PHP Stack trace:
+[04-Feb-2014 04:04:40 UTC] PHP   1. {main}() /home/jeremyreynolds/public_html/newUser/newUser.php:0
+[04-Feb-2014 04:04:40 UTC] PHP   2. mysql_num_rows() /home/jeremyreynolds/public_html/newUser/newUser.php:89
+[04-Feb-2014 04:06:24 UTC] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/jeremyreynolds/public_html/newUser/newUser.php on line 89
+[04-Feb-2014 04:06:24 UTC] PHP Stack trace:
+[04-Feb-2014 04:06:24 UTC] PHP   1. {main}() /home/jeremyreynolds/public_html/newUser/newUser.php:0
+[04-Feb-2014 04:06:24 UTC] PHP   2. mysql_num_rows() /home/jeremyreynolds/public_html/newUser/newUser.php:89
+[04-Feb-2014 04:10:10 UTC] PHP Notice:  Undefined variable: link in /home/jeremyreynolds/public_html/newUser/newUser.php on line 97
+[04-Feb-2014 04:10:10 UTC] PHP Stack trace:
+[04-Feb-2014 04:10:10 UTC] PHP   1. {main}() /home/jeremyreynolds/public_html/newUser/newUser.php:0
+[04-Feb-2014 04:10:10 UTC] PHP Warning:  mysqli_prepare() expects parameter 1 to be mysqli, null given in /home/jeremyreynolds/public_html/newUser/newUser.php on line 97
+[04-Feb-2014 04:10:10 UTC] PHP Stack trace:
+[04-Feb-2014 04:10:10 UTC] PHP   1. {main}() /home/jeremyreynolds/public_html/newUser/newUser.php:0
+[04-Feb-2014 04:10:10 UTC] PHP   2. mysqli_prepare() /home/jeremyreynolds/public_html/newUser/newUser.php:97
+[04-Feb-2014 04:10:14 UTC] PHP Notice:  Undefined variable: link in /home/jeremyreynolds/public_html/newUser/newUser.php on line 97
+[04-Feb-2014 04:10:14 UTC] PHP Stack trace:
+[04-Feb-2014 04:10:14 UTC] PHP   1. {main}() /home/jeremyreynolds/public_html/newUser/newUser.php:0
+[04-Feb-2014 04:10:14 UTC] PHP Warning:  mysqli_prepare() expects parameter 1 to be mysqli, null given in /home/jeremyreynolds/public_html/newUser/newUser.php on line 97
+[04-Feb-2014 04:10:14 UTC] PHP Stack trace:
+[04-Feb-2014 04:10:14 UTC] PHP   1. {main}() /home/jeremyreynolds/public_html/newUser/newUser.php:0
+[04-Feb-2014 04:10:14 UTC] PHP   2. mysqli_prepare() /home/jeremyreynolds/public_html/newUser/newUser.php:97
+[04-Feb-2014 04:10:18 UTC] PHP Notice:  Undefined variable: link in /home/jeremyreynolds/public_html/newUser/newUser.php on line 97
+[04-Feb-2014 04:10:18 UTC] PHP Stack trace:
+[04-Feb-2014 04:10:18 UTC] PHP   1. {main}() /home/jeremyreynolds/public_html/newUser/newUser.php:0
+[04-Feb-2014 04:10:18 UTC] PHP Warning:  mysqli_prepare() expects parameter 1 to be mysqli, null given in /home/jeremyreynolds/public_html/newUser/newUser.php on line 97
+[04-Feb-2014 04:10:18 UTC] PHP Stack trace:
+[04-Feb-2014 04:10:18 UTC] PHP   1. {main}() /home/jeremyreynolds/public_html/newUser/newUser.php:0
+[04-Feb-2014 04:10:18 UTC] PHP   2. mysqli_prepare() /home/jeremyreynolds/public_html/newUser/newUser.php:97
+[04-Feb-2014 04:11:19 UTC] PHP Parse error:  syntax error, unexpected ')' in /home/jeremyreynolds/public_html/newUser/newUser.php on line 105
+[04-Feb-2014 04:11:45 UTC] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/jeremyreynolds/public_html/newUser/newUser.php on line 89
+[04-Feb-2014 04:11:45 UTC] PHP Stack trace:
+[04-Feb-2014 04:11:45 UTC] PHP   1. {main}() /home/jeremyreynolds/public_html/newUser/newUser.php:0
+[04-Feb-2014 04:11:45 UTC] PHP   2. mysql_num_rows() /home/jeremyreynolds/public_html/newUser/newUser.php:89
+[04-Feb-2014 04:12:30 UTC] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, object given in /home/jeremyreynolds/public_html/newUser/newUser.php on line 89
+[04-Feb-2014 04:12:30 UTC] PHP Stack trace:
+[04-Feb-2014 04:12:30 UTC] PHP   1. {main}() /home/jeremyreynolds/public_html/newUser/newUser.php:0
+[04-Feb-2014 04:12:30 UTC] PHP   2. mysql_num_rows() /home/jeremyreynolds/public_html/newUser/newUser.php:89
+[04-Feb-2014 04:12:36 UTC] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, object given in /home/jeremyreynolds/public_html/newUser/newUser.php on line 89
+[04-Feb-2014 04:12:36 UTC] PHP Stack trace:
+[04-Feb-2014 04:12:36 UTC] PHP   1. {main}() /home/jeremyreynolds/public_html/newUser/newUser.php:0
+[04-Feb-2014 04:12:36 UTC] PHP   2. mysql_num_rows() /home/jeremyreynolds/public_html/newUser/newUser.php:89
+[04-Feb-2014 04:13:03 UTC] PHP Catchable fatal error:  Object of class mysqli_result could not be converted to string in /home/jeremyreynolds/public_html/newUser/newUser.php on line 80
+[04-Feb-2014 04:13:03 UTC] PHP Stack trace:
+[04-Feb-2014 04:13:03 UTC] PHP   1. {main}() /home/jeremyreynolds/public_html/newUser/newUser.php:0
+[04-Feb-2014 04:13:41 UTC] PHP Catchable fatal error:  Object of class mysqli_result could not be converted to string in /home/jeremyreynolds/public_html/newUser/newUser.php on line 80
+[04-Feb-2014 04:13:41 UTC] PHP Stack trace:
+[04-Feb-2014 04:13:41 UTC] PHP   1. {main}() /home/jeremyreynolds/public_html/newUser/newUser.php:0
+[04-Feb-2014 04:14:28 UTC] PHP Catchable fatal error:  Object of class mysqli_result could not be converted to string in /home/jeremyreynolds/public_html/newUser/newUser.php on line 80
+[04-Feb-2014 04:14:28 UTC] PHP Stack trace:
+[04-Feb-2014 04:14:28 UTC] PHP   1. {main}() /home/jeremyreynolds/public_html/newUser/newUser.php:0
+[04-Feb-2014 13:32:55 UTC] PHP Catchable fatal error:  Object of class mysqli_result could not be converted to string in /home/jeremyreynolds/public_html/newUser/newUser.php on line 87
+[04-Feb-2014 13:32:55 UTC] PHP Stack trace:
+[04-Feb-2014 13:32:55 UTC] PHP   1. {main}() /home/jeremyreynolds/public_html/newUser/newUser.php:0
+[04-Feb-2014 13:35:12 UTC] PHP Catchable fatal error:  Object of class mysqli_result could not be converted to string in /home/jeremyreynolds/public_html/newUser/newUser.php on line 88
+[04-Feb-2014 13:35:12 UTC] PHP Stack trace:
+[04-Feb-2014 13:35:12 UTC] PHP   1. {main}() /home/jeremyreynolds/public_html/newUser/newUser.php:0
+[04-Feb-2014 13:50:54 UTC] PHP Parse error:  syntax error, unexpected ')' in /home/jeremyreynolds/public_html/newUser/newUser.php on line 128
+[04-Feb-2014 13:51:05 UTC] PHP Notice:  Object of class mysqli_result could not be converted to int in /home/jeremyreynolds/public_html/newUser/newUser.php on line 87
+[04-Feb-2014 13:51:05 UTC] PHP Stack trace:
+[04-Feb-2014 13:51:05 UTC] PHP   1. {main}() /home/jeremyreynolds/public_html/newUser/newUser.php:0
+[04-Feb-2014 13:51:05 UTC] PHP   2. intval() /home/jeremyreynolds/public_html/newUser/newUser.php:87
+[04-Feb-2014 13:51:34 UTC] PHP Notice:  Object of class mysqli_result could not be converted to int in /home/jeremyreynolds/public_html/newUser/newUser.php on line 87
+[04-Feb-2014 13:51:34 UTC] PHP Stack trace:
+[04-Feb-2014 13:51:34 UTC] PHP   1. {main}() /home/jeremyreynolds/public_html/newUser/newUser.php:0
+[04-Feb-2014 13:51:34 UTC] PHP   2. intval() /home/jeremyreynolds/public_html/newUser/newUser.php:87
+[04-Feb-2014 13:51:34 UTC] PHP Catchable fatal error:  Object of class mysqli_result could not be converted to string in /home/jeremyreynolds/public_html/newUser/newUser.php on line 89
+[04-Feb-2014 13:51:34 UTC] PHP Stack trace:
+[04-Feb-2014 13:51:34 UTC] PHP   1. {main}() /home/jeremyreynolds/public_html/newUser/newUser.php:0
+[04-Feb-2014 13:51:46 UTC] PHP Notice:  Object of class mysqli_result could not be converted to int in /home/jeremyreynolds/public_html/newUser/newUser.php on line 87
+[04-Feb-2014 13:51:46 UTC] PHP Stack trace:
+[04-Feb-2014 13:51:46 UTC] PHP   1. {main}() /home/jeremyreynolds/public_html/newUser/newUser.php:0
+[04-Feb-2014 13:51:46 UTC] PHP   2. intval() /home/jeremyreynolds/public_html/newUser/newUser.php:87
+[04-Feb-2014 13:52:46 UTC] PHP Notice:  Object of class mysqli_result could not be converted to int in /home/jeremyreynolds/public_html/newUser/newUser.php on line 87
+[04-Feb-2014 13:52:46 UTC] PHP Stack trace:
+[04-Feb-2014 13:52:46 UTC] PHP   1. {main}() /home/jeremyreynolds/public_html/newUser/newUser.php:0
+[04-Feb-2014 13:52:46 UTC] PHP   2. intval() /home/jeremyreynolds/public_html/newUser/newUser.php:87
+[04-Feb-2014 13:52:59 UTC] PHP Notice:  Object of class mysqli_result could not be converted to int in /home/jeremyreynolds/public_html/newUser/newUser.php on line 87
+[04-Feb-2014 13:52:59 UTC] PHP Stack trace:
+[04-Feb-2014 13:52:59 UTC] PHP   1. {main}() /home/jeremyreynolds/public_html/newUser/newUser.php:0
+[04-Feb-2014 13:52:59 UTC] PHP   2. intval() /home/jeremyreynolds/public_html/newUser/newUser.php:87
+[04-Feb-2014 13:53:34 UTC] PHP Notice:  Object of class mysqli_result could not be converted to int in /home/jeremyreynolds/public_html/newUser/newUser.php on line 87
+[04-Feb-2014 13:53:34 UTC] PHP Stack trace:
+[04-Feb-2014 13:53:34 UTC] PHP   1. {main}() /home/jeremyreynolds/public_html/newUser/newUser.php:0
+[04-Feb-2014 13:53:34 UTC] PHP   2. intval() /home/jeremyreynolds/public_html/newUser/newUser.php:87
+[04-Feb-2014 13:53:43 UTC] PHP Notice:  Object of class mysqli_result could not be converted to int in /home/jeremyreynolds/public_html/newUser/newUser.php on line 87
+[04-Feb-2014 13:53:43 UTC] PHP Stack trace:
+[04-Feb-2014 13:53:43 UTC] PHP   1. {main}() /home/jeremyreynolds/public_html/newUser/newUser.php:0
+[04-Feb-2014 13:53:43 UTC] PHP   2. intval() /home/jeremyreynolds/public_html/newUser/newUser.php:87
+[04-Feb-2014 13:53:54 UTC] PHP Notice:  Object of class mysqli_result could not be converted to int in /home/jeremyreynolds/public_html/newUser/newUser.php on line 87
+[04-Feb-2014 13:53:54 UTC] PHP Stack trace:
+[04-Feb-2014 13:53:54 UTC] PHP   1. {main}() /home/jeremyreynolds/public_html/newUser/newUser.php:0
+[04-Feb-2014 13:53:54 UTC] PHP   2. intval() /home/jeremyreynolds/public_html/newUser/newUser.php:87
+[04-Feb-2014 14:38:16 UTC] PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in /home/jeremyreynolds/public_html/newUser/newUser.php on line 118
+[04-Feb-2014 14:38:16 UTC] PHP Stack trace:
+[04-Feb-2014 14:38:16 UTC] PHP   1. {main}() /home/jeremyreynolds/public_html/newUser/newUser.php:0
+[04-Feb-2014 14:38:16 UTC] PHP   2. mysqli_error() /home/jeremyreynolds/public_html/newUser/newUser.php:118
+[04-Feb-2014 14:38:25 UTC] PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in /home/jeremyreynolds/public_html/newUser/newUser.php on line 118
+[04-Feb-2014 14:38:25 UTC] PHP Stack trace:
+[04-Feb-2014 14:38:25 UTC] PHP   1. {main}() /home/jeremyreynolds/public_html/newUser/newUser.php:0
+[04-Feb-2014 14:38:25 UTC] PHP   2. mysqli_error() /home/jeremyreynolds/public_html/newUser/newUser.php:118
+[04-Feb-2014 19:22:31 UTC] PHP Notice:  Undefined variable: pass in /home/jeremyreynolds/public_html/newUser/login.php on line 27
+[04-Feb-2014 19:22:31 UTC] PHP Stack trace:
+[04-Feb-2014 19:22:31 UTC] PHP   1. {main}() /home/jeremyreynolds/public_html/newUser/login.php:0
+[04-Feb-2014 19:22:32 UTC] PHP Notice:  Undefined variable: pass in /home/jeremyreynolds/public_html/newUser/login.php on line 27
+[04-Feb-2014 19:22:32 UTC] PHP Stack trace:
+[04-Feb-2014 19:22:32 UTC] PHP   1. {main}() /home/jeremyreynolds/public_html/newUser/login.php:0
+[04-Feb-2014 19:24:03 UTC] PHP Notice:  Undefined variable: pass in /home/jeremyreynolds/public_html/newUser/login.php on line 31
+[04-Feb-2014 19:24:03 UTC] PHP Stack trace:
+[04-Feb-2014 19:24:03 UTC] PHP   1. {main}() /home/jeremyreynolds/public_html/newUser/login.php:0
+[04-Feb-2014 19:24:15 UTC] PHP Notice:  Undefined variable: pass in /home/jeremyreynolds/public_html/newUser/login.php on line 31
+[04-Feb-2014 19:24:15 UTC] PHP Stack trace:
+[04-Feb-2014 19:24:15 UTC] PHP   1. {main}() /home/jeremyreynolds/public_html/newUser/login.php:0
+[04-Feb-2014 19:24:26 UTC] PHP Notice:  Undefined variable: pass in /home/jeremyreynolds/public_html/newUser/login.php on line 31
+[04-Feb-2014 19:24:26 UTC] PHP Stack trace:
+[04-Feb-2014 19:24:26 UTC] PHP   1. {main}() /home/jeremyreynolds/public_html/newUser/login.php:0
+[04-Feb-2014 19:27:02 UTC] PHP Notice:  Undefined variable: pass in /home/jeremyreynolds/public_html/newUser/login.php on line 36
+[04-Feb-2014 19:27:02 UTC] PHP Stack trace:
+[04-Feb-2014 19:27:02 UTC] PHP   1. {main}() /home/jeremyreynolds/public_html/newUser/login.php:0
+[04-Feb-2014 19:30:51 UTC] PHP Notice:  Undefined variable: pass in /home/jeremyreynolds/public_html/newUser/login.php on line 45
+[04-Feb-2014 19:30:51 UTC] PHP Stack trace:
+[04-Feb-2014 19:30:51 UTC] PHP   1. {main}() /home/jeremyreynolds/public_html/newUser/login.php:0
+[04-Feb-2014 19:35:24 UTC] PHP Warning:  password_verify() expects parameter 2 to be string, object given in /home/jeremyreynolds/public_html/newUser/login.php on line 50
+[04-Feb-2014 19:35:24 UTC] PHP Stack trace:
+[04-Feb-2014 19:35:24 UTC] PHP   1. {main}() /home/jeremyreynolds/public_html/newUser/login.php:0
+[04-Feb-2014 19:35:24 UTC] PHP   2. password_verify() /home/jeremyreynolds/public_html/newUser/login.php:50
+[04-Feb-2014 19:35:55 UTC] PHP Warning:  password_verify() expects parameter 2 to be string, object given in /home/jeremyreynolds/public_html/newUser/login.php on line 50
+[04-Feb-2014 19:35:55 UTC] PHP Stack trace:
+[04-Feb-2014 19:35:55 UTC] PHP   1. {main}() /home/jeremyreynolds/public_html/newUser/login.php:0
+[04-Feb-2014 19:35:55 UTC] PHP   2. password_verify() /home/jeremyreynolds/public_html/newUser/login.php:50
+[04-Feb-2014 19:37:38 UTC] PHP Warning:  password_verify() expects parameter 2 to be string, object given in /home/jeremyreynolds/public_html/newUser/login.php on line 50
+[04-Feb-2014 19:37:38 UTC] PHP Stack trace:
+[04-Feb-2014 19:37:38 UTC] PHP   1. {main}() /home/jeremyreynolds/public_html/newUser/login.php:0
+[04-Feb-2014 19:37:38 UTC] PHP   2. password_verify() /home/jeremyreynolds/public_html/newUser/login.php:50
+[04-Feb-2014 19:38:25 UTC] PHP Catchable fatal error:  Object of class mysqli_result could not be converted to string in /home/jeremyreynolds/public_html/newUser/login.php on line 76
+[04-Feb-2014 19:38:25 UTC] PHP Stack trace:
+[04-Feb-2014 19:38:25 UTC] PHP   1. {main}() /home/jeremyreynolds/public_html/newUser/login.php:0
+[04-Feb-2014 20:14:37 UTC] PHP Warning:  password_verify() expects parameter 2 to be string, object given in /home/jeremyreynolds/public_html/newUser/login.php on line 51
+[04-Feb-2014 20:14:37 UTC] PHP Stack trace:
+[04-Feb-2014 20:14:37 UTC] PHP   1. {main}() /home/jeremyreynolds/public_html/newUser/login.php:0
+[04-Feb-2014 20:14:37 UTC] PHP   2. password_verify() /home/jeremyreynolds/public_html/newUser/login.php:51
+[04-Feb-2014 20:16:23 UTC] PHP Warning:  password_verify() expects parameter 2 to be string, object given in /home/jeremyreynolds/public_html/newUser/login.php on line 51
+[04-Feb-2014 20:16:23 UTC] PHP Stack trace:
+[04-Feb-2014 20:16:23 UTC] PHP   1. {main}() /home/jeremyreynolds/public_html/newUser/login.php:0
+[04-Feb-2014 20:16:23 UTC] PHP   2. password_verify() /home/jeremyreynolds/public_html/newUser/login.php:51
+[04-Feb-2014 20:16:27 UTC] PHP Warning:  password_verify() expects parameter 2 to be string, object given in /home/jeremyreynolds/public_html/newUser/login.php on line 51
+[04-Feb-2014 20:16:27 UTC] PHP Stack trace:
+[04-Feb-2014 20:16:27 UTC] PHP   1. {main}() /home/jeremyreynolds/public_html/newUser/login.php:0
+[04-Feb-2014 20:16:27 UTC] PHP   2. password_verify() /home/jeremyreynolds/public_html/newUser/login.php:51
+[04-Feb-2014 20:16:41 UTC] PHP Catchable fatal error:  Object of class mysqli_result could not be converted to string in /home/jeremyreynolds/public_html/newUser/login.php on line 76
+[04-Feb-2014 20:16:41 UTC] PHP Stack trace:
+[04-Feb-2014 20:16:41 UTC] PHP   1. {main}() /home/jeremyreynolds/public_html/newUser/login.php:0
+[04-Feb-2014 20:18:55 UTC] PHP Catchable fatal error:  Object of class mysqli_result could not be converted to string in /home/jeremyreynolds/public_html/newUser/login.php on line 49
+[04-Feb-2014 20:18:55 UTC] PHP Stack trace:
+[04-Feb-2014 20:18:55 UTC] PHP   1. {main}() /home/jeremyreynolds/public_html/newUser/login.php:0
+[04-Feb-2014 20:18:55 UTC] PHP   2. strval() /home/jeremyreynolds/public_html/newUser/login.php:49
+[04-Feb-2014 20:19:25 UTC] PHP Warning:  password_verify() expects parameter 2 to be string, object given in /home/jeremyreynolds/public_html/newUser/login.php on line 51
+[04-Feb-2014 20:19:25 UTC] PHP Stack trace:
+[04-Feb-2014 20:19:25 UTC] PHP   1. {main}() /home/jeremyreynolds/public_html/newUser/login.php:0
+[04-Feb-2014 20:19:25 UTC] PHP   2. password_verify() /home/jeremyreynolds/public_html/newUser/login.php:51
+[04-Feb-2014 20:24:52 UTC] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, object given in /home/jeremyreynolds/public_html/newUser/login.php on line 50
+[04-Feb-2014 20:24:52 UTC] PHP Stack trace:
+[04-Feb-2014 20:24:52 UTC] PHP   1. {main}() /home/jeremyreynolds/public_html/newUser/login.php:0
+[04-Feb-2014 20:24:52 UTC] PHP   2. mysql_fetch_array() /home/jeremyreynolds/public_html/newUser/login.php:50
+[04-Feb-2014 20:25:38 UTC] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, object given in /home/jeremyreynolds/public_html/newUser/login.php on line 50
+[04-Feb-2014 20:25:38 UTC] PHP Stack trace:
+[04-Feb-2014 20:25:38 UTC] PHP   1. {main}() /home/jeremyreynolds/public_html/newUser/login.php:0
+[04-Feb-2014 20:25:38 UTC] PHP   2. mysql_fetch_array() /home/jeremyreynolds/public_html/newUser/login.php:50
+[06-Feb-2014 16:05:35 UTC] PHP Warning:  password_verify() expects parameter 2 to be string, object given in /home/jeremyreynolds/public_html/newUser/login.php on line 52
+[06-Feb-2014 16:05:35 UTC] PHP Stack trace:
+[06-Feb-2014 16:05:35 UTC] PHP   1. {main}() /home/jeremyreynolds/public_html/newUser/login.php:0
+[06-Feb-2014 16:05:35 UTC] PHP   2. password_verify() /home/jeremyreynolds/public_html/newUser/login.php:52
+[06-Feb-2014 16:06:19 UTC] PHP Warning:  password_verify() expects parameter 2 to be string, object given in /home/jeremyreynolds/public_html/newUser/login.php on line 52
+[06-Feb-2014 16:06:19 UTC] PHP Stack trace:
+[06-Feb-2014 16:06:19 UTC] PHP   1. {main}() /home/jeremyreynolds/public_html/newUser/login.php:0
+[06-Feb-2014 16:06:19 UTC] PHP   2. password_verify() /home/jeremyreynolds/public_html/newUser/login.php:52
+[06-Feb-2014 16:07:58 UTC] PHP Warning:  password_verify() expects parameter 2 to be string, object given in /home/jeremyreynolds/public_html/newUser/login.php on line 52
+[06-Feb-2014 16:07:58 UTC] PHP Stack trace:
+[06-Feb-2014 16:07:58 UTC] PHP   1. {main}() /home/jeremyreynolds/public_html/newUser/login.php:0
+[06-Feb-2014 16:07:58 UTC] PHP   2. password_verify() /home/jeremyreynolds/public_html/newUser/login.php:52
+[06-Feb-2014 16:08:11 UTC] PHP Warning:  password_verify() expects parameter 2 to be string, object given in /home/jeremyreynolds/public_html/newUser/login.php on line 52
+[06-Feb-2014 16:08:11 UTC] PHP Stack trace:
+[06-Feb-2014 16:08:11 UTC] PHP   1. {main}() /home/jeremyreynolds/public_html/newUser/login.php:0
+[06-Feb-2014 16:08:11 UTC] PHP   2. password_verify() /home/jeremyreynolds/public_html/newUser/login.php:52
+[06-Feb-2014 16:26:19 UTC] PHP Warning:  password_verify() expects parameter 2 to be string, object given in /home/jeremyreynolds/public_html/newUser/login.php on line 53
+[06-Feb-2014 16:26:19 UTC] PHP Stack trace:
+[06-Feb-2014 16:26:19 UTC] PHP   1. {main}() /home/jeremyreynolds/public_html/newUser/login.php:0
+[06-Feb-2014 16:26:19 UTC] PHP   2. password_verify() /home/jeremyreynolds/public_html/newUser/login.php:53
+[06-Feb-2014 16:29:08 UTC] PHP Warning:  password_verify() expects parameter 2 to be string, object given in /home/jeremyreynolds/public_html/newUser/login.php on line 53
+[06-Feb-2014 16:29:08 UTC] PHP Stack trace:
+[06-Feb-2014 16:29:08 UTC] PHP   1. {main}() /home/jeremyreynolds/public_html/newUser/login.php:0
+[06-Feb-2014 16:29:08 UTC] PHP   2. password_verify() /home/jeremyreynolds/public_html/newUser/login.php:53
+[06-Feb-2014 16:29:31 UTC] PHP Warning:  password_verify() expects parameter 2 to be string, object given in /home/jeremyreynolds/public_html/newUser/login.php on line 53
+[06-Feb-2014 16:29:31 UTC] PHP Stack trace:
+[06-Feb-2014 16:29:31 UTC] PHP   1. {main}() /home/jeremyreynolds/public_html/newUser/login.php:0
+[06-Feb-2014 16:29:31 UTC] PHP   2. password_verify() /home/jeremyreynolds/public_html/newUser/login.php:53
+[06-Feb-2014 16:32:46 UTC] PHP Notice:  Undefined variable: pass in /home/jeremyreynolds/public_html/newUser/login.php on line 46
+[06-Feb-2014 16:32:46 UTC] PHP Stack trace:
+[06-Feb-2014 16:32:46 UTC] PHP   1. {main}() /home/jeremyreynolds/public_html/newUser/login.php:0

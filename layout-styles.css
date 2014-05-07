@@ -1,0 +1,79 @@
+/* Importing fonts */
+@font-face{
+	font-family: sourceCodeMed;
+	src: url("/files/SourceCodeProMed.otf");
+}
+
+body {
+  background-color: rgba(243,207,145,1);
+  font-family:Helvetica,Arial,sans-serif;
+  font-size:14px;
+  
+}
+
+#heading{
+	font-family: Verdana, Arial, Georgia, sourceCodeMed;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	font-weight: bold;
+	line-height: 1.1;
+	/*border-radius: 25px 25px 25px 25px;
+	border: 3px solid #212993;*/
+	width: 500px;
+	background-color: inherit;
+	padding: 10px;
+}
+
+#content{
+	font-family: Verdana, Arial, Georgia, sourceCodeMed;
+	margin-left: auto;
+	margin-right: auto;
+	width: 500px;
+	padding: 10px;
+	border: 3px solid rgba(175,110,11,0.44);
+	margin-top: 20px;
+	border-radius:25px;
+	color: DarkOliveGreen;
+}
+
+.navigation{
+	width: 500px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	display:block;
+}
+
+a{
+color:black;
+background-color: inherit;
+text-decoration: none;
+}
+
+a:hover,a:focus{
+color:#024aa1;
+background-color: inherit;
+}
+a:visited{
+	color:#0070a3;
+	background-color: inherit;
+}
+
+@media only screen and (max-device-width: 480px){
+	#heading{
+		width: 250px;
+	}
+	.navigation{
+		width: 250px;
+	}
+	#content{
+		width: 250px;
+	}
+	input[type=submit]{
+		width: 110px;
+		height: 30px;
+	}
+	
+}
+
