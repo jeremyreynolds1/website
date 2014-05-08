@@ -91,4 +91,21 @@ function animate(animationHeadingEntrance, animationContentEntrance, animationHe
 						window.location.href = "projects.html"
 					});
 	});
+	$(".ums").click(function(){
+		//remove previous animation class from heading
+		$("#heading").removeClass(headingEntrance);
+		//add exit animation to heading
+		$("#heading").addClass(headingExit);
+		$("#heading").css("animation-duration", "2s").css("-webkit-animation-duration", "2s");
+		
+		$("#content").removeClass(contentEntrance);
+		$("#content").addClass(contentExit);
+		$("#content").css("animation-duration", "2s").css("-webkit-animation-duration", "2s");
+		
+		//function used to detect end of animations. On end of content animation; load new page.
+		$('#content').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', function myFunction(){
+						window.location.href = "ums.php"
+					});
+	});
+	
 }
