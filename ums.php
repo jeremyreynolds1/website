@@ -26,7 +26,6 @@
 			</p>
 			<input type="submit" name="button" value="Create New User" id="newUserButton" onclick="myFunction();"/>
 			<input type="submit" name="button" value="login" onclick="myFunction2();"/>
-			
 		</div>
 	</body>
 </html>
