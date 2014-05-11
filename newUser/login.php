@@ -93,8 +93,8 @@
 		</div>
 		<div id="content">
 			<form method="post" action="<?php htmlspecialchars($_SERVER["PHP_SELF"]); ?>">
-			User Name: <input type="text" name="userName"><span><?php echo $userNameError; ?></span><br>
-			Password: <input type="password" name="password"><span><?php echo $passError; ?></span><br>
+			User Name: <input type="text" name="userName" required><span><?php echo $userNameError; ?></span><br>
+			Password: <input type="password" name="password" required><span><?php echo $passError; ?></span><br>
 			<input type="submit" value="login">
 			</form>
 			<span><?php echo $successMessage; ?></span>
