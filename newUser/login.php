@@ -82,8 +82,7 @@
 			}
 			else{
 				$successMessage = "Username and Password found.";
-				//header("Location: loginPage.html");
-				http_redirect("loginPage.html")
+				print "<script>document.location.href='loginPage.html';</script>";
 			}
 			
 		}//end method post
