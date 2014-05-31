@@ -22,7 +22,7 @@ function animate(animationHeadingEntrance, animationContentEntrance, animationHe
 	
 	//creating triggers for on "click" for different links
 	$(".about").click(function(){
-		//remove previous animation class from heading
+		/*//remove previous animation class from heading
 		$("#heading").removeClass(headingEntrance);
 		//add exit animation to heading
 		$("#heading").addClass(headingExit);
@@ -35,12 +35,13 @@ function animate(animationHeadingEntrance, animationContentEntrance, animationHe
 		//function used to detect end of animations. On end of content animation; load new page.
 		$('#content').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', function myFunction(){
 						window.location.href = "aboutme.html"
-					});
+					});*/
+					window.location.href="aboutme.html"
 		
 	});
 	
 	$(".home").click(function(){
-		//remove previous animation class from heading
+		/*//remove previous animation class from heading
 		$("#heading").removeClass(headingEntrance);
 		//add exit animation to heading
 		$("#heading").addClass(headingExit);
@@ -51,14 +52,15 @@ function animate(animationHeadingEntrance, animationContentEntrance, animationHe
 		$("#content").css("animation-duration", "2s").css("-webkit-animation-duration", "2s");
 		
 		//function used to detect end of animations. On end of content animation; load new page.
-		$('#content').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', function myFunction(){
+		//$('#content').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', function myFunction(){
 						window.location.href = "home.html"
-					});
+					});/*/
+		window.location.href="home.html";
 		
 	});
 	
 	$(".resume").click(function(){
-	//remove previous animation class from heading
+		/*//remove previous animation class from heading
 		$("#heading").removeClass(headingEntrance);
 		//add exit animation to heading
 		$("#heading").addClass(headingExit);
@@ -71,12 +73,13 @@ function animate(animationHeadingEntrance, animationContentEntrance, animationHe
 		//function used to detect end of animations. On end of content animation; load new page.
 		$('#content').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', function myFunction(){
 						window.location.href = "resume.html"
-					});
+					});*/
+		window.location.href="resume.html";			
 		
 	});
 	
 	$(".projects").click(function(){
-		//remove previous animation class from heading
+		/*//remove previous animation class from heading
 		$("#heading").removeClass(headingEntrance);
 		//add exit animation to heading
 		$("#heading").addClass(headingExit);
@@ -89,10 +92,12 @@ function animate(animationHeadingEntrance, animationContentEntrance, animationHe
 		//function used to detect end of animations. On end of content animation; load new page.
 		$('#content').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', function myFunction(){
 						window.location.href = "projects.html"
-					});
+					});*/
+			window.location.href = "projects.html"
 	});
+	
 	$(".ums").click(function(){
-		//remove previous animation class from heading
+		/*//remove previous animation class from heading
 		$("#heading").removeClass(headingEntrance);
 		//add exit animation to heading
 		$("#heading").addClass(headingExit);
@@ -105,12 +110,13 @@ function animate(animationHeadingEntrance, animationContentEntrance, animationHe
 		//function used to detect end of animations. On end of content animation; load new page.
 		$('#content').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', function myFunction(){
 						window.location.href = "ums.php"
-					});
+					});*/
+					window.location.href = "ums.php"
 	});
 	
 	//on cluster link click
 	$(".cluster").click(function(){
-		//remove previous animation class from heading
+		/*//remove previous animation class from heading
 		$("#heading").removeClass(headingEntrance);
 		//add exit animation to heading
 		$("#heading").addClass(headingExit);
@@ -123,6 +129,7 @@ function animate(animationHeadingEntrance, animationContentEntrance, animationHe
 		//function used to detect end of animations. On end of content animation; load new page.
 		$('#content').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', function myFunction(){
 			window.location.href = "cluster.html"
-		});
+		});*/
+		window.location.href = "cluster.html"
 	});	
 }
