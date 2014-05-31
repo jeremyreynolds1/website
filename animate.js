@@ -1,135 +1,55 @@
-/*
-	I already have animations present on my website. The purpose of this is to create general cases and run animations that way. 
-*/
-function animate(animationHeadingEntrance, animationContentEntrance, animationHeadExit, animationContentExit){
-	//$(element).text(); gets text inside anchor tag. Could be useful when switching between sites.
-	//using classes for different sites as tiggers to kick off the animation.
+//running image transitions on animations.html
+
+function animate(animationDuration, numImages, delayArray, customNames){
+	//delayArray and customNames are arrays from animations.html
 	
-	//create multiple variables for the various entrance/exit animations for the heading and content from animate.css
-	var headingEntrance = animationHeadingEntrance;
-	var contentEntrance = animationContentEntrance;
-	var headingExit = animationHeadExit;
-	var contentExit = animationContentExit;
+	var animationDuration = animationDuration;
+	var stringNumImages = numImages;
+	var numImages = Number(stringNumImages);
 	
-	//add animation to heading
-	$("#heading").css("animation-duration", "2s").css("-webkit-animation-duration", "2s");
-	$("#heading").addClass("animated " + headingEntrance);
-				
-	//add animation to div content
-	$("#content").css("animation-duration", "2s").css("-webkit-animation-duration", "2s");
-	$("#content").css("animation-delay", "4s").css("-webkit-animation-delay", "4s");
-	$("#content").addClass("animated " + contentEntrance);
+	//need to get file path for each image, should be /pictures/01.png
 	
-	//creating triggers for on "click" for different links
-	$(".about").click(function(){
-		/*//remove previous animation class from heading
-		$("#heading").removeClass(headingEntrance);
-		//add exit animation to heading
-		$("#heading").addClass(headingExit);
-		$("#heading").css("animation-duration", "2s").css("-webkit-animation-duration", "2s");
-		
-		$("#content").removeClass(contentEntrance);
-		$("#content").addClass(contentExit);
-		$("#content").css("animation-duration", "2s").css("-webkit-animation-duration", "2s");
-		
-		//function used to detect end of animations. On end of content animation; load new page.
-		$('#content').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', function myFunction(){
-						window.location.href = "aboutme.html"
-					});*/
-					window.location.href="aboutme.html"
-		
-	});
+	//copy delayArray and customNames to arrays in here.
+	var copyDelay = new Array(delayArray.length);
+	for(var i = 0; i < delayArray.length; i++){
+		copyDelay[i] = delayArray[i];
+	}
 	
-	$(".home").click(function(){
-		/*//remove previous animation class from heading
-		$("#heading").removeClass(headingEntrance);
-		//add exit animation to heading
-		$("#heading").addClass(headingExit);
-		$("#heading").css("animation-duration", "2s").css("-webkit-animation-duration", "2s");
-		
-		$("#content").removeClass(contentEntrance);
-		$("#content").addClass(contentExit);
-		$("#content").css("animation-duration", "2s").css("-webkit-animation-duration", "2s");
-		
-		//function used to detect end of animations. On end of content animation; load new page.
-		//$('#content').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', function myFunction(){
-						window.location.href = "home.html"
-					});/*/
-		window.location.href="home.html";
-		
-	});
+	var copyNames = new Array(customNames.length);
+	for(var j = 0; j < customNames.length; j++){
+		copyNames[j] = customNames[j];
+	}
 	
-	$(".resume").click(function(){
-		/*//remove previous animation class from heading
-		$("#heading").removeClass(headingEntrance);
-		//add exit animation to heading
-		$("#heading").addClass(headingExit);
-		$("#heading").css("animation-duration", "2s").css("-webkit-animation-duration", "2s");
-		
-		$("#content").removeClass(contentEntrance);
-		$("#content").addClass(contentExit);
-		$("#content").css("animation-duration", "2s").css("-webkit-animation-duration", "2s");
-		
-		//function used to detect end of animations. On end of content animation; load new page.
-		$('#content').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', function myFunction(){
-						window.location.href = "resume.html"
-					});*/
-		window.location.href="resume.html";			
-		
-	});
+	var finalPath = new Array(copyNames.length);
+	for(var j = 0; j < copyNames.length; j++){
+		finalPath[j] = "/pictures/" + copyNames[j] + ".png";
+	}
 	
-	$(".projects").click(function(){
-		/*//remove previous animation class from heading
-		$("#heading").removeClass(headingEntrance);
-		//add exit animation to heading
-		$("#heading").addClass(headingExit);
-		$("#heading").css("animation-duration", "2s").css("-webkit-animation-duration", "2s");
-		
-		$("#content").removeClass(contentEntrance);
-		$("#content").addClass(contentExit);
-		$("#content").css("animation-duration", "2s").css("-webkit-animation-duration", "2s");
-		
-		//function used to detect end of animations. On end of content animation; load new page.
-		$('#content').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', function myFunction(){
-						window.location.href = "projects.html"
-					});*/
-			window.location.href = "projects.html"
-	});
+	$("#image1").css("animation-duration", animationDuration).css("-webkit-animation-duration", animationDuration);
+	$("#image1").addClass("animated "+ copyNames[0]);
 	
-	$(".ums").click(function(){
-		/*//remove previous animation class from heading
-		$("#heading").removeClass(headingEntrance);
-		//add exit animation to heading
-		$("#heading").addClass(headingExit);
-		$("#heading").css("animation-duration", "2s").css("-webkit-animation-duration", "2s");
-		
-		$("#content").removeClass(contentEntrance);
-		$("#content").addClass(contentExit);
-		$("#content").css("animation-duration", "2s").css("-webkit-animation-duration", "2s");
-		
-		//function used to detect end of animations. On end of content animation; load new page.
-		$('#content').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', function myFunction(){
-						window.location.href = "ums.php"
-					});*/
-					window.location.href = "ums.php"
-	});
-	
-	//on cluster link click
-	$(".cluster").click(function(){
-		/*//remove previous animation class from heading
-		$("#heading").removeClass(headingEntrance);
-		//add exit animation to heading
-		$("#heading").addClass(headingExit);
-		$("#heading").css("animation-duration", "2s").css("-webkit-animation-duration", "2s");
-		
-		$("#content").removeClass(contentEntrance);
-		$("#content").addClass(contentExit);
-		$("#content").css("animation-duration", "2s").css("-webkit-animation-duration", "2s");
-		
-		//function used to detect end of animations. On end of content animation; load new page.
-		$('#content').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', function myFunction(){
-			window.location.href = "cluster.html"
-		});*/
-		window.location.href = "cluster.html"
-	});	
+	var countDelay = 0;
+	var count = 0;
+	var currentImage = 1;
+	var nextImage = 2;
+		//passing imageArray to change function
+		change(imageArray);
+	function change(imageArray){
+			setTimeout(function(){
+				$("#image"+currentImage).remove();
+				$("#images").append("<img style='width:425px; height=425px' id=image"+ nextImage + " src="+ finalPath[count]+" />");
+				$("#image"+ nextImage).css("animation-duration", animationDuration).css("-webkit-animation-duration", animationDuration);
+				$("#image"+ nextImage).addClass("float-right padded-top padded-bottom padded-left animated "+ copyNames[count]);
+				currentImage++;
+				nextImage++
+				count++;
+				//delay += 5000;
+				if(count < imageArray.length){
+					countDelay++;
+					change(imageArray);
+				}
+				//was animationDelay
+			}, copyDelay[countDelay]);
+		}
+
 }
