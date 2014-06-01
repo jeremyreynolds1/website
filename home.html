@@ -1,5 +1,5 @@
 <!--
-	updated on May 4, 2014
+	updated on May 31, 2014
  -->
 <!DOCTYPE html>
 <html>
@@ -7,35 +7,63 @@
 		<title>
 			Jeremy's Website
 		</title>
+		<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
 		<link rel="stylesheet" type="text/css" href="layout-styles.css"/>
 		<link rel="stylesheet" type="text/css" href="animate.css"/>
-		<script src="jquery-1.11.1.min.js"></script>
-		<script src="click.js"></script>
-		<script src="animate.js"></script>
+		<script src="/code/jquery-1.11.1.min.js"></script>
+		
 		<meta charset="UTF-8"/>
 		<meta name="viewport" content="width=device-width, user-scalable = no" />
 		<link rel="icon" href="http://jeremyreynolds.us/favicon.ico"/>
+		<link href="http://fonts.googleapis.com/css?family=Goudy+Bookletter+1911" rel="stylesheet" type="text/css">
+		<link href="http://fonts.googleapis.com/css?family=Raleway:100" rel="stylesheet" type="text/css">
+
 	</head>
+	
 	<body>
-			<div id="heading">
-				<img src="/files/bannerWebsite.png"/>
-			</div>
-			<div id="content">
-				<nav class="navigation">
-					<a class="about" href="aboutme.html">About Myself</a>
-					<a class="resume" href="resume.html">My Resume</a>
-					<a class="projects" href="projects.html">My Projects</a>
-				</nav>
-				
-				<p>Welcome to the website of Jeremy Reynolds</p>
-				<p>
-					This website will allow you to get to know me a little more. Thank you for visiting! 
-				</p>
-				<nav class="navigation-no-border">
-				<a href="https://jeremyreynolds.us:2083">Admin Login</a>
-				<!--<a href="review.php">leave a review!</a>-->
-				<a href="mailto:jreynolds323@gmail.com">Email me</a>
-				</nav>
-			</div>
+	<div class="innerContainer">
+		<div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+	      <div class="container">
+	        <div class="navbar-header">
+	          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+	            <span class="sr-only">Toggle navigation</span>
+	            <span class="icon-bar"></span>
+	            <span class="icon-bar"></span>
+	            <span class="icon-bar"></span>
+	          </button>
+	        </div>
+	        <div class="collapse navbar-collapse">
+	          <ul class="nav navbar-nav">
+	            <li class="active"><a href="#"><span class="glyphicon glyphicon-home"></span> Home</a></li>
+	            <li><a href="projects.html"><span class="glyphicon glyphicon-folder-open"></span> Projects</a></li>
+	            <li><a href="resume.html"><span class="glyphicon glyphicon-info-sign"></span>   Resume</a></li>
+	          </ul>
+	        </div><!--/.nav-collapse -->
+	      </div>
+	    </div>
+	
+	    <div class="container">
+	      <div class="starter-template">
+	      	<!<img src="/files/me.jpg" width="150px;" height="150px;" class="float-right padded-top">
+	        <h1>Welcome to the website of Jeremy Reynolds</h1><br/>
+	        <p class="lead">This website will let you get to know me! Take a look around!</p>
+	        <h2>Introduction</h2>
+	        <p>My name is Jeremy Reynolds and I am a passionate computer scientist always looking for the next thing to try out. I am 23 and just graduated from Texas Woman's University in May 2013. I moved to Austin in July of 2013 to experience something new in my life. Since moving to Austin, I have had 2 jobs.</p> 
+	<p>My first job out of College was at a company named BigCommerce. At BigCommerce, I worked in the migrations division migrating various competitor platform stores to BigCommerce. During my time there, I learned to work on a team and to really listen and understand the client's needs. I was let go from BigCommerce in December of 2013. In between jobs, I worked on improving my skills and learning new technologies like jQuery and Javascript.  </p>
+	<p>In March of 2014, I started work at a small company in Cedar Park named Diversys Learning. At Diversys, I worked on certification courses for various aspects of training. These aspects included Alcohol certification, Harassment, and Food Safety. In a small environment like that I was able to work side by side with my co-workers. This allowed me to work even closer with my teammates and harness my skills to develop training courses. My last project at Diversys allowed me to use my jQuery knowledge that I learned in between jobs to execute the project.</p> <p>I hope that this paragraph has allowed you to get to know me a little. If there are any other questions that you may have, please do not hesitate to contact me. Thanks!</p>
+	      </div>
+	    </div><!-- /.container -->
+	</div>
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+    <script src="/code/jquery.backstretch.min.js"></script>
+    <script>
+	    $.backstretch(["/files/ballpark.png"]);
+    </script>
+    
 	</body>
 </html>

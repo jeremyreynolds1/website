@@ -1,42 +1,73 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>Projects</title>
-		<link rel="stylesheet" type="text/css" href="layout-styles.css">
-		<link rel="stylesheet" type="text/css" href="animate.css"/>
+		<title>
+			Projects
+		</title>
+		<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+		<link rel="stylesheet" type="text/css" href="layout-styles.css"/>
 		<script src="jquery-1.11.1.min.js"></script>
+		<script src="click.js"></script>
 		<script src="animate.js"></script>
-		<meta charset="UTF-8">
-		<meta name="viewport" content="width=device-width" />
-		<link rel="shortcut icon" href="favicon.ico" />
+		<meta charset="UTF-8"/>
+		<meta name="viewport" content="width=device-width, user-scalable = no" />
+		<link rel="icon" href="http://jeremyreynolds.us/favicon.ico"/>
+		<link href="http://fonts.googleapis.com/css?family=Goudy+Bookletter+1911" rel="stylesheet" type="text/css">
+		<link href="http://fonts.googleapis.com/css?family=Raleway:100" rel="stylesheet" type="text/css">
 
 	</head>
-	<body>
-			
-		<div id="heading">
-			<h1>My Projects</h1>
-		</div>
-		<div id="content">
-			<nav class="navigation">
-				<a class="home" href="home.html">Home</a>
-				<a class="aboutme" href="aboutme.html">About Me</a>
-				<a class="resume" href="resume.html">Resume</a>
-			</nav>
-			<p>
-				Throughout my College career and Personal development I have done many different projects.
-			</p>
-			<ul>
+	
+	<body class="pattern">
+	
+	<div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>
+        <div class="collapse navbar-collapse">
+          <ul class="nav navbar-nav">
+            <li> <a href="home.html"><span class="glyphicon glyphicon-home"></span>   Home</a></li>
+            <li class="active"><a href="projects.html"> <span class="glyphicon glyphicon-folder-open"></span>  Projects</a></li>
+            <li><a href="resume.html"><span class="glyphicon glyphicon-info-sign"></span>   Resume</a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </div>
+
+    <div class="container">
+
+      <div class="starter-template">
+        <h1>Projects</h1>
+        <p class="lead">Throughout my College career and through Personal Development I have designed and created many projects a few of which are listed here.</p>
+		<div class="btn-group">
+			<button class="btn btn-default btn-lg dropdown-toggle" type="button" data-toggle="dropdown">
+				Project List <span class="caret"></span>
+			</button>
+			<ul class="dropdown-menu">
 				<li>
 					<a class="ums" href="ums.php">User Management System</a>
 				</li>
 				<li>
 					<a class="cluster" href="cluster.html">Cluster Computing</a>
 				</li>
-				<!--<li>
-					<a href="animations.html">CSS Animations</a>
-				</li>-->
 			</ul>
-			<a href="..">Go back to Home</a>
 		</div>
+		
+      </div>
+     
+    </div><!-- /.container -->
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+    
 	</body>
 </html>

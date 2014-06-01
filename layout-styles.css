@@ -1,92 +1,46 @@
-/* Importing fonts */
-@font-face{
-	font-family: sourceCodeMed;
-	src: url("/files/SourceCodeProMed.otf");
-}
-
 body {
-  background-color: #C63D0F;
-  font-family:Helvetica,Arial,sans-serif;
-  font-size:14px;
-  
+	padding-top: 50px;
+	/*background: url(/files/triangular_@2X.png) repeat 0 0;*/
 }
-
-#heading{
-	font-family: Verdana, Arial, Georgia, sourceCodeMed;
-	margin-left: auto;
-	margin-right: auto;
+.pattern{
+	background: url(/files/triangular_@2X.png) repeat 0 0;
+}
+.innerContainer{
+	margin: 0 auto;
+	max-width: 1200px;
+	background: url(/files/triangular_@2X.png) repeat 0 0;
+}
+.starter-template{
 	text-align: center;
-	font-weight: bold;
-	line-height: 1.1;
-	/*border-radius: 25px 25px 25px 25px;*/
-	border-bottom: 3px solid black;
-	width: 500px;
-	height: 60px;
-	background-color: inherit;
-	padding: 3px;
+}
+h1, h2 {
+    font-family: 'Raleway', Helvetica, Arial, sans-serif;
+    font-size: 50px;
+    line-height: 70px;
+}
+ 
+p {
+    font-family: 'Goudy Bookletter 1911', Georgia, Times, serif;
+    font-size: 15px;
+    line-height: 25px;
 }
 
-#content{
-	font-family: Verdana, Arial, Georgia, sourceCodeMed;
-	margin-left: auto;
-	margin-right: auto;
-	width: 500px;
-	padding: 10px;
-	border: 3px solid black;
-	margin-top: 20px;
-	border-radius:25px;
-	color: white;
-	background-color: #e0821d;
-}
-
-.navigation{
-	width: 500px;
+.starter-template {
+	padding: 40px 15px;
 	text-align: center;
-	display:block;
-	color: white;
-	border-bottom: 3px solid #ca5f00;
-	padding-bottom: 5px;
 }
-.navigation-no-border{
-	border: none;
-	width: 500px;
-	text-align: center;
-	padding-bottom: 5px;
-}
-
-/* add icons to links*/
-/*.navigation .about{
-	background: url("/files/user.svg") no-repeat top left;
-	padding: 2px 0 0 25px;
-}*/
-
 a{
-	color:white;
-	background-color: inherit;
-	text-decoration: none;
+	color: black;
 }
-
-a:hover,a:focus{
-	color:black;
-	background-color: inherit;
-
-}
-a:visited{
-	color:#983e00;
+.breadcrumb{
 	background-color: inherit;
 }
-
-/* MEDIA QUIRIES */
-@media only screen and (max-device-width: 480px){
-	#heading{
-		width: 250px;
-	}
-	.navigation{
-		width: 250px;
-	}
-	#content{
-		width: 250px;
-	}
-	
+.divider{
+	color: white;
 }
-
+.float-right{
+	float:right;
+}
+.padded-top{
+	padding-top: 10px;
+}
