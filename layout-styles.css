@@ -1,13 +1,8 @@
 body {
 	padding-top: 50px;
-	/*background: url(/files/triangular_@2X.png) repeat 0 0;*/
-}
-.pattern{
 	background: url(/files/triangular_@2X.png) repeat 0 0;
 }
-.innerContainer{
-	margin: 0 auto;
-	max-width: 1200px;
+.pattern{
 	background: url(/files/triangular_@2X.png) repeat 0 0;
 }
 .starter-template{
@@ -40,6 +35,9 @@ a{
 }
 .float-right{
 	float:right;
+}
+.float-left{
+	float:left;
 }
 .padded-top{
 	padding-top: 10px;
