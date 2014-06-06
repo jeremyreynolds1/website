@@ -56,9 +56,14 @@
     <div class="container">
       <div class="starter-template">
         <h1>Album Catalog</h1>
-        <p> This page will load an xml document that contains the discography of <a href="http://en.wikipedia.org/wiki/Dream_theater">Dream Theater</a>
+        <p> This page will load an xml document that contains the discography of <a href="http://en.wikipedia.org/wiki/Dream_theater">Dream Theater</a>. In the future there will be a feature to add new elements to the xml document. Still researching that!
         </p>
-			
+			<!--<form>
+				<input type="text" placeholder="Album Artist..." id="albumArtist">
+				<input type="text" placeholder="Album Title..." id="albumTitle">
+				<input type="submit" value="Submit Album" onclick="addAlbum(albumArtist, albumTitle);">
+			</form>-->
+			<br/>
 		<script>
 		//need to load xml document here and add information to table.
 		//loading xml document via loadXMLDoc function
@@ -76,12 +81,17 @@
 				}
 		document.write("</table>");
 		
-		function addArtist(albumArtist, albumTitle){
+		function addAlbum(albumArtist, albumTitle){
+			
+			if(!$.trim($("#albumArtist".value).length){
+				alert("album artist cannot be empty");
+			}
 			var newAlbumArtist = albumArtist;
 			var newAlbumTitle = albumTitle;
 			newAlbum = xmlDoc.createElement("album");
-			x = xmlDoc.getElementByTagName("album")[0];
-			x.appendChild(newAlbum);
+			x = xmlDoc.getElementsByTagName("album")[0];
+			//need to append attributes to albumNode
+			//x.appendChild(newAlbum);
 		}
 		
 		</script>	
