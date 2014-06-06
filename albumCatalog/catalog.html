@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>
+			Album Catalog
+		</title>
+		<link href="../bootstrap/css/bootstrap.min.css" rel="stylesheet">
+		<link rel="stylesheet" type="text/css" href="../layout-styles.css"/>
+		<script src="../code/jquery-1.11.1.min.js"></script>
+		<meta charset="UTF-8"/>
+		<meta name="viewport" content="width=device-width, user-scalable = no" />
+		<link rel="icon" href="http://jeremyreynolds.us/favicon.ico"/>
+		<link href="http://fonts.googleapis.com/css?family=Goudy+Bookletter+1911" rel="stylesheet" type="text/css">
+<link href="http://fonts.googleapis.com/css?family=Raleway:100" rel="stylesheet" type="text/css">
+
+		<script>
+		function loadXMLDoc(filename){
+			if (window.XMLHttpRequest){
+				xhttp=new XMLHttpRequest();
+			}
+			else // code for IE5 and IE6
+			{
+				xhttp=new ActiveXObject("Microsoft.XMLHTTP");
+			}
+				xhttp.open("GET",filename,false);
+				xhttp.send();
+				return xhttp.responseXML;
+			}
+		</script>
+
+	</head>
+	
+	<body class="pattern">
+	
+	<div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>
+        <div class="collapse navbar-collapse">
+          <ul class="nav navbar-nav">
+            
+            <li><a href="projects.html"> <span class="glyphicon glyphicon-folder-open"></span>   Projects</a></li>
+            <li class="active"><a href="#">Cluster Computing</a></li>
+
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="starter-template">
+        <h1>Album Catalog</h1>
+        <p> This page will load an xml document that contains the discography of <a href="http://en.wikipedia.org/wiki/Dream_theater">Dream Theater</a>
+        </p>
+			
+		<script>
+		//need to load xml document here and add information to table.
+		//loading xml document via loadXMLDoc function
+		var xmlDoc=loadXMLDoc("catalog.xml");
+							
+		document.write(" <table class='center' border='1'>");
+		
+		var x=xmlDoc.getElementsByTagName("album");
+		for (i=0;i<x.length;i++){ 
+					document.write("<tr><td>");
+					document.write(x[i].getElementsByTagName("albumArtist")[0].childNodes[0].nodeValue);
+					document.write("</td><td>");
+					document.write(x[i].getElementsByTagName("albumTitle")[0].childNodes[0].nodeValue);
+					document.write("</td></tr>");
+				}
+		document.write("</table>");
+		
+		function addArtist(albumArtist, albumTitle){
+			var newAlbumArtist = albumArtist;
+			var newAlbumTitle = albumTitle;
+			newAlbum = xmlDoc.createElement("album");
+			x = xmlDoc.getElementByTagName("album")[0];
+			x.appendChild(newAlbum);
+		}
+		
+		</script>	
+      </div>
+    </div><!-- /.container -->
+	<!--<script>
+		//need to load xml document here and add information to table.
+		//loading xml document via loadXMLDoc function
+		var xmlDoc=loadXMLDoc("catalog.xml");					
+		document.write("<p> <table border='1'>");
+		var x=xmlDoc.getElementsByTagName("album");
+		for (i=0;i<x.length;i++){ 
+					document.write("<tr><td>");
+					document.write(x[i].getElementsByTagName("albumArtist")[0].childNodes[0].nodeValue);
+					document.write("</td><td>");
+					document.write(x[i].getElementsByTagName("albumTitle")[0].childNodes[0].nodeValue);
+					document.write("</td></tr>");
+				}
+		document.write("</table> </p>");
+		
+	</script>-->
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="../bootstrap/js/bootstrap.min.js"></script>
+    
+	</body>
+</html>
