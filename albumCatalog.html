@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>
+			CD catalog
+		</title>
+		<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+		<link rel="stylesheet" type="text/css" href="layout-styles.css"/>
+		<script src="/code/jquery-1.11.1.min.js"></script>
+		<script src="click.js"></script>
+		<script src="animate.js"></script>
+		<meta charset="UTF-8"/>
+		<meta name="viewport" content="width=device-width, user-scalable = no" />
+		<link rel="icon" href="http://jeremyreynolds.us/favicon.ico"/>
+		<link href="http://fonts.googleapis.com/css?family=Goudy+Bookletter+1911" rel="stylesheet" type="text/css">
+<link href="http://fonts.googleapis.com/css?family=Raleway:100" rel="stylesheet" type="text/css">
+
+	</head>
+	
+	<body class="pattern">
+	
+	<div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>
+        <div class="collapse navbar-collapse">
+          <ul class="nav navbar-nav">
+            
+            <li><a href="projects.html"> <span class="glyphicon glyphicon-folder-open"></span>   Projects</a></li>
+            <li><a href="#">Cluster Computing</a></li>
+            <li class="active"><a href="#">Album Catalog</a></li>
+
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="starter-template">
+        <h1>Album Catalog</h1>
+		<p>A simple javascript project that allows user to enter multiple album title's and their artist.</p>
+		<p>For example, Dream Theater: Metropolis Pt 2: Scenes from a Memory</p>
+		<p>When you enter a Album title and Album Artist, click the add button below</p>
+		<p>When you have finished entering your Album's click submit and they will be displayed to you</p>
+		
+		<form name="myForm">
+		Album Artist: <input type="text" id="albumArtist">
+		Album Name: <input type="text" id="albumName">
+		<input type="submit" value="Add Album" id="addAlbum">
+		</form>
+		<script>
+			$("#addAlbum").click(function(){
+			
+				alert("addCd clicked");
+			})
+		</script>
+     
+    </div><!-- /.container -->
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+    
+	</body>
+</html>
