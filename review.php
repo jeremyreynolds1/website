@@ -154,7 +154,7 @@
 	        <div class="collapse navbar-collapse">
 	          <ul class="nav navbar-nav">
 	            <li><a href="home.html"><span class="glyphicon glyphicon-home"></span> Home</a></li>
-	            <li><a href="projects.html"><span class="glyphicon glyphicon-folder-open"></span> Projects</a></li>
+	            <li><a href="projects.html"><span class="glyphicon glyphicon-folder-open"></span> Portfolio</a></li>
 	            <li><a href="resume.html"><span class="glyphicon glyphicon-info-sign"></span>   Resume</a></li>
 	            <li class="active"><a href="#">Leave a Review</a></li>
 	          </ul>
