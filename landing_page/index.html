@@ -19,6 +19,10 @@
     <link rel="stylesheet" href="assets/plugins/font-awesome/css/font-awesome.css">
     <!-- Theme CSS -->  
     <link id="theme-style" rel="stylesheet" href="assets/css/styles.css">
+    <!-- GitHub activity css -->
+    <link rel="stylesheet" href="assets/css/github-activity.css">
+    <!-- other css -->
+    <link rel="stylesheet" href="../layout-styles.css">
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
@@ -31,19 +35,16 @@
     <!-- ******HEADER****** --> 
     <header class="header">
         <div class="container">                       
-            <img class="profile-image img-responsive pull-left" src="assets/images/profile.png" alt="James Lee" />
+            <img class="profile-image img-responsive pull-left" src="" alt="Jeremy Reynolds" />
             <div class="profile-content pull-left">
-                <h1 class="name">James Lee</h1>
-                <h2 class="desc">Web App Developer</h2>   
+                <h1 class="name">Jeremy Reynolds</h1>
+                <h2 class="desc">Web Developer</h2>   
                 <ul class="social list-inline">
-                    <li><a href="#"><i class="fa fa-twitter"></i></a></li>                   
-                    <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
-                    <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-                    <li><a href="#"><i class="fa fa-github-alt"></i></a></li>                  
-                    <li class="last-item"><a href="#"><i class="fa fa-hacker-news"></i></a></li>                 
+                    <li><a href="http://www.linkedin.com/in/jeremyreynolds2/"><i class="fa fa-linkedin"></i></a></li>
+                    <li class="last-item"><a href="http://www.github.com/jeremyreynolds1"><i class="fa fa-github-alt"></i></a></li>                           
                 </ul> 
             </div><!--//profile-->
-            <a class="btn btn-cta-primary pull-right" href="http://themes.3rdwavemedia.com/" target="_blank"><i class="fa fa-paper-plane"></i> Contact Me</a>              
+            <a class="btn btn-cta-primary pull-right" href="mailto:jreynolds3@me.com"><i class="fa fa-paper-plane"></i> Contact Me</a>              
         </div><!--//container-->
     </header><!--//header-->
     
@@ -54,9 +55,16 @@
                     <div class="section-inner">
                         <h2 class="heading">About Me</h2>
                         <div class="content">
-                            <p>Wirte a brief intro about yourself. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec.</p>    
+                            <p>Hello! I'm Jeremy Reynolds a web developer from Georgetown, TX. I moved down to Georgetown from Lewisville, TX in July 2013. Soon after I moved down I got married to my wonderful wife on July 20th. </p>    
          
-        <p>It's a good idea to include your personal interests and hobbies as well. Commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec.Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+        <p>My personal interests and hobbies include:
+	        <ul>
+	        	<li>Watching Sports</li>
+	        	<li>Reading</li>
+	        	<li>Photography</li>
+	        	<li>Learning about new technologies and working on projects</li>
+	        </ul>
+        </p>
                          
                         </div><!--//content-->
                     </div><!--//section-inner-->                 
@@ -166,11 +174,9 @@
                 <section class="github section">
                     <div class="section-inner">
                         <h2 class="heading">My GitHub</h2>
-                        <p>You can embed your GitHub activities or repos using Casey Scarborough's <a href="http://caseyscarborough.com/projects/github-activity/" target="_blank">GitHub Activity Stream</a> widget. You can also take a screenshot of your GitHub chart and put it here for fun.</p>
-                        <p><a href="#"><img class="img-responsive" src="assets/images/github-chart.png" alt="GitHub Contributions Chart" /></a></p>               
                         <div class="content iframe-wrapper">
                             <!--//Usage: http://caseyscarborough.com/projects/github-activity/ -->
-                            <iframe src="http://ghactivity.com/caseyscarborough/repos/" frameborder="0" width="100%" height="400px"></iframe>
+                            <div id="feed"></div>
                         </div>
                     </div><!--//secton-inner-->
                 </section><!--//section-->
@@ -181,9 +187,9 @@
                         <h2 class="heading sr-only">Basic Information</h2>
                         <div class="content">
                             <ul class="list-unstyled">
-                                <li><i class="fa fa-map-marker"></i><span class="sr-only">Location:</span>San Francisco, US</li>
-                                <li><i class="fa fa-envelope-o"></i><span class="sr-only">Email:</span><a href="#">jameslee@website.com</a></li>
-                                <li><i class="fa fa-link"></i><span class="sr-only">Website:</span><a href="#">http://www.website.com</a></li>
+                                <li><i class="fa fa-map-marker"></i><span class="sr-only">Location:</span>Georgetown, TX</li>
+                                <li><i class="fa fa-envelope-o"></i><span class="sr-only">Email:</span><a href="#">jreynolds3@me.com</a></li>
+                                <li><i class="fa fa-link"></i><span class="sr-only">Website:</span><a href="#">http://jeremyreynolds.us</a></li>
                             </ul>
                         </div><!--//content-->  
                     </div><!--//section-inner-->                 
@@ -194,7 +200,7 @@
                         <h2 class="heading">Skills</h2>
                         <div class="content">
                             <p class="intro">
-                                Intro about your skills goes here. Keep the list lean and only show your primary skillset. You can always provide a link to your Linkedin or Coderwall profile so people can get more info there.</p>
+                                I have experience in the following skills. My skills range from expert to beginner.</p>
                             
                             <div class="skillset">
                                
@@ -279,8 +285,8 @@
                                     <span class="level">Native Speaker <br class="visible-xs"/><i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> </span>
                                 </li><!--//item-->
                                 <li class="item">
-                                    <span class="title"><strong>Spanish:</strong></span>
-                                    <span class="level">Professional Proficiency <br class="visible-sm visible-xs"/><i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star-half"></i></span>
+                                    <span class="title"><strong>Sign Language:</strong></span>
+                                    <span class="level">Intermediate <br class="visible-sm visible-xs"/><i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star-half"></i></span>
                                 </li><!--//item-->
                             </ul>
                         </div><!--//content-->
@@ -342,10 +348,6 @@
                             
                             <hr/>
                             
-                             <p>This responsive HTML5 CSS3 site template is hand crafted by UI/UX designer Xiaoying Riley at <a href="http://themes.3rdwavemedia.com/" target="_blank">3rd Wave Media</a> for developers and is <strong>FREE</strong> under the <a class="dotted-link" href="http://creativecommons.org/licenses/by/3.0/" target="_blank">Creative Commons Attribution 3.0 License</a></p>
-                             <p>We will improve or add new features to this template based on users' feedback so follow us on twitter to get notified when a new version is out!</p>
-                            <a class="btn btn-cta-secondary btn-follow" href="https://twitter.com/3rdwave_themes" target="_blank"><i class="fa fa-twitter"></i> Follow us</a>
-                            <a class="btn btn-cta-primary btn-download" href="http://themes.3rdwavemedia.com/" target="_blank"><i class="fa fa-download"></i> I want to download</a>
                         </div><!--//content-->
                     </div><!--//section-inner-->
                 </aside><!--//section-->
@@ -366,7 +368,12 @@
     <script type="text/javascript" src="assets/plugins/jquery-migrate-1.2.1.min.js"></script>
     <script type="text/javascript" src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>    
     <script type="text/javascript" src="assets/plugins/jquery-rss/dist/jquery.rss.min.js"></script> 
-    <script type="text/javascript" src="assets/js/main.js"></script>            
+    <script type="text/javascript" src="assets/js/main.js"></script>    
+    <script type="text/javascript" src="assets/js/mustache.js"></script>
+    <script type="text/javascript" src="assets/js/github-activity.js"></script>
+    <script>
+    	GitHubActivity.feed({ username: "jeremyreynolds1", selector: "#feed" });
+    </script>        
 </body>
 </html> 
 
