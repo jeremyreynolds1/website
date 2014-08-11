@@ -27,7 +27,7 @@
 
 	</head>
 	<body>
-		<div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+		<!--<div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
       <div class="container">
         <div class="navbar-header">
           <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
@@ -46,9 +46,9 @@
             <li><a href="/albumCatalog/catalog.html">Album Catalog</a></li>
 
           </ul>
-        </div><!--/.nav-collapse -->
+        </div><!--/.nav-collapse
       </div>
-    </div>
+    </div>-->
     
 
 		<div class="container">
@@ -58,6 +58,7 @@
 			<p>
 				Here I have created a User Management System that will allow you, the user, to create a new user and login with that information created.
 				</p>
+			<a href="/landing_page/index.html">Click here to go home.</a><br/> 
 			<input type="submit" name="button" value="Create New User" id="newUserButton" onclick="myFunction();"/>
 			<input type="submit" name="button" value="login" onclick="myFunction2();"/>
 		</div>
