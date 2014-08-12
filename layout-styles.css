@@ -1,5 +1,4 @@
 body {
-	padding-top: 50px;
 	background: url(/files/triangular_@2X.png) repeat 0 0;
 }
 .pattern{
@@ -26,6 +25,7 @@ p {
 }
 
 .starter-template {
+	width: 150 px;
 	padding: 40px 15px;
 	text-align: center;
 }

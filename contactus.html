@@ -2,7 +2,7 @@
 <html>
 	<head>
 		<title>
-			Album Catalog
+			Contact Us Sample
 		</title>
 		<link href="/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 		<link rel="stylesheet" type="text/css" href="layout-styles.css"/>
@@ -12,42 +12,30 @@
 		<link rel="icon" href="http://jeremyreynolds.us/favicon.ico"/>
 		<link href="http://fonts.googleapis.com/css?family=Goudy+Bookletter+1911" rel="stylesheet" type="text/css">
 		<link href="http://fonts.googleapis.com/css?family=Raleway:100" rel="stylesheet" type="text/css">
+		<link id="theme-style" rel="stylesheet" href="/landing_page/assets/css/styles.css">
 	</head>
 	
 	<body class="pattern">
 	
-    <div class="container">
-      <div class="starter-template">
-        <h1></h1>
-        <p> This page will load an xml document that contains a collection of Albums.
-        </p>
-        <a href="/landing_page/index.html">Click here to go home.</a> <br/>
-			
-			<br/>	
-      </div>
-    </div><!-- /.container -->
-	<!--<script>
-		//need to load xml document here and add information to table.
-		//loading xml document via loadXMLDoc function
-		var xmlDoc=loadXMLDoc("catalog.xml");					
-		document.write("<p> <table border='1'>");
-		var x=xmlDoc.getElementsByTagName("album");
-		for (i=0;i<x.length;i++){ 
-					document.write("<tr><td>");
-					document.write(x[i].getElementsByTagName("albumArtist")[0].childNodes[0].nodeValue);
-					document.write("</td><td>");
-					document.write(x[i].getElementsByTagName("albumTitle")[0].childNodes[0].nodeValue);
-					document.write("</td></tr>");
-				}
-		document.write("</table> </p>");
-		
-	</script>-->
-
+	<header class="header">
+		<div class="container">
+			<div class="profile-content pull-left">
+				<h1 class="name">Contact Us</h1>
+				<h2 class="desc">Use the form below to contact us!</h2>
+			</div>
+		</div>
+	</header>
+	
+	<div class="starter-template">
+		<h1>hello</h1>
+	</div>	
+	
+	
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-    <script src="../bootstrap/js/bootstrap.min.js"></script>
+    <script src="/bootstrap/js/bootstrap.min.js"></script>
     
 	</body>
 </html>
