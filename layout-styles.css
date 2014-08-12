@@ -4,9 +4,6 @@ body {
 .pattern{
 	background: url(/files/triangular_@2X.png) repeat 0 0;
 }
-.starter-template{
-	text-align: center;
-}
 .center{
 	margin-left: auto;
 	margin-right: auto;
@@ -25,9 +22,17 @@ p {
 }
 
 .starter-template {
-	width: 150 px;
-	padding: 40px 15px;
+	width: 400px;
+	/*padding: 40px 15px;*/
 	text-align: center;
+	/*background: black;*/
+	border: 2px solid white;
+	border-radius: 20px;
+}
+.content{
+	width: 600px;
+	border: 2px solid cornflowerblue;
+	border-radius: 20px;
 }
 a{
 	color: black;
