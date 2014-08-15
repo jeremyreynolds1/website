@@ -1,3 +1,16 @@
-body{
-	background-color: #bf8900;
+.body{
+	background-color: #c27800;
+}
+
+@import url(http://fonts.googleapis.com/css?family=Playball);
+
+.playball-font{
+	font-family: 'Playball', cursive;
+}
+
+.btn{
+	max-width: 310px;
+	position: relative;
+	height: auto;
+	margin: 0 auto;
 }
