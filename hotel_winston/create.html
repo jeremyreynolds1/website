@@ -27,11 +27,12 @@
 
       <form class="form-signin" role="form">
         <h2 class="form-signin-heading">Create an Account</h2>
-        <input type="firstName" class="form-control" placeholder="First Name" autofocus>
-        <input type="lastName" class="form-control" placeholder="Last Name">
-        <input type="email" class="form-control" placeholder="Email address">
-        <input type="password" class="form-control" placeholder="Password" >
-        <button class="btn btn-lg btn-primary btn-block login" type="submit">Create</button>
+        <h3 class="required">All fields are required</h3>
+        <input type="firstName" class="form-control firstName" placeholder="First Name" autofocus>
+        <input type="lastName" class="form-control lastName" placeholder="Last Name">
+        <input type="email" class="form-control email" placeholder="Email address">
+        <input type="password" class="form-control password" placeholder="Password" >
+        <button class="btn btn-lg btn-primary btn-block create" type="submit">Create</button>
         
       </form>
  	  
@@ -45,7 +46,53 @@
     <script>
     
   		//need to remember to redirect back to reservations page if account creation is successful.
-    	    	
+  		
+  		//boolean variable; if true, submit. start off false so it's not submitted.
+  		var submit = false;
+  		
+  		  		
+  		
+  		$(".create").on("click", function(){
+  		
+  			//if first name, last name, password, or email are empty, set submit to false.
+  			
+  			if($(".firstName").val() === ""){
+	  			//alert("first name empty");
+	  			submit = false;
+  			}
+  			if($(".lastName").val() === ""){
+	  			//alert("last name empty");
+	  			submit = false;
+  			}
+  			if($(".email").val() === ""){
+	  			//alert("email empty");
+	  			submit = false;
+  			}
+  			if($(".password").val() === ""){
+	  			//alert("password empty");
+	  			submit = false;
+  			}
+  			
+  			//validate email
+  			
+  			var email = $(".email").val();
+  			
+  			function validateEmail(email) { 
+	  			var re = /^(([^<>()[\]\\.,;:\s@\"]+(\.[^<>()[\]\\.,;:\s@\"]+)*)|(\".+\"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+	  			return re.test(email);
+	  		} 
+	  		
+	  		if(!validateEmail()){
+		  		alert("email invalid");
+		  		submit = false;
+	  		}
+  			
+
+  			  		
+	  		if(submit == false){
+		  		//alert("hello");
+	  		}
+  		});
     	
     </script>
   </body>
