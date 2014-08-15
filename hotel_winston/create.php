@@ -22,6 +22,11 @@
   </head>
 
   <body>
+  	<?php
+	  	//was running into problems with saving states in Javscript/JQuery. Now trying PHP as with my other project the User Management system.
+	  	
+	  	
+  	?>
 
     <div class="container">
 
@@ -37,15 +42,6 @@
       </form>
  	  
     </div> <!-- /container -->
-
-
-    <!-- Bootstrap core JavaScript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-    
-    <?php
-     
-    ?>
-    
+        
      </body>
 </html>
