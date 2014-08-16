@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -25,7 +25,7 @@
 
     <div class="container">
 
-      <form class="form-signin" role="form">
+      <form class="form-signin" role="form" autocomplete="on">
         <h2 class="form-signin-heading">Please sign in</h2>
         <input type="email" class="form-control" placeholder="Email address" autofocus>
         <input type="password" class="form-control" placeholder="Password" >
