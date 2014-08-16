@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -24,19 +24,25 @@
   <body>
   	<?php
 	  	
+	  	//use warning banners from bootstrap for warnings (deciding to make dismissable or not)
+	  	$warningMessage = "";
 	  	
+	  	$firstName = $lastName = $email = $password = "";
+	  		  	
+	  	$firstName = $_POST["firstName"];
+	  	echo $firstName;
 	  	
   	?>
 
     <div class="container">
 
-      <form class="form-signin" role="form">
+      <form class="form-signin" role="form" method="post" action="<?php echo $_SERVER["PHP_SELF"];?>">
         <h2 class="form-signin-heading">Create an Account</h2>
         <h3 class="required">All fields are required</h3>
-        <input type="firstName" class="form-control firstName" placeholder="First Name" autofocus>
-        <input type="lastName" class="form-control lastName" placeholder="Last Name">
-        <input type="email" class="form-control email" placeholder="Email address">
-        <input type="password" class="form-control password" placeholder="Password" >
+        <input name="firstName" type="text" class="form-control firstName" placeholder="First Name" value="<?php echo $firstName;?>">
+        <input name="lastName" type="text" class="form-control lastName" value="<?php echo $lastName;?>" placeholder="Last Name">
+        <input name="email" type="text" class="form-control email" placeholder="Email address" value="<?php echo $email; ?>">
+        <input name="password" type="text" class="form-control password" placeholder="Password" >
         <button class="btn btn-lg btn-primary btn-block create" type="submit">Create</button>
         
       </form>
