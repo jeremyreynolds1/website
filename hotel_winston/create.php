@@ -23,7 +23,7 @@
 
   <body>
   	<?php
-	  	//was running into problems with saving states in Javscript/JQuery. Now trying PHP as with my other project the User Management system.
+	  	
 	  	
 	  	
   	?>
