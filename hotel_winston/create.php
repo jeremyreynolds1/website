@@ -51,7 +51,7 @@
         <input name="firstName" type="text" class="form-control firstName" placeholder="First Name" value="<?php echo $firstName;?>">
         <input name="lastName" type="text" class="form-control lastName" value="<?php echo $lastName;?>" placeholder="Last Name">
         <input name="email" type="text" class="form-control email" placeholder="Email address" value="<?php echo $email; ?>">
-        <input name="password" type="text" class="form-control password" placeholder="Password" >
+        <input name="password" type="password" class="form-control password" placeholder="Password" >
         <button class="btn btn-lg btn-primary btn-block create" type="submit">Create</button>
         
       </form>
