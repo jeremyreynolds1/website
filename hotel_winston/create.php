@@ -28,9 +28,18 @@
 	  	$warningMessage = "";
 	  	
 	  	$firstName = $lastName = $email = $password = "";
-	  		  	
+	  	
+	  	//getting first, last, email, and password values.	  	
 	  	$firstName = $_POST["firstName"];
-	  	echo $firstName;
+	  	$lastName = $_POST["lastName"];
+	  	$email = $_POST["email"];
+	  	$password = $_POST["password"];
+	  	
+	  	//validation checks
+	  	
+	  	//need to connect to database for insertion
+	  	
+	  	
 	  	
   	?>
 
