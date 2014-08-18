@@ -26,58 +26,73 @@
 	  	
 	  	//use warning banners from bootstrap for warnings (deciding to make dismissable or not)
 	  	$warningMessage = "";
+	  	$submit = true;
 	  	if($_SERVER["REQUEST_METHOD"] == "POST"){
-	  	$firstName = $lastName = $email = $password = "";
 	  	
-	  	//getting first, last, email, and password values.	  	
-	  	$firstName = $_POST["firstName"];
-	  	$lastName = $_POST["lastName"];
-	  	$email = $_POST["email"];
-	  	$password = $_POST["password"];
+		  	$firstName = $lastName = $email = $password = "";
+		  	
+		  	//getting first, last, email, and password values.	  	
+		  	$firstName = $_POST["firstName"];
+		  	$lastName = $_POST["lastName"];
+		  	$email = $_POST["email"];
+		  	$password = $_POST["password"];
+		  	
+		  	//validation checks
+		  	if(empty($firstName)){
+			  	$warningMessage = "First name cannot be empty";
+			  	$submit = false;
+		  	}
+		  	if(empty($lastName)){
+			  	$warningMessage = "Last name cannot be empty";
+			  	$submit = false;
+		  	}
+		  	if(empty($email)){
+			  	$warningMessage = "email cannot be empty";
+			  	$submit = false;
+		  	}
+		  	if(empty($password)){
+			  	$warningMessage = "password cannot be empty";
+			  	$submit = false;
+		  	}
+		  	
+		  	//regex for first name and last name to ensure only letters are entered.
+		  	//preg_match("/^[a-zA-Z ]*$/", $variable)
+		  	
+		  	if(!preg_match("/^[a-zA-Z ]*$/", $firstName)){
+			  	$warningMessage = "Only letters allowed in First Name";
+			  	$submit = false;
+		  	}
+		  	if(!preg_match("/^[a-zA-Z ]*$/", $lastName)){
+			  	$warningMessage = "Only letters allowed in Last Name";
+			  	$submit = false;
+		  	}
+		  	
+		  	//regex check for email
+		  	//preg_match("/^([a-zA-Z0-9_\-\.]+)@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{2,3})$/", $email)
+		  	if(!preg_match("/^([a-zA-Z0-9_\-\.]+)@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{2,3})$/", $email)){
+			  	$warningMessage = "invalid email";
+			  	$submit = false;
+		  	}
+		  	//regex check for password
+		  	//basic check
+		  	if(!preg_match("/^[a-zA-Z]\w{3,14}$/", $password)){
+			  	$warningMessage = "invalid password. Must contain only letters and numbers and be between 3 and 14 characters.";
+			  	$submit = false;
+		  	}
+		  	
+		  	//need to connect to database for insertion
+		  	
+		  	$connect = mysqli_connect("localhost", "jeremy", "Snakes12", "reservations");
+		  	
+		  	if(!$connect){
+			  	$warningMessage = "could not connect. contact administrator at jreynolds3@me.com";
+		  	}
 	  	
-	  	//validation checks
-	  	if(empty($firstName)){
-		  	$warningMessage = "First name cannot be empty";
-	  	}
-	  	if(empty($lastName)){
-		  	$warningMessage = "Last name cannot be empty";
-	  	}
-	  	if(empty($email)){
-		  	$warningMessage = "email cannot be empty";
-	  	}
-	  	if(empty($password)){
-		  	$warningMessage = "password cannot be empty";
-	  	}
+		  	if($submit == true){
+			  	echo "ready to submit";
+		  	}
 	  	
-	  	//regex for first name and last name to ensure only letters are entered.
-	  	//preg_match("/^[a-zA-Z ]*$/", $variable)
-	  	
-	  	if(!preg_match("/^[a-zA-Z ]*$/", $firstName)){
-		  	$warningMessage = "Only letters allowed in First Name";
-	  	}
-	  	if(!preg_match("/^[a-zA-Z ]*$/", $lastName)){
-		  	$warningMessage = "Only letters allowed in Last Name";
-	  	}
-	  	
-	  	//regex check for email
-	  	//preg_match("/^([a-zA-Z0-9_\-\.]+)@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{2,3})$/", $email)
-	  	if(!preg_match("/^([a-zA-Z0-9_\-\.]+)@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{2,3})$/", $email)){
-		  	$warningMessage = "invalid email";
-	  	}
-	  	//regex check for password
-	  	//basic check
-	  	if(!preg_match("/^[a-zA-Z]\w{3,14}$/", $password)){
-		  	$warningMessage = "invalid password. Must contain only letters and numbers and be between 3 and 14 characters.";
-	  	}
-	  	
-	  	//need to connect to database for insertion
-	  	
-	  	$connect = mysqli_connect("localhost", "jeremy", "Snakes12", "reservations");
-	  	
-	  	if(!$connect){
-		  	$warningMessage = "could not connect. contact administrator at jreynolds3@me.com";
-	  	}
-	  	
+	  		  	
 	  	}
   	?>
 
