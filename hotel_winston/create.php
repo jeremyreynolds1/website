@@ -67,13 +67,16 @@
 	  	//regex check for password
 	  	//basic check
 	  	if(!preg_match("/^[a-zA-Z]\w{3,14}$/", $password)){
-		  	$warningMessage = "invalid password. Must contain only letters and numbers and be between 3 and 14 characters."
+		  	$warningMessage = "invalid password. Must contain only letters and numbers and be between 3 and 14 characters.";
 	  	}
-	  	
-	  	
 	  	
 	  	//need to connect to database for insertion
 	  	
+	  	$connect = mysqli_connect("localhost", "jeremy", "Snakes12", "reservations");
+	  	
+	  	if(!$connect){
+		  	$warningMessage = "could not connect. contact administrator at jreynolds3@me.com";
+	  	}
 	  	
 	  	}
   	?>
