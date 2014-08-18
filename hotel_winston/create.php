@@ -89,7 +89,14 @@
 		  	}
 	  	
 		  	if($submit == true){
-			  	echo "ready to submit";
+			  	$userInsertionQuery = "INSERT INTO users (firstName, lastName, email, password) VALUES ('$firstName', '$lastName', '$email', '$password')";
+			  	
+			  	$result = mysqli_query($connect, $userInsertionQuery);
+			  	
+			  	if(!$result){
+				  	$warningMessage = "duplicate. try again.";
+			  	}
+			  	$warningMessage = "new user created";
 		  	}
 	  	
 	  		  	
