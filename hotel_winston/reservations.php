@@ -22,13 +22,19 @@
   </head>
 
   <body>
+  <?php
+  
+  //need to check if email and username exist in users table.
+  
+  
+   ?>
 
     <div class="container">
 
-      <form class="form-signin" role="form" autocomplete="on">
+      <form class="form-signin" method="post" action="<?php echo $_SERVER["PHP_SELF"]; ?>" role="form" autocomplete="on">
         <h2 class="form-signin-heading">Please sign in</h2>
-        <input type="email" class="form-control" placeholder="Email address" autofocus>
-        <input type="password" class="form-control" placeholder="Password" >
+        <input name="email" type="email" class="form-control" placeholder="Email address" autofocus>
+        <input name="password" type="password" class="form-control" placeholder="Password" >
         <button class="btn btn-lg btn-primary btn-block login" type="submit">Sign in</button>
         
       </form>
