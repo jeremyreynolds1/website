@@ -35,11 +35,42 @@
 	  	$email = $_POST["email"];
 	  	$password = $_POST["password"];
 	  	
+	  	//validation checks
 	  	if(empty($firstName)){
 		  	$warningMessage = "First name cannot be empty";
 	  	}
+	  	if(empty($lastName)){
+		  	$warningMessage = "Last name cannot be empty";
+	  	}
+	  	if(empty($email)){
+		  	$warningMessage = "email cannot be empty";
+	  	}
+	  	if(empty($password)){
+		  	$warningMessage = "password cannot be empty";
+	  	}
 	  	
-	  	//validation checks
+	  	//regex for first name and last name to ensure only letters are entered.
+	  	//preg_match("/^[a-zA-Z ]*$/", $variable)
+	  	
+	  	if(!preg_match("/^[a-zA-Z ]*$/", $firstName)){
+		  	$warningMessage = "Only letters allowed in First Name";
+	  	}
+	  	if(!preg_match("/^[a-zA-Z ]*$/", $lastName)){
+		  	$warningMessage = "Only letters allowed in Last Name";
+	  	}
+	  	
+	  	//regex check for email
+	  	//preg_match("/^([a-zA-Z0-9_\-\.]+)@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{2,3})$/", $email)
+	  	if(!preg_match("/^([a-zA-Z0-9_\-\.]+)@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{2,3})$/", $email)){
+		  	$warningMessage = "invalid email";
+	  	}
+	  	//regex check for password
+	  	//basic check
+	  	if(!preg_match("/^[a-zA-Z]\w{3,14}$/", $password)){
+		  	$warningMessage = "invalid password. Must contain only letters and numbers and be between 3 and 14 characters."
+	  	}
+	  	
+	  	
 	  	
 	  	//need to connect to database for insertion
 	  	
