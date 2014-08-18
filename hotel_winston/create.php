@@ -26,7 +26,7 @@
 	  	
 	  	//use warning banners from bootstrap for warnings (deciding to make dismissable or not)
 	  	$warningMessage = "";
-	  	
+	  	if($_SERVER["REQUEST_METHOD"] == "POST"){
 	  	$firstName = $lastName = $email = $password = "";
 	  	
 	  	//getting first, last, email, and password values.	  	
@@ -35,12 +35,16 @@
 	  	$email = $_POST["email"];
 	  	$password = $_POST["password"];
 	  	
+	  	if(empty($firstName)){
+		  	$warningMessage = "First name cannot be empty";
+	  	}
+	  	
 	  	//validation checks
 	  	
 	  	//need to connect to database for insertion
 	  	
 	  	
-	  	
+	  	}
   	?>
 
     <div class="container">
@@ -48,6 +52,7 @@
       <form class="form-signin" role="form" method="post" action="<?php echo $_SERVER["PHP_SELF"];?>">
         <h2 class="form-signin-heading">Create an Account</h2>
         <h3 class="required">All fields are required</h3>
+        <span><?php echo $warningMessage; ?></span>
         <input name="firstName" type="text" class="form-control firstName" placeholder="First Name" value="<?php echo $firstName;?>">
         <input name="lastName" type="text" class="form-control lastName" value="<?php echo $lastName;?>" placeholder="Last Name">
         <input name="email" type="text" class="form-control email" placeholder="Email address" value="<?php echo $email; ?>">
