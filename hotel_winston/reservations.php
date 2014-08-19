@@ -81,7 +81,7 @@
 		  		if(!$passQuery){
 			  		$warningMessage = "password not found";
 		  		}
-		  		
+		  		print "<script>document.location.href='reservationsPage.php';</script>";
 	  		}
 	  		
   		}
