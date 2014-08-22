@@ -15,24 +15,68 @@
 			//if month is feb, and day > 28, warning message.
 			$warningMessage = $beginDay = $beginMonth = $beginYear = $endMonth = $endDay = $endYear = "";
 			//get all variables passed using POST method.
+			$submit = true;
+			if($_SERVER["REQUEST_METHOD"] == "POST"){
 			
-			$email = $_POST["email"];
-			$beginMonth = $_POST["begin-month"];
-			$beginDay = $_POST["begin-day"];
-			$beginYear = $_POST["begin-year"];
-			$endMonth = $_POST["end-month"];
-			$endDay = $_POST["end-day"];
-			$endYear = $_POST["end-year"];
-			
-			echo "<script>alert('$beginMonth');</script>";
-			
-			if($beginMonth == "February"){
-				$beginDayInt = intval($beginDay);
-				if($beginDayInt > 28){
-					$warningMessage = "Please select another day";
+				$email = $_POST["email"];
+				$beginMonth = $_POST["begin-month"];
+				$beginDay = $_POST["begin-day"];
+				$beginYear = $_POST["begin-year"];
+				$endMonth = $_POST["end-month"];
+				$endDay = $_POST["end-day"];
+				$endYear = $_POST["end-year"];
+				
+				//validation cases
+				if($beginMonth == "February"){
+					$beginDayInt = intval($beginDay);
+					if($beginDayInt > 28){
+						$warningMessage = "Please select another day";
+						$submit = false;
+					}
+				}//*/
+				
+				if($endMonth == "February"){
+					$endDayInt = intval($endDay);
+					if($endDayInt > 28){
+						$warningMessage = "Please select another day";
+						$submit = false;
+					}
+				}//*/
+				
+				if(empty($email)){
+					$warningMessage = "Email cannot be empty";
+					$submit = false;
 				}
-			}//*/
-			
+				if(($beginMonth == "default")|| ($beginDay == "default") || ($beginYear == "default")){
+					$warningMessage = "You must select something other than the default.";
+					$submit = false;
+				}
+				if(($endMonth == "default")|| ($endDay == "default") || ($endYear == "default")){
+					$warningMessage = "You must select something other than the default.";
+					$submit = false;
+				}
+				
+				if($submit == true){
+					//consolidate begin and end date.
+					$newBeginDate = $beginMonth . " " . $beginDay . ", " . $beginYear;
+					$newEndDate = $endMonth . " " . $endDay . ", " . $endYear;
+					
+					//fields in SQL email, beginDate, endDate
+					
+					$connect = mysqli_connect("localhost", "jeremy", "Snakes12", "reservations");
+					if(!$connect){
+						$warningMessage = "could not connect to database. please notify jreynolds3@me.com";
+					}
+					$query = "INSERT INTO reservationsTable (email, beginDate, endDate) VALUES ('$email', '$newBeginDate', '$newEndDate')";
+					
+					$result = mysqli_query($connect, $query);
+					
+					if(!$result){
+						$warningMessage = "reservation not created";
+					}
+					$warningMessage = "reservation created";
+				}
+			}
 			
 			
 			//echo "<script>alert('$email');</script>";
