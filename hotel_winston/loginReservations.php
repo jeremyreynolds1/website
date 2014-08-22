@@ -13,7 +13,7 @@
 		<?php
 			
 			//if month is feb, and day > 28, warning message.
-			
+			$warningMessage = $beginDay = $beginMonth = $beginYear = $endMonth = $endDay = $endYear = "";
 			//get all variables passed using POST method.
 			
 			$email = $_POST["email"];
@@ -24,7 +24,18 @@
 			$endDay = $_POST["end-day"];
 			$endYear = $_POST["end-year"];
 			
-			echo "<script>alert('$email');</script>";
+			echo "<script>alert('$beginMonth');</script>";
+			
+			if($beginMonth == "February"){
+				$beginDayInt = intval($beginDay);
+				if($beginDayInt > 28){
+					$warningMessage = "Please select another day";
+				}
+			}//*/
+			
+			
+			
+			//echo "<script>alert('$email');</script>";
 			
 		?>
 		<!--Header-->
@@ -44,6 +55,7 @@
 							<h2 class="heading">Welcome</h2>
 							<div class="content">
 								<p>Make a new reservation below</p>
+								<span><?php echo $warningMessage;?></span>
 							</div>
 						</div>
 					</section><!-- /reservation section/ -->
@@ -57,10 +69,10 @@
 								<input name="email" placeholder="email" class="form-control email">
 								<! begin-date-month, begin-date-day, begin-date-year -->
 								<span>When would you like to begin your stay?</span>
-								<select name="begin-month">
+								<select name="begin-month" id="begin-month">
 									<option value="default">Month</option>
 									<option value="January">January</option>
-									<option value="Febuary">Febuary</option>
+									<option value="February">February</option>
 									<option value="March">March</option>
 									<option value="April">April</option>
 									<option value="May">May</option>
@@ -72,7 +84,7 @@
 									<option value="November">November</option>
 									<option value="December">December</option>
 								</select>
-								<select name="begin-day">
+								<select name="begin-day" id="begin-day">
 									<option value="default">Day</option>
 									<option value="1">1</option>
 									<option value="2">2</option>
@@ -106,7 +118,7 @@
 									<option value="30">30</option>
 									<option value="31">31</option>
 								</select>
-								<select name="begin-year">
+								<select name="begin-year" id="begin-year">
 									<option value="default">Year</option>
 									<option value="2014">2014</option>
 									<option value="2015">2015</option>
@@ -118,10 +130,10 @@
 								<br>
 								<! end-date-month, end-date-day, end-date-year -->
 								<span>When would you like to end your stay?</span>
-								<select name="end-month">
+								<select name="end-month" id="end-month">
 									<option value="default">Month</option>
 									<option value="January">January</option>
-									<option value="Febuary">Febuary</option>
+									<option value="February">February</option>
 									<option value="March">March</option>
 									<option value="April">April</option>
 									<option value="May">May</option>
@@ -133,7 +145,7 @@
 									<option value="November">November</option>
 									<option value="December">December</option>
 								</select>
-								<select name="end-day">
+								<select name="end-day" id="end-day">
 									<option value="default">Day</option>
 									<option value="1">1</option>
 									<option value="2">2</option>
@@ -167,7 +179,7 @@
 									<option value="30">30</option>
 									<option value="31">31</option>
 								</select>
-								<select name="end-year">
+								<select name="end-year" id="end-year">
 									<option value="default">Year</option>
 									<option value="2014">2014</option>
 									<option value="2015">2015</option>
@@ -183,7 +195,7 @@
 					</section>
 				</div>
 			</div>
-		</div>		
+		</div>
 				
 	</body>
 </html>
