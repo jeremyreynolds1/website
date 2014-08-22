@@ -24,6 +24,8 @@
 			$endDay = $_POST["end-day"];
 			$endYear = $_POST["end-year"];
 			
+			echo "<script>alert('$email');</script>";
+			
 		?>
 		<!--Header-->
 		<header class="header">
@@ -56,7 +58,7 @@
 								<! begin-date-month, begin-date-day, begin-date-year -->
 								<span>When would you like to begin your stay?</span>
 								<select name="begin-month">
-									<option>Month</option>
+									<option value="default">Month</option>
 									<option value="January">January</option>
 									<option value="Febuary">Febuary</option>
 									<option value="March">March</option>
@@ -71,7 +73,7 @@
 									<option value="December">December</option>
 								</select>
 								<select name="begin-day">
-									<option>Day</option>
+									<option value="default">Day</option>
 									<option value="1">1</option>
 									<option value="2">2</option>
 									<option value="3">3</option>
@@ -105,7 +107,7 @@
 									<option value="31">31</option>
 								</select>
 								<select name="begin-year">
-									<option>Year</option>
+									<option value="default">Year</option>
 									<option value="2014">2014</option>
 									<option value="2015">2015</option>
 									<option value="2016">2016</option>
@@ -117,7 +119,7 @@
 								<! end-date-month, end-date-day, end-date-year -->
 								<span>When would you like to end your stay?</span>
 								<select name="end-month">
-									<option>Month</option>
+									<option value="default">Month</option>
 									<option value="January">January</option>
 									<option value="Febuary">Febuary</option>
 									<option value="March">March</option>
@@ -132,7 +134,7 @@
 									<option value="December">December</option>
 								</select>
 								<select name="end-day">
-									<option>Day</option>
+									<option value="default">Day</option>
 									<option value="1">1</option>
 									<option value="2">2</option>
 									<option value="3">3</option>
@@ -166,7 +168,7 @@
 									<option value="31">31</option>
 								</select>
 								<select name="end-year">
-									<option>Year</option>
+									<option value="default">Year</option>
 									<option value="2014">2014</option>
 									<option value="2015">2015</option>
 									<option value="2016">2016</option>
