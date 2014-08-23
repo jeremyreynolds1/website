@@ -81,7 +81,7 @@
 		  		if(!$passQuery){
 			  		$warningMessage = "password not found";
 		  		}
-		  		print "<script>document.location.href='reservationsPage.php';</script>";
+		  		print "<script>document.location.href='loginReservations.php';</script>";
 	  		}
 	  		
   		}
@@ -115,7 +115,7 @@
 		//on create button click; redirect to signin form.
 		//need to remember to redirect back to THIS page if creation is successful.
     	$(".create").on("click", function(){
-    		window.location.href = "create.html";
+    		window.location.href = "create.php";
     	});
     	
     	
