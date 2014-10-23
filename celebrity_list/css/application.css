@@ -1,0 +1,56 @@
+/* We've given you some basic styles to save you time. */
+body { margin: 0; font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; color: #333333; background-color: #f2f2f2; }
+#main-content { width:705px; padding:25px; margin:30px auto; border:1px solid #d3d3d3; background-color: white; }
+form div { margin-bottom:10px; }
+form label { width:70px; text-align:right; color:#888888; display:inline-block; font-size:12px; }
+form input { width:179px; margin-left:5px; padding:3px; border:1px solid #888888; border-radius:3px; display:inline-block; font-size:12px; }
+form button { margin-left:80px; display: inline-block; padding: 2px 10px 2px 10px; background-image: linear-gradient(to bottom, #4e92ba, #307ca9); color:white; border:1px solid; border-color: #307ca9 #307ca9 #1f506d; border-radius:3px; font-size:13px; }
+
+
+/* Card font: 13px and #333333 */
+
+/* Put your styles here */
+
+/* remove any list style from the ul*/
+.list{
+	list-style-type: none;
+}
+
+/* css to position the cards just right */
+ul.list li{
+	display: inline-block;
+	border: 10px;
+	width: 200px;
+	padding: 5px;
+	border: black 10px;
+}
+
+ul.list p{
+	/*float: right;*/
+	font-size: 13px;
+}
+
+ul.list img{
+	float: left;
+	padding-right: 10px;
+	width: 40px;
+	height: 40px;
+}
+
+ul.list li.listItem, ul.list li.newListItem{
+	border-style: solid;
+	border-width: 1px;
+}
+
+/* css for close button*/
+
+#close{
+	position: relative;
+	float: right;
+	height: 10px;
+	width: 10px;
+}
+
+
+
+

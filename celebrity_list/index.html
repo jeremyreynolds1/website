@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="css/application.css" rel="stylesheet">
+    <script src="js/vendor/jquery.min.js" type="text/javascript"></script>
+    <script src="js/vendor/underscore.js" type="text/javascript"></script>
+    <script src="js/application.js" type="text/javascript"></script>
+
+  </head>
+  <body>
+
+    <div id="main-content">
+      <!-- The page width is 817px -->
+      <!-- Example of using the form CSS to help you out. -->
+      <form>
+        <div>
+          <label>Full Name</label>
+          <input id="name" name="name" type="text"/>
+        </div>
+        <div>
+          <label>Photo URL</label>
+          <input id="photo_url" name="photo_url" />
+        </div>
+        <button id="submit" type="submit" onClick="addNew()">Create</button>
+      </form>
+
+      <hr />
+	  <!-- need to create CSS for Employee "cards" -->
+	  <!-- will create un ordered list here -->
+	  <ul class="list">	
+	  </ul>
+
+	  <script>
+	  initialData();
+	  //addNew();
+	  	//Arnold is at the bottom of the array given. Need to access from bottom
+	  
+	  	function initialData(){
+	  		var last = data.length-1;
+	  		//alert(last);
+	  		while(last >= 0){
+	  			var name = data[last].name;
+	  			var photo = data[last].photo_url;	
+		  		//will append card list here to ul
+		  		if(photo == ""){
+			  		photo = "img/default.png";
+		  		}
+		  		if(name == ""){
+			  		name = "unknown!";
+		  		}
+		  		//for now creates all of them and only has the last one present.
+		  		//need to find a way to create each card separately.
+		  		$(".list").append("<li class='listItem' > <img src="+ photo +" /> <p>"+ name +"</p> </li>");
+		  		
+		  		//alert(last);
+		  		last--;
+	  		}
+	  		
+	  	}//*/
+
+	  	//adding exit button
+	  	$(".listItem").mouseenter(function(){
+	  		$(this).append("<img id='close' src='img/close.png' />");
+	  		$("#close").on("click", function(){
+	  			$("#close").parent().remove();
+	  		});
+	  	}).mouseleave(function(){
+	  		$("#close").remove();
+	  	});//*/
+
+	  	//stop the form from refreshing the page
+	  	$("form").submit(function(e){
+	  		return false;
+	  	});//*/
+
+	  	function addNew(){
+	  		var nameForm = $("#name").val();
+	  		var photo_urlForm = $("#photo_url").val();
+
+	  		if(photo_urlForm == ""){
+	  			photo_urlForm = "img/default.png";
+	  		}
+	  		//check for if name is empty
+	  		if (nameForm == "") {
+	  			alert("name is required");
+	  			$("#name").css("background-color", "yellow");
+	  			//if name is empty, return false to quit
+	  			if (true) {return false};
+	  		};
+	  		$("li").first().before("<li class='newListItem' > <img src="+ photo_urlForm +" /> <p>"+ nameForm +"</p> </li>");//*/
+
+	  		$(".newListItem").mouseenter(function(){
+	  			//added because on the second time creating new "card" a second button would be added
+	  			if ($("#close").length) {return false};
+	  			$(this).append("<img id='close' src='img/close.png' />");
+	  			$("#close").on("click", function(){
+	  				$("#close").parent().remove();
+	  			});
+	  		}).mouseleave(function(){
+	  			$("#close").remove();
+	  		});//*/
+
+	  		$("#name").val("");
+	  		$("#name").css("background-color", "white");
+	  		$("#photo_url").val("");
+	  	}
+	  </script>
+	  
+	  
+    </div>
+  </body>
+</html>
