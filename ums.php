@@ -13,7 +13,7 @@
 		<meta name="viewport" content="width=device-width, user-scalable=no" />
 
 	</head>
-	<body>  
+	<body class="pattern">  
 		<!-- ******HEADER****** --> 
     <header class="header">
         <div class="container">                       
@@ -23,21 +23,23 @@
             </div><!--//profile-->
         </div><!--//container-->
     </header><!--//header-->
+    <br/>
+    <div class="primary col-md-12">
+		    <section class="section">
+		         <div class="section-inner">
+		             <div class="content">
+		             	<p>Here I have created a User Management System that will allow the user to create a new user and login with that information created.</p> 
+		             	
+		                <input type="submit" name="button" value="Create New User" id="newUserButton"/>   
+						<input type="submit" name="button" value="Login" id="loginButton"/>
+						<input type="submit" name="button" value="Go Home" id="goHome"/>
+						
+						
+		              </div><!--//content-->
+		             </div><!--//section-inner-->
+		    </section>
+    </div><!--//primary-->
     
-    <section class=" section">
-         <div class="section-inner">
-             <div class="content">
-             	<p>Here I have created a User Management System that will allow the user to create a new user and login with that information created.</p> 
-             	
-                <input type="submit" name="button" value="create new user" id="newUserButton"/>   
-				<input type="submit" name="button" value="Login" id="loginButton"/>
-				<input type="submit" name="button" value="Go Home" id="goHome"/>
-				
-				
-              </div><!--//content-->
-             </div><!--//section-inner-->                 
-     </section><!--//section-->
-     
      	<script>
      		$("#newUserButton").on("click", function(){
 	     		window.location.href = "/newUser/newUser.php";
@@ -49,6 +51,6 @@
 			 	window.location.href = "/landing_page/index.html";
 		 	});
      	
-     </script>
+		 </script>
 	</body>
 </html>
