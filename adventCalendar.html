@@ -2,13 +2,70 @@
 	<head>
 		<title>Interactive Advent Calendar</title>
 		<link rel="stylesheet" href="layout-styles.css"/>
+		<link rel="stylesheet" href="http://code.jquery.com/ui/1.11.2/themes/smoothness/jquery-ui.css">
+		<script src="http://code.jquery.com/jquery-1.10.2.js"></script>
+		<script src="http://code.jquery.com/ui/1.11.2/jquery-ui.js"></script>
 		<style>
+			/*Warm red: #330000*/
+			/*Evergreen: #002900*/
+			/*Silver accent: #D4D4D4*/
 			body{
 				background-color: #330000;
+			}
+			.heading{
+				color: #D4D4D4;
+			}
+			.content{
+				color: #D4D4D4;
 			}
 		</style>
 	</head>
 	<body>
+		<h1 class="heading">Advent Calendar</h1>
 		
+		<p class="content">Instructions: click on a day in December to find your gift!</p>
+		
+		<img src="files/ChristmasTree.png" width="995" height="960" border="0" usemap="#map" />
+
+		<map name="map">
+			<!-- #$-:Image map file created by GIMP Image Map plug-in -->
+			<!-- #$-:GIMP Image Map plug-in by Maurits Rijk -->
+			<!-- #$-:Please do not edit lines starting with "#$" -->
+			<!-- #$VERSION:2.3 -->
+			<!-- #$AUTHOR:Jeremy Reynolds  -->
+			<area shape="rect" coords="125,752,202,798" target="December 2" nohref="nohref" />
+			<area shape="rect" coords="253,747,333,795" alt="December 2"  nohref="nohref" />
+			<area shape="rect" coords="383,744,458,797" target="December 3"  nohref="nohref" />
+			<area shape="rect" coords="523,741,604,791" alt="December 4"  nohref="nohref" />
+			<area shape="rect" coords="656,739,734,792" alt="December 5"  nohref="nohref" />
+			<area shape="rect" coords="778,738,862,788" alt="December 6"  nohref="nohref" />
+			<area shape="rect" coords="261,642,339,691" alt="December 7"  nohref="nohref" />
+			<area shape="rect" coords="381,642,463,691" alt="December 8"  nohref="nohref" />
+			<area shape="rect" coords="515,639,594,689" alt="December 9"  nohref="nohref" />
+			<area shape="rect" coords="648,643,723,689" alt="December 10"  nohref="nohref" />
+			<area shape="rect" coords="207,549,285,597" alt="December 11"  nohref="nohref" />
+			<area shape="rect" coords="325,549,404,600" alt="December 12"  nohref="nohref" />
+			<area shape="rect" coords="449,551,528,601" alt="December 13"  nohref="nohref" />
+			<area shape="rect" coords="580,550,661,601" alt="December 14"  nohref="nohref" />
+			<area shape="rect" coords="709,547,782,595" alt="December 15"  nohref="nohref" />
+			<area shape="rect" coords="288,453,364,504" alt="December 16"  nohref="nohref" />
+			<area shape="rect" coords="396,452,477,502" alt="December 17"  nohref="nohref" />
+			<area shape="rect" coords="512,453,593,504" alt="December 18"  nohref="nohref" />
+			<area shape="rect" coords="626,450,703,500" alt="December 19"  nohref="nohref" />
+			<area shape="rect" coords="358,367,434,418" alt="December 20"  nohref="nohref" />
+			<area shape="rect" coords="454,364,534,419" alt="December 21"  nohref="nohref" />
+			<area shape="rect" coords="555,365,633,417" alt="December 22"  nohref="nohref" />
+			<area shape="rect" coords="392,255,478,308" alt="December 23"  nohref="nohref" />
+			<area shape="rect" coords="516,251,596,304" alt="December 24"  nohref="nohref" />
+			<area shape="rect" coords="453,152,540,207" alt="December 25"  nohref="nohref" />
+		</map>
+
+		
+		<script>
+			//using area to "listen" to clicks.
+			$("area").on("click",function(){
+				alert("Area clicked");
+			});
+		</script>
 	</body>
 </html>
