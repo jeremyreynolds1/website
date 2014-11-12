@@ -20,7 +20,9 @@
     <link id="theme-style" rel="stylesheet" href="assets/css/styles.css">
     <!-- GitHub activity css -->
     <link rel="stylesheet" href="assets/css/github-activity.css">
+    <!--Other CSS-->
     <link rel="stylesheet" href="../layout-styles.css">
+    <link rel="stylesheet" href="../animate.css"/>
     
 </head> 
 
@@ -41,9 +43,11 @@
         </div><!--//container-->
     </header><!--//header-->
     
+    <!-- Contains about, projects, and experience-->
+    
     <div class="container sections-wrapper">
         <div class="row">
-            <div class="primary col-md-8 col-sm-12 col-xs-12">
+            <div class="primary col-md-8 col-sm-8 col-xs-8">
                 <section class="about section">
                     <div class="section-inner">
                         <h2 class="heading">About Me</h2>
@@ -58,10 +62,12 @@
 	        	<li>Learning about new technologies and working on projects</li>
 	        </ul>
         </p>
+        <p id="offset"></p>
                          
                         </div><!--//content-->
                     </div><!--//section-inner-->                 
                 </section><!--//section-->
+                    
                     
                 <section class="projects section">
                     <div class="section-inner">
@@ -95,7 +101,9 @@
                             <div class="item">
                             	<h3 class="title"><a href="../adventCalendar.html">Advent Calendar</a></h3>
                             	<p>Made an Advent Calendar for the month of December. Each day is represented up to Christmas day. Created with jQuery, HTML, and jQuery UI.</p>
+                            	<p id="offset1"></p>
                             </div>
+                            
                         </div><!--//content-->  
                     </div><!--//section-inner-->                 
                 </section><!--//section-->
@@ -121,23 +129,17 @@
                                		Assisted with project completion in Mathematics and Computer Science Courses.
                                		Conveyed accurate understanding of course material within the guidelines provided by professors.
                                </p>
+                               <p id="offset2"></p>
                             </div><!--//item-->
-                            
-                        </div><!--//content-->  
+                        </div><!--//content--> 
                     </div><!--//section-inner-->                 
                 </section><!--//section-->
                 
-                <section class="github section">
-                    <div class="section-inner">
-                        <h2 class="heading">My GitHub</h2>
-                        <div class="content iframe-wrapper">
-                            <div id="feed"></div>
-                        </div>
-                    </div><!--//secton-inner-->
-                </section><!--//section-->
             </div><!--//primary-->
-            
-            <div class="secondary col-md-4 col-sm-12 col-xs-12">
+            <!-- 
+	            Contains info, skills, education, languages, music
+            -->
+            <div class="secondary col-md-4 col-sm-4 col-xs-4">
             
                  <aside class="info aside section">
                     <div class="section-inner">
@@ -267,9 +269,7 @@
     <script type="text/javascript" src="assets/plugins/jquery-rss/dist/jquery.rss.min.js"></script> 
     <script type="text/javascript" src="assets/js/main.js"></script>    
     <script type="text/javascript" src="assets/js/mustache.js"></script>
-    <script type="text/javascript" src="assets/js/github-activity.js"></script>
-    <script>
-    	GitHubActivity.feed({ username: "jeremyreynolds1", selector: "#feed" });
-    </script>        
+    
+                
 </body>
 </html>
