@@ -270,6 +270,47 @@
     <script type="text/javascript" src="assets/js/main.js"></script>    
     <script type="text/javascript" src="assets/js/mustache.js"></script>
     
-                
+    <script>
+	    //animated about, projects, experience, info, skills, education, languages, and music sections.
+	    //trying to animate by scroll position of scroll bar
+	    
+	    $(window).on("scroll", function(){
+		    var counter = 0;
+		    var verticalOffset = window.pageYOffset;
+		    while(counter < 1){
+		    $(".about").css("display", "none");
+		    counter++;
+		    }
+		    if(verticalOffset > 139){
+			    $(".about").css("display", "block");
+			    $(".about").addClass("animated fadeIn");
+		    }
+	    $("#offset").html(window.pageYOffset);
+	    $("#offset1").html(window.pageYOffset);
+	    $("#offset2").html(window.pageYOffset);
+	    });
+	    //pageYoffset
+	    //element.scrollTop element can be document.body
+	    //element.scrollLeft element can be document.body
+	    /*function getScrollXY() {
+			var scrOfX = 0, scrOfY = 0;
+			if( typeof( window.pageYOffset ) == 'number' ) {
+				//Netscape compliant
+				scrOfY = window.pageYOffset;
+				scrOfX = window.pageXOffset;
+			} else if( document.body && ( document.body.scrollLeft || document.body.scrollTop ) ) {
+   				 //DOM compliant
+   				 scrOfY = document.body.scrollTop;
+   				 scrOfX = document.body.scrollLeft;
+   			} else if( document.documentElement && ( document.documentElement.scrollLeft || document.documentElement.scrollTop ) ) {
+   				//IE6 standards compliant mode
+   				scrOfY = document.documentElement.scrollTop;
+   				scrOfX = document.documentElement.scrollLeft;
+   			}
+  			return [ scrOfX, scrOfY ];
+  		}*/
+	    
+	</script>
+            
 </body>
 </html>
