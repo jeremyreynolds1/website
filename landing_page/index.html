@@ -49,11 +49,8 @@
     
     <div class="container sections-wrapper">
         <div class="row">
-	        <div class="col-md-12 col-sm-12 col-xs-12 arrow">
-		        <img class="centered" src="../files/arrow_down.png"/>
-	        </div>
             <div class="primary col-md-8 col-sm-8 col-xs-12">
-                <section class="about section">
+                <section id="about" class="about section">
                     <div class="section-inner">
                         <h2 class="heading">About Me</h2>
                         <div class="content">
@@ -281,12 +278,9 @@
     <script>
 	    //animated about, projects, experience, info, skills, education, languages, and music sections.
 	    //trying to animate by scroll position of scroll bar
-	    
+	    //need to create special case for mozilla firefox to scroll
+	    var mozillaTrigger = false;
 	    var counter = 0;
-	    
-	    $(".header").addClass("animated fadeInDown");
-	    $(".arrow").addClass("animated fadeInDown");
-	    
 	    while(counter < 1){
 		    //first group
 		    $(".about").css("display", "none");
@@ -304,6 +298,16 @@
 		    counter++;
 	    }//
 	    
+	    $(".header").addClass("animated fadeInDown");
+	    $(".arrow").addClass("animated fadeInDown");
+	    if(navigator.appCodeName == "Mozilla"){
+		    $(".about").css("display", "block");
+		    $(".info").css("display","block");
+		    $(".about").addClass("animated fadeInLeft");
+		    $(".info").addClass("animated fadeInRight");
+		    $(".arrow").css("display", "none");
+		    mozillaTrigger = true;
+	    }
 		//alert(window.innerWidth);
 	    
 	    $(window).on("scroll", function(){
@@ -361,12 +365,15 @@
 		    }
 		    
 			if(!smallDevice){
-		    	if(verticalOffset >= 1){
+		    	if(verticalOffset >= 0){
 			    	$(".arrow").css("display", "none");
 			   	 	$(".about").css("display", "block");
 			   	 	$(".info").css("display", "block");
-			   	 	$(".about").addClass("animated fadeInLeft");
-			   	 	$(".info").addClass("animated fadeInRight");
+			   	 	
+			   	 	if(!mozillaTrigger){
+			   	 		$(".about").addClass("animated fadeInLeft");
+			   	 		$(".info").addClass("animated fadeInRight");
+			   	 	}
 			   	}//
 			   	if(verticalOffset >= 20){
 					$(".projects").css("display", "block");

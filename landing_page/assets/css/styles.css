@@ -58,7 +58,7 @@ a.btn:focus {
 }
 a.btn-cta-primary,
 .btn-cta-primary {
-  background: #54ba4e;
+  background: #66cc8d;
   border: 1px solid #54ba4e;
   color: #fff;
   font-weight: 600;
@@ -355,7 +355,7 @@ iframe .header {
 }
 .skills .skillset .level-bar-inner {
   height: 15px;
-  background: #66cb8c;
+  background: #66cc8d;
 }
 /* Testimonials section */
 .testimonials .item {
