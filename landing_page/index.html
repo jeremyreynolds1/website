@@ -49,6 +49,9 @@
     
     <div class="container sections-wrapper">
         <div class="row">
+	        <div class="col-md-12 col-sm-12 col-xs-12 arrow">
+		        <img class="centered" src="../files/arrow_down.png"/>
+	        </div>
             <div class="primary col-md-8 col-sm-8 col-xs-12">
                 <section class="about section">
                     <div class="section-inner">
@@ -282,6 +285,7 @@
 	    var counter = 0;
 	    
 	    $(".header").addClass("animated fadeInDown");
+	    $(".arrow").addClass("animated fadeInDown");
 	    
 	    while(counter < 1){
 		    //first group
@@ -313,10 +317,11 @@
 		    if(window.innerWidth <= 768){
 			   smallDevice = true;
 		    }
-		    //about, projects, experience, info, skills, education, languages, and music.
+		    //about, projects, experience, info, skills, education, languages, and music mobile transitions.
 		    if(smallDevice){
 			    //$(".offset").html(verticalOffset);
 			    if(verticalOffset >= 192){
+				    $(".arrow").css("display","none");
 				    $(".about").css("display", "block");
 				    $(".about").addClass("animated fadeInLeft");
 			    }
@@ -357,12 +362,13 @@
 		    
 			if(!smallDevice){
 		    	if(verticalOffset >= 1){
+			    	$(".arrow").css("display", "none");
 			   	 	$(".about").css("display", "block");
 			   	 	$(".info").css("display", "block");
 			   	 	$(".about").addClass("animated fadeInLeft");
 			   	 	$(".info").addClass("animated fadeInRight");
 			   	}//
-			   	if(verticalOffset >= 50){
+			   	if(verticalOffset >= 20){
 					$(".projects").css("display", "block");
 					$(".skills").css("display", "block");
 					$(".education").css("display", "block");
