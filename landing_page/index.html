@@ -285,8 +285,9 @@
 		    //second group
 		    $(".projects").css("display", "none");
 		    $(".skills").css("display", "none");
-		    //third group
 		    $(".education").css("display", "none");
+		    //third group
+		    
 		    $(".languages").css("display", "none");
 		    //fourth group
 		    $(".experience").css("display","none");
@@ -296,15 +297,36 @@
 	    
 	    $(window).on("scroll", function(){
 		    var verticalOffset = window.pageYOffset;
-		    if(verticalOffset > 1){
+		   
+		    if(verticalOffset >= 1){
 			    $(".about").css("display", "block");
 			    $(".info").css("display", "block");
 			    $(".about").addClass("animated fadeInLeft");
-			    $(".info").addClass("animated fadeInRight");  
+			    $(".info").addClass("animated fadeInRight");
 		    }//*/
-	    /*$("#offset").html(window.pageYOffset);
+		    if(verticalOffset >= 85){
+				$(".projects").css("display", "block");
+				$(".skills").css("display", "block");
+				$(".education").css("display", "block");
+				$(".projects").addClass("animated fadeInLeft");
+				$(".skills").addClass("animated fadeInRight");
+				$(".education").addClass("animated fadeInLeft");
+			}
+			if(verticalOffset >= 795){
+				$(".languages").css("display", "block");
+				$(".languages").addClass("animated fadeInRight");
+			}
+			if(verticalOffset >= 1100){
+				$(".experience").css("display", "block");
+				$(".music").css("display", "block");
+				$(".experience").addClass("animated fadeInLeft");
+				$(".music").addClass("animated fadeInRight");
+			}
+		    
+		    
+	    $("#offset").html(window.pageYOffset);
 	    $("#offset1").html(window.pageYOffset);
-	    $("#offset2").html(window.pageYOffset);//*/
+	    $("#offset2").html(window.pageYOffset);
 	    });
 	    //pageYoffset
 	    //element.scrollTop element can be document.body
