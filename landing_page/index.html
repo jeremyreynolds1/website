@@ -26,12 +26,13 @@
     
 </head> 
 
-<body class="pattern">
+<body>
     <!-- ******HEADER****** --> 
     <header class="header">
         <div class="container">                       
             <img class="profile-image img-responsive pull-left" src="../files/me.png" alt="Jeremy Reynolds" />
             <div class="profile-content pull-left">
+	            
                 <h1 class="name">Jeremy Reynolds</h1>
                 <h2 class="desc">Programmer</h2>   
                 <ul class="social list-inline">
@@ -39,7 +40,8 @@
                     <li><a href="http://www.github.com/jeremyreynolds1"><i class="fa fa-github-alt"></i></a></li>                           
                 </ul> 
             </div><!--//profile-->
-            <a class="btn btn-cta-primary pull-right" href="mailto:jreynolds3@me.com"><i class="fa fa-paper-plane"></i> Contact Me</a>              
+            <a class="btn btn-cta-primary pull-right" href="mailto:jreynolds3@me.com"><i class="fa fa-paper-plane"></i> Contact Me</a>
+            <p class="offset"></p>              
         </div><!--//container-->
     </header><!--//header-->
     
@@ -47,7 +49,7 @@
     
     <div class="container sections-wrapper">
         <div class="row">
-            <div class="primary col-md-8 col-sm-8 col-xs-8">
+            <div class="primary col-md-8 col-sm-8 col-xs-12">
                 <section class="about section">
                     <div class="section-inner">
                         <h2 class="heading">About Me</h2>
@@ -62,8 +64,7 @@
 	        	<li>Learning about new technologies and working on projects</li>
 	        </ul>
         </p>
-        <p id="offset"></p>
-                         
+                         <p class="offset"></p> 
                         </div><!--//content-->
                     </div><!--//section-inner-->                 
                 </section><!--//section-->
@@ -101,7 +102,7 @@
                             <div class="item">
                             	<h3 class="title"><a href="../adventCalendar.html">Advent Calendar</a></h3>
                             	<p>Made an Advent Calendar for the month of December. Each day is represented up to Christmas day. Created with jQuery, HTML, and jQuery UI.</p>
-                            	<p id="offset1"></p>
+                            	<p class="offset"></p>
                             </div>
                             
                         </div><!--//content-->  
@@ -129,7 +130,7 @@
                                		Assisted with project completion in Mathematics and Computer Science Courses.
                                		Conveyed accurate understanding of course material within the guidelines provided by professors.
                                </p>
-                               <p id="offset2"></p>
+                               <p class="offset"></p>
                             </div><!--//item-->
                         </div><!--//content--> 
                     </div><!--//section-inner-->                 
@@ -139,7 +140,7 @@
             <!-- 
 	            Contains info, skills, education, languages, music
             -->
-            <div class="secondary col-md-4 col-sm-4 col-xs-4">
+            <div class="secondary col-md-4 col-sm-4 col-xs-12">
             
                  <aside class="info aside section">
                     <div class="section-inner">
@@ -150,6 +151,7 @@
                                 <li><i class="fa fa-envelope-o"></i><span class="sr-only">Email:</span><a href="#">jreynolds3@me.com</a></li>
                                 <li><i class="fa fa-link"></i><span class="sr-only">Website:</span><a href="#">http://jeremyreynolds.us</a></li>
                             </ul>
+                            <p class="offset"></p> 
                         </div><!--//content-->  
                     </div><!--//section-inner-->                 
                 </aside><!--//aside-->
@@ -210,7 +212,8 @@
                                 	</div>
                                 </div><!-- item -->
                                            
-                            </div>             
+                            </div>
+                            <p class="offset"></p>              
                         </div><!--//content-->  
                     </div><!--//section-inner-->                 
                 </aside><!--//section-->
@@ -241,6 +244,7 @@
                                     <span class="level">Intermediate <br class="visible-sm visible-xs"/><i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star-half"></i></span>
                                 </li><!--//item-->
                             </ul>
+                            <p class="offset"></p> 
                         </div><!--//content-->
                     </div><!--//section-inner-->
                 </aside><!--//section-->
@@ -255,6 +259,7 @@
                                 <li><i class="fa fa-headphones"></i> <a href="https://itunes.apple.com/us/artist/rush/id50526">Rush</a></li>
                                 <li><i class="fa fa-headphones"></i> <a href="https://itunes.apple.com/us/artist/a-great-big-world/id569333045">A Great Big World</a></li>
                             </ul>
+                            <p class="offset"></p> 
                         </div><!--//content-->
                     </div><!--//section-inner-->
                 </aside><!--//section-->
@@ -293,41 +298,71 @@
 		    $(".experience").css("display","none");
 		    $(".music").css("display","none");
 		    counter++;
-	    }//*/
+	    }//
+	    
+		//alert(window.innerWidth);
 	    
 	    $(window).on("scroll", function(){
+		    //going to use innerWidth to set animations when on phone sized screen.
+		    // if innerWidth <= 768px
+		    
 		    var verticalOffset = window.pageYOffset;
-		   
-		    if(verticalOffset >= 1){
-			    $(".about").css("display", "block");
-			    $(".info").css("display", "block");
-			    $(".about").addClass("animated fadeInLeft");
-			    $(".info").addClass("animated fadeInRight");
-		    }//*/
-		    if(verticalOffset >= 85){
-				$(".projects").css("display", "block");
-				$(".skills").css("display", "block");
-				$(".education").css("display", "block");
-				$(".projects").addClass("animated fadeInLeft");
-				$(".skills").addClass("animated fadeInRight");
-				$(".education").addClass("animated fadeInLeft");
-			}
-			if(verticalOffset >= 795){
-				$(".languages").css("display", "block");
-				$(".languages").addClass("animated fadeInRight");
-			}
-			if(verticalOffset >= 1100){
-				$(".experience").css("display", "block");
-				$(".music").css("display", "block");
-				$(".experience").addClass("animated fadeInLeft");
-				$(".music").addClass("animated fadeInRight");
-			}
 		    
+		    var smallDevice = false;
 		    
-	    $("#offset").html(window.pageYOffset);
-	    $("#offset1").html(window.pageYOffset);
-	    $("#offset2").html(window.pageYOffset);
-	    });
+		    if(window.innerWidth <= 768){
+			   smallDevice = true;
+		    }
+		    //about, projects, experience, info, skills, education, languages, and music.
+		    if(smallDevice){
+			    $(".offset").html(verticalOffset);
+			    if(verticalOffset >= 192){
+				    $(".about").css("display", "block");
+				    $(".about").addClass("animated fadeInLeft");
+			    }
+			    if(verticalOffset >= 834){
+				    $(".projects").css("display", "block");
+				    $(".projects").addClass("animated fadeInRight");
+			    }
+			    if(verticalOffset >= 1826){
+				    $(".experience").css("display", "block");
+				    $(".experience").addClass("animated fadeInLeft");
+			    }
+			    //info
+			    
+			    //skills
+			    //education
+			    //languages
+			    //music
+		    }
+		    
+			if(!smallDevice){
+		    	if(verticalOffset >= 1){
+			   	 	$(".about").css("display", "block");
+			   	 	$(".info").css("display", "block");
+			   	 	$(".about").addClass("animated fadeInLeft");
+			   	 	$(".info").addClass("animated fadeInRight");
+			   	}//
+			   	if(verticalOffset >= 50){
+					$(".projects").css("display", "block");
+					$(".skills").css("display", "block");
+					$(".education").css("display", "block");
+					$(".projects").addClass("animated fadeInLeft");
+					$(".skills").addClass("animated fadeInRight");
+					$(".education").addClass("animated fadeInLeft");
+				}
+				if(verticalOffset >= 795){
+					$(".languages").css("display", "block");
+					$(".languages").addClass("animated fadeInRight");
+				}
+				if(verticalOffset >= 900){
+					$(".experience").css("display", "block");
+					$(".music").css("display", "block");
+					$(".experience").addClass("animated fadeInLeft");
+					$(".music").addClass("animated fadeInRight");
+				}
+			}
+	    });//*/
 	    //pageYoffset
 	    //element.scrollTop element can be document.body
 	    //element.scrollLeft element can be document.body
@@ -347,7 +382,7 @@
    				scrOfX = document.documentElement.scrollLeft;
    			}
   			return [ scrOfX, scrOfY ];
-  		}*/
+  		}//*/
 	    
 	</script>
             
