@@ -161,7 +161,7 @@
                         <h2 class="heading">Skills</h2>
                         <div class="content">
                             <p class="intro">
-                                I have experience in the following skills. My skills range from advanced to beginner. I'm always working on things and am always looking to improve my skills.</p>
+                                I have experience in the following skills. I'm always working on things and am always looking to improve my skills.</p>
                             <div class="skillset">
                                <!- out of beginner, intermediate, advanced, and expert-->
                                 <div class="item">
@@ -315,7 +315,7 @@
 		    }
 		    //about, projects, experience, info, skills, education, languages, and music.
 		    if(smallDevice){
-			    $(".offset").html(verticalOffset);
+			    //$(".offset").html(verticalOffset);
 			    if(verticalOffset >= 192){
 				    $(".about").css("display", "block");
 				    $(".about").addClass("animated fadeInLeft");
@@ -329,11 +329,30 @@
 				    $(".experience").addClass("animated fadeInLeft");
 			    }
 			    //info
-			    
+			    if(verticalOffset >= 3145){
+				    $(".info").css("display", "block");
+				    $(".info").addClass("animated fadeInRight");
+			    }
 			    //skills
+			    if(verticalOffset >= 3100){
+				    $(".skills").css("display", "block");
+				    $(".skills").addClass("animated fadeInLeft");
+			    }
 			    //education
+			    if(verticalOffset >= 4100){
+				    $(".education").css("display", "block");
+				    $(".education").addClass("animated fadeInRight");
+			    }
 			    //languages
+			    if(verticalOffset >= 4200){
+				    $(".languages").css("display", "block");
+				    $(".languages").addClass("animated fadeInLeft");
+			    }
 			    //music
+			    if(verticalOffset >= 4300){
+				    $(".music").css("display", "block");
+				    $(".music").addClass("animated fadeInRight");
+			    } 
 		    }
 		    
 			if(!smallDevice){
@@ -362,28 +381,7 @@
 					$(".music").addClass("animated fadeInRight");
 				}
 			}
-	    });//*/
-	    //pageYoffset
-	    //element.scrollTop element can be document.body
-	    //element.scrollLeft element can be document.body
-	    /*function getScrollXY() {
-			var scrOfX = 0, scrOfY = 0;
-			if( typeof( window.pageYOffset ) == 'number' ) {
-				//Netscape compliant
-				scrOfY = window.pageYOffset;
-				scrOfX = window.pageXOffset;
-			} else if( document.body && ( document.body.scrollLeft || document.body.scrollTop ) ) {
-   				 //DOM compliant
-   				 scrOfY = document.body.scrollTop;
-   				 scrOfX = document.body.scrollLeft;
-   			} else if( document.documentElement && ( document.documentElement.scrollLeft || document.documentElement.scrollTop ) ) {
-   				//IE6 standards compliant mode
-   				scrOfY = document.documentElement.scrollTop;
-   				scrOfX = document.documentElement.scrollLeft;
-   			}
-  			return [ scrOfX, scrOfY ];
-  		}//*/
-	    
+	    });//*/	    
 	</script>
             
 </body>
