@@ -270,6 +270,86 @@
     <script type="text/javascript" src="assets/js/main.js"></script>    
     <script type="text/javascript" src="assets/js/mustache.js"></script>
     
-                
+    <script>
+	    //animated about, projects, experience, info, skills, education, languages, and music sections.
+	    //trying to animate by scroll position of scroll bar
+	    
+	    var counter = 0;
+	    
+	    $(".header").addClass("animated fadeInDown");
+	    
+	    while(counter < 1){
+		    //first group
+		    $(".about").css("display", "none");
+		    $(".info").css("display","none");
+		    //second group
+		    $(".projects").css("display", "none");
+		    $(".skills").css("display", "none");
+		    $(".education").css("display", "none");
+		    //third group
+		    
+		    $(".languages").css("display", "none");
+		    //fourth group
+		    $(".experience").css("display","none");
+		    $(".music").css("display","none");
+		    counter++;
+	    }//*/
+	    
+	    $(window).on("scroll", function(){
+		    var verticalOffset = window.pageYOffset;
+		   
+		    if(verticalOffset >= 1){
+			    $(".about").css("display", "block");
+			    $(".info").css("display", "block");
+			    $(".about").addClass("animated fadeInLeft");
+			    $(".info").addClass("animated fadeInRight");
+		    }//*/
+		    if(verticalOffset >= 85){
+				$(".projects").css("display", "block");
+				$(".skills").css("display", "block");
+				$(".education").css("display", "block");
+				$(".projects").addClass("animated fadeInLeft");
+				$(".skills").addClass("animated fadeInRight");
+				$(".education").addClass("animated fadeInLeft");
+			}
+			if(verticalOffset >= 795){
+				$(".languages").css("display", "block");
+				$(".languages").addClass("animated fadeInRight");
+			}
+			if(verticalOffset >= 1100){
+				$(".experience").css("display", "block");
+				$(".music").css("display", "block");
+				$(".experience").addClass("animated fadeInLeft");
+				$(".music").addClass("animated fadeInRight");
+			}
+		    
+		    
+	    $("#offset").html(window.pageYOffset);
+	    $("#offset1").html(window.pageYOffset);
+	    $("#offset2").html(window.pageYOffset);
+	    });
+	    //pageYoffset
+	    //element.scrollTop element can be document.body
+	    //element.scrollLeft element can be document.body
+	    /*function getScrollXY() {
+			var scrOfX = 0, scrOfY = 0;
+			if( typeof( window.pageYOffset ) == 'number' ) {
+				//Netscape compliant
+				scrOfY = window.pageYOffset;
+				scrOfX = window.pageXOffset;
+			} else if( document.body && ( document.body.scrollLeft || document.body.scrollTop ) ) {
+   				 //DOM compliant
+   				 scrOfY = document.body.scrollTop;
+   				 scrOfX = document.body.scrollLeft;
+   			} else if( document.documentElement && ( document.documentElement.scrollLeft || document.documentElement.scrollTop ) ) {
+   				//IE6 standards compliant mode
+   				scrOfY = document.documentElement.scrollTop;
+   				scrOfX = document.documentElement.scrollLeft;
+   			}
+  			return [ scrOfX, scrOfY ];
+  		}*/
+	    
+	</script>
+            
 </body>
 </html>
