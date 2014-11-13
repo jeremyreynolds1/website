@@ -30,18 +30,18 @@
     <!-- ******HEADER****** --> 
     <header class="header">
         <div class="container">          
-            <img class="img-responsive center-block" src="../files/me.png" alt="Jeremy Reynolds" />
-            <div class="profile-content text-center">
+            <img class="profile-image img-responsive pull-left" src="../files/me.png" alt="Jeremy Reynolds" />
+            <div class="profile-content pull-left">
 	            
                 <h1 class="name">Jeremy Reynolds</h1>
                 <h2 class="desc">Programmer</h2>   
                 <ul class="social list-inline">
                     <li><a href="http://www.linkedin.com/in/jeremyreynolds2/"><i class="fa fa-linkedin"></i></a></li>
                     <li><a href="http://www.github.com/jeremyreynolds1"><i class="fa fa-github-alt"></i></a></li>                           
-                    <li><a href="mailto:jreynolds3@me.com"><i class="fa fa-paper-plane-o"></i></a></li>
+                    <li class="emailButton"><a href="mailto:jreynolds3@me.com"><i class="fa fa-paper-plane-o"></i></a></li>
                 </ul> 
             </div><!--//profile-->
-            <!--<a class="btn btn-cta-primary pull-right" href="mailto:jreynolds3@me.com"><i class="fa fa-paper-plane"></i> Contact Me</a>-->
+            <a class="btn btn-cta-primary pull-right emailLink" href="mailto:jreynolds3@me.com"><i class="fa fa-paper-plane"></i> Contact Me</a>
             <p class="offset"></p>              
         </div><!--//container-->
     </header><!--//header-->
@@ -298,7 +298,8 @@
 		    $(".music").css("display","none");
 		    counter++;
 	    }//
-	    
+	    $(".emailButton").css("display", "none");
+	    //large screen animations
 	    if(window.innerWidth > 768){
 		    $(".header").addClass("animated fadeInDown");	    
 			$(".about").css("display", "block");
@@ -323,41 +324,45 @@
 		    
 		    if(window.innerWidth <= 768){
 			   smallDevice = true;
+			   $(".emailbutton").css("display", "block");
+			   $(".emailLink").css("display", "none");
+			   
 		    }
+		    //small screen animations.
 		    $(window).on("scroll", function(){
 			var verticalOffset = window.pageYOffset;
 		    //about, projects, experience, info, skills, education, languages, and music mobile transitions.
 		    if(smallDevice){
 			    //$(".offset").html(verticalOffset);
-			    if(verticalOffset >= 192){
+			    if(verticalOffset >= 100){
 				    $(".about").css("display", "block");
 				    $(".about").addClass("animated fadeInLeft");
 			    }
-			    if(verticalOffset >= 834){
+			    if(verticalOffset >= 600){
 				    $(".projects").css("display", "block");
 				    $(".projects").addClass("animated fadeInRight");
 			    }
-			    if(verticalOffset >= 1826){
+			    if(verticalOffset >= 1600){
 				    $(".experience").css("display", "block");
 				    $(".experience").addClass("animated fadeInLeft");
 			    }
 			    //info
-			    if(verticalOffset >= 3145){
+			    if(verticalOffset >= 3100){
 				    $(".info").css("display", "block");
 				    $(".info").addClass("animated fadeInRight");
 			    }
 			    //skills
-			    if(verticalOffset >= 3100){
+			    if(verticalOffset >= 3200){
 				    $(".skills").css("display", "block");
 				    $(".skills").addClass("animated fadeInLeft");
 			    }
 			    //education
-			    if(verticalOffset >= 4100){
+			    if(verticalOffset >= 3300){
 				    $(".education").css("display", "block");
 				    $(".education").addClass("animated fadeInRight");
 			    }
 			    //languages
-			    if(verticalOffset >= 4200){
+			    if(verticalOffset >= 3400){
 				    $(".languages").css("display", "block");
 				    $(".languages").addClass("animated fadeInLeft");
 			    }
