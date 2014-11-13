@@ -29,18 +29,19 @@
 <body>
     <!-- ******HEADER****** --> 
     <header class="header">
-        <div class="container">                       
-            <img class="profile-image img-responsive pull-left" src="../files/me.png" alt="Jeremy Reynolds" />
-            <div class="profile-content pull-left">
+        <div class="container">          
+            <img class="img-responsive center-block" src="../files/me.png" alt="Jeremy Reynolds" />
+            <div class="profile-content text-center">
 	            
                 <h1 class="name">Jeremy Reynolds</h1>
                 <h2 class="desc">Programmer</h2>   
                 <ul class="social list-inline">
                     <li><a href="http://www.linkedin.com/in/jeremyreynolds2/"><i class="fa fa-linkedin"></i></a></li>
                     <li><a href="http://www.github.com/jeremyreynolds1"><i class="fa fa-github-alt"></i></a></li>                           
+                    <li><a href="mailto:jreynolds3@me.com"><i class="fa fa-paper-plane-o"></i></a></li>
                 </ul> 
             </div><!--//profile-->
-            <a class="btn btn-cta-primary pull-right" href="mailto:jreynolds3@me.com"><i class="fa fa-paper-plane"></i> Contact Me</a>
+            <!--<a class="btn btn-cta-primary pull-right" href="mailto:jreynolds3@me.com"><i class="fa fa-paper-plane"></i> Contact Me</a>-->
             <p class="offset"></p>              
         </div><!--//container-->
     </header><!--//header-->
@@ -298,34 +299,37 @@
 		    counter++;
 	    }//
 	    
-	    $(".header").addClass("animated fadeInDown");
-	    $(".arrow").addClass("animated fadeInDown");
-	    if(navigator.appCodeName == "Mozilla"){
-		    $(".about").css("display", "block");
-		    $(".info").css("display","block");
-		    $(".about").addClass("animated fadeInLeft");
-		    $(".info").addClass("animated fadeInRight");
-		    $(".arrow").css("display", "none");
-		    mozillaTrigger = true;
-	    }
-		//alert(window.innerWidth);
-	    
-	    $(window).on("scroll", function(){
-		    //going to use innerWidth to set animations when on phone sized screen.
-		    // if innerWidth <= 768px
-		    
-		    var verticalOffset = window.pageYOffset;
+	    if(window.innerWidth > 768){
+		    $(".header").addClass("animated fadeInDown");	    
+			$(".about").css("display", "block");
+			$(".info").css("display", "block");
+			$(".about").addClass("animated fadeInLeft");
+			$(".info").addClass("animated fadeInRight");
+			$(".projects").css("display", "block");
+			$(".skills").css("display", "block");
+			$(".education").css("display", "block");
+			$(".projects").addClass("animated fadeInLeft");
+			$(".skills").addClass("animated fadeInRight");
+			$(".education").addClass("animated fadeInLeft");
+			$(".languages").css("display", "block");
+			$(".languages").addClass("animated fadeInRight");
+			$(".experience").css("display", "block");
+			$(".music").css("display", "block");
+			$(".experience").addClass("animated fadeInLeft");
+			$(".music").addClass("animated fadeInRight");
+		}
 		    
 		    var smallDevice = false;
 		    
 		    if(window.innerWidth <= 768){
 			   smallDevice = true;
 		    }
+		    $(window).on("scroll", function(){
+			var verticalOffset = window.pageYOffset;
 		    //about, projects, experience, info, skills, education, languages, and music mobile transitions.
 		    if(smallDevice){
 			    //$(".offset").html(verticalOffset);
 			    if(verticalOffset >= 192){
-				    $(".arrow").css("display","none");
 				    $(".about").css("display", "block");
 				    $(".about").addClass("animated fadeInLeft");
 			    }
@@ -362,39 +366,8 @@
 				    $(".music").css("display", "block");
 				    $(".music").addClass("animated fadeInRight");
 			    } 
-		    }
-		    
-			if(!smallDevice){
-		    	if(verticalOffset >= 0){
-			    	$(".arrow").css("display", "none");
-			   	 	$(".about").css("display", "block");
-			   	 	$(".info").css("display", "block");
-			   	 	
-			   	 	if(!mozillaTrigger){
-			   	 		$(".about").addClass("animated fadeInLeft");
-			   	 		$(".info").addClass("animated fadeInRight");
-			   	 	}
-			   	}//
-			   	if(verticalOffset >= 20){
-					$(".projects").css("display", "block");
-					$(".skills").css("display", "block");
-					$(".education").css("display", "block");
-					$(".projects").addClass("animated fadeInLeft");
-					$(".skills").addClass("animated fadeInRight");
-					$(".education").addClass("animated fadeInLeft");
-				}
-				if(verticalOffset >= 795){
-					$(".languages").css("display", "block");
-					$(".languages").addClass("animated fadeInRight");
-				}
-				if(verticalOffset >= 900){
-					$(".experience").css("display", "block");
-					$(".music").css("display", "block");
-					$(".experience").addClass("animated fadeInLeft");
-					$(".music").addClass("animated fadeInRight");
-				}
 			}
-	    });//*/	    
+		});	    
 	</script>
             
 </body>
