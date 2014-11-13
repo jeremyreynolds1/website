@@ -274,20 +274,37 @@
 	    //animated about, projects, experience, info, skills, education, languages, and music sections.
 	    //trying to animate by scroll position of scroll bar
 	    
-	    $(window).on("scroll", function(){
-		    var counter = 0;
-		    var verticalOffset = window.pageYOffset;
-		    while(counter < 1){
+	    var counter = 0;
+	    
+	    $(".header").addClass("animated fadeInDown");
+	    
+	    while(counter < 1){
+		    //first group
 		    $(".about").css("display", "none");
+		    $(".info").css("display","none");
+		    //second group
+		    $(".projects").css("display", "none");
+		    $(".skills").css("display", "none");
+		    //third group
+		    $(".education").css("display", "none");
+		    $(".languages").css("display", "none");
+		    //fourth group
+		    $(".experience").css("display","none");
+		    $(".music").css("display","none");
 		    counter++;
-		    }
-		    if(verticalOffset > 139){
+	    }//*/
+	    
+	    $(window).on("scroll", function(){
+		    var verticalOffset = window.pageYOffset;
+		    if(verticalOffset > 1){
 			    $(".about").css("display", "block");
-			    $(".about").addClass("animated fadeIn");
-		    }
-	    $("#offset").html(window.pageYOffset);
+			    $(".info").css("display", "block");
+			    $(".about").addClass("animated fadeInLeft");
+			    $(".info").addClass("animated fadeInRight");  
+		    }//*/
+	    /*$("#offset").html(window.pageYOffset);
 	    $("#offset1").html(window.pageYOffset);
-	    $("#offset2").html(window.pageYOffset);
+	    $("#offset2").html(window.pageYOffset);//*/
 	    });
 	    //pageYoffset
 	    //element.scrollTop element can be document.body
