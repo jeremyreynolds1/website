@@ -38,10 +38,10 @@
                 <ul class="social list-inline">
                     <li><a href="http://www.linkedin.com/in/jeremyreynolds2/"><i class="fa fa-linkedin"></i></a></li>
                     <li><a href="http://www.github.com/jeremyreynolds1"><i class="fa fa-github-alt"></i></a></li>                           
-                    <li class="emailButton"><a href="mailto:jreynolds3@me.com"><i class="fa fa-paper-plane-o"></i></a></li>
+                    <li class="visible-xs-block"><a href="mailto:jreynolds3@me.com"><i class="fa fa-paper-plane-o"></i></a></li>
                 </ul> 
             </div><!--//profile-->
-            <a class="btn btn-cta-primary pull-right emailLink" href="mailto:jreynolds3@me.com"><i class="fa fa-paper-plane"></i> Contact Me</a>
+            <a class="btn btn-cta-primary pull-right hidden-xs" href="mailto:jreynolds3@me.com"><i class="fa fa-paper-plane"></i> Contact Me</a>
             <p class="offset"></p>              
         </div><!--//container-->
     </header><!--//header-->
@@ -55,7 +55,7 @@
                     <div class="section-inner">
                         <h2 class="heading">About Me</h2>
                         <div class="content">
-                            <p>Hello! I'm Jeremy Reynolds a web developer from Georgetown, TX. I moved down to Georgetown from Lewisville, TX in July 2013. Soon after I moved down I got married to my wonderful wife on July 20th. </p>    
+                            <p>Hello! I'm Jeremy Reynolds a web developer from Georgetown, TX. I moved down to Georgetown from Lewisville, TX in July 2013. Soon after I moved down I got married to my wonderful wife on July 20th. I'm currently looking for employment in the field of computer science! </p>    
          
         <p>My personal interests and hobbies include:
 	        <ul>
@@ -88,13 +88,13 @@
                                 <p class="summary">Sample album catalog loaded from XML.</p>
                                
                             </div><!--//item-->
-                            <div class="item">
+                            <!--<div class="item">
                             	<h3 class="title"><a href="../todo.html">jQuery based to do list</a></h3>
                             	<p>Sample to-do list powered by jQuery and Bootstrap.</p>
-                            </div>
+                            </div>-->
                            <div class="item">
                             	<h3 class="title"><a href="../hotel_winston/index.html">The Hotel Winston</a></h3>
-                            	<p>Hotel Reservation Project. Time to Complete: 8 days.</p>
+                            	<p>Hotel Reservation Project. Allows user creation as well as log in. Built using PHP, HTML, and jQuery.</p>
                             </div>
                             <div class="item">
                             	<h3 class="title"><a href="../celebrity_list/index.html">Celebrity List</a></h3>
@@ -143,7 +143,7 @@
             -->
             <div class="secondary col-md-4 col-sm-4 col-xs-12">
             
-                 <aside class="info aside section">
+                 <!--<aside class="info aside section">
                     <div class="section-inner">
                         <h2 class="heading sr-only">Basic Information</h2>
                         <div class="content">
@@ -153,8 +153,8 @@
                                 <li><i class="fa fa-link"></i><span class="sr-only">Website:</span><a href="#">http://jeremyreynolds.us</a></li>
                             </ul>
                             <p class="offset"></p> 
-                        </div><!--//content-->  
-                    </div><!--//section-inner-->                 
+                        </div><!--//content 
+                    </div><!--//section-inner                 
                 </aside><!--//aside-->
                 
                 <aside class="skills aside section">
@@ -166,9 +166,9 @@
                             <div class="skillset">
                                <!- out of beginner, intermediate, advanced, and expert-->
                                 <div class="item">
-                                    <h3 class="level-title">HTML, CSS<span class="level-label" data-toggle="tooltip" data-placement="left" data-animation="true">Advanced</span></h3>
+                                    <h3 class="level-title">HTML, CSS<span class="level-label" data-toggle="tooltip" data-placement="left" data-animation="true">Intermediate</span></h3>
                                     <div class="level-bar">
-                                        <div class="level-bar-inner" data-level="70%">
+                                        <div class="level-bar-inner" data-level="50%">
                                         </div>                                      
                                     </div><!--//level-bar-->                                 
                                 </div><!--//item-->
@@ -182,17 +182,17 @@
                                 </div><!--//item-->
                                 
                                 <div class="item">
-                                    <h3 class="level-title">Java<span class="level-label" data-animation="true">Intermediate</span></h3>
+                                    <h3 class="level-title">Java<span class="level-label" data-animation="true">Beginner</span></h3>
                                     <div class="level-bar">
-                                        <div class="level-bar-inner" data-level="50%">
+                                        <div class="level-bar-inner" data-level="25%">
                                         </div>                                      
                                     </div><!--//level-bar-->                                 
                                 </div><!--//item-->
                                 
                                 <div class="item">
-                                	<h3 class="level-title">MySQL<span class="level-label" data-animation="true">Advanced</span></h3>
+                                	<h3 class="level-title">MySQL<span class="level-label" data-animation="true">Beginner</span></h3>
                                 	<div class="level-bar">
-                                		<div class="level-bar-inner" data-level="70%">
+                                		<div class="level-bar-inner" data-level="25%">
                                 		</div>
                                 	</div><!--//level bar-->
                                 </div><!--//item-->   
@@ -206,9 +206,9 @@
                                 </div><!-- item -->
                                 
                                 <div class="item">
-                                	<h3 class="level-title">Python <span class="level-label" data-animation="true">Intermediate</span></h3>
+                                	<h3 class="level-title">Python <span class="level-label" data-animation="true">Beginner</span></h3>
                                 	<div class="level-bar">
-	                                	<div class="level-bar-inner" data-level="50%">
+	                                	<div class="level-bar-inner" data-level="25%">
 	                                	</div>
                                 	</div>
                                 </div><!-- item -->
@@ -324,7 +324,7 @@
 		    
 		    if(window.innerWidth <= 768){
 			   smallDevice = true;
-			   $(".emailbutton").css("display", "block");
+			   $(".emailButton").css("display", "block");
 			   $(".emailLink").css("display", "none");
 			   
 		    }
@@ -333,6 +333,7 @@
 			var verticalOffset = window.pageYOffset;
 		    //about, projects, experience, info, skills, education, languages, and music mobile transitions.
 		    if(smallDevice){
+			    
 			    //$(".offset").html(verticalOffset);
 			    if(verticalOffset >= 100){
 				    $(".about").css("display", "block");
