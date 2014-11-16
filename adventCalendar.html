@@ -1,9 +1,18 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 	<head>
 		<title>Interactive Advent Calendar</title>
+		<!--Stylesheets-->
 		<link rel="stylesheet" href="http://code.jquery.com/ui/1.11.2/themes/smoothness/jquery-ui.css">
+		<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css"/>
+		<!--scripts-->
 		<script src="http://code.jquery.com/jquery-1.10.2.js"></script>
 		<script src="http://code.jquery.com/ui/1.11.2/jquery-ui.js"></script>
+		<script src="files/jquery.rwdImageMaps.min.js"></script>
+		<script src="bootstrap/js/bootstrap.min.js"></script>
+		<!--meta-->
+		<meta name="viewport" content="width=device-width, initial-scale=1"/>
+		
 		<style>
 			/*Warm red: #330000*/
 			/*Evergreen: #002900*/
@@ -26,11 +35,12 @@
 		</style>
 	</head>
 	<body class="christmas">
+		<div class="container">
 		<h1 class="heading">Advent Calendar</h1>
 		
 		<p class="content">Instructions: click on a day in December to find your gift!</p>
 		
-		<img class="image" src="files/ChristmasTree.png" width="995" height="960" border="0" usemap="#map" />
+		<img class="image img-responsive" src="files/ChristmasTree.png" width="995" height="960" border="0" usemap="#map" />
 
 		<map name="map">
 			<!-- #$-:Image map file created by GIMP Image Map plug-in -->
@@ -64,9 +74,18 @@
 			<area shape="rect" coords="516,251,596,304" alt="24"  nohref="nohref" />
 			<area shape="rect" coords="453,152,540,207" alt="25"  nohref="nohref" />
 		</map>
-		
+		</div>
 		
 		<script>
+			
+			//using jQuery-rwdImageMaps 
+			//source: https://github.com/stowball/jQuery-rwdImageMaps
+			//resizing image map and image based on size
+			$(document).ready(function(e){
+				$('img[usemap]').rwdImageMaps();
+			});
+			
+			
 			//using area to "listen" to clicks.
 			$("area").on("click",function(){
 				$(function(){
