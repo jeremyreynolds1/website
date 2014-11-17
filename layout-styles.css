@@ -2,6 +2,10 @@ body{
 	background: url("files/triangle.png");
 }
 
+.pattern{
+	background: url("files/triangle.png");
+}
+
 .center-profile{
 	margin: 0 auto;
 }
