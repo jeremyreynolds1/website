@@ -2,18 +2,20 @@
 <html>
 	<head>
 		<title>New User</title>
-		<link rel="stylesheet" type="text/css" href="../layout-styles.css">
-		<script src="../jquery-1.11.1.min.js"></script>
-		<link rel="stylesheet" type="text/css" href="../animate.css">
+		<!--CSS-->
+		<link rel="stylesheet" type="text/css" href="../layout-styles.css"/>
+		<link rel="stylesheet" type="text/css" href="../bootstrap/css/bootstrap.min.css"/>
+		<link rel="stylesheet" type="text/css" href="../landing_page/assets/css/styles.css"/>
+		<!--scripts-->
+		<script src="../files/jQuery/jquery-1.11.1.min.js"></script>
+		<script src="../bootstrap/js/bootstrap.min.js"></script>
+		<!--meta-->
 		<meta charset="UTF-8"/>
-		<meta name="viewport" content="width=device-width, user-scalable=no" >
+		<meta name="viewport" content="width=device-width, initial-scale=1" >
 		<link rel="shortcut icon" href="../favicon.ico" />
 
 	</head>
-	<body>
-		<script>
-			
-		</script>
+	<body class="pattern">
 		<?php
 		//need to check database for existing username
 		date_default_timezone_set("America/Chicago");
@@ -71,7 +73,7 @@
 				#firstName {
 					color: #FF0000;
 				}
-				</style>';
+				</style>';//*/
 			}
 			if(empty($lastName)){
 				$lastNameError = "Last Name cannot be empty.";
@@ -162,7 +164,71 @@
 		}
 		
 		?>
-		<div id="heading">
+		<!--refactor using all bootstrap-->
+		<header class="header">
+			<div class="container">
+				<div id="heading">
+					<h1>New User Creation</h1>
+					<span><?php echo $databaseError; ?></span>
+				</div>
+			</div>
+		</header>
+		<div class="container sections-wrapper">
+			<section class="section">
+				<div class="section-inner">
+					<p>Using the form below, enter the following to create a new user:</p>
+					<ul>
+						<li>First Name</li>
+						<li>Last Name</li>
+						<li>Username</li>
+						<li>Password</li>
+					</ul>
+					<hr>
+					<!--used for various warnings-->
+					<p class="bg-danger">
+						<?php echo $firstNameError; ?>
+					</p>
+					<p class="bg-danger">
+					<?php echo $lastNameError; ?>
+					</p>
+					<p class="bg-danger">
+						<?php echo $passwordError; ?>
+					</p>
+					<p class="bg-danger">
+						<?php echo $userNameError; ?>
+					</p>
+					<!--database error-->
+					<p class="bg-warning">
+						<?php echo $databaseError; ?>
+					</p>
+					<p class="bg-success">
+						<?php echo $submitResult; ?>
+					</p>
+					<div class="center">
+						<form class="form" method="post" role="form" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>">
+							<div class="form-group">
+								<label class="sr-only">First Name</label>
+								<input type="text" class="form-control" name="firstName" placeholder="First Name">
+							</div>
+							<div class="form-group">
+								<label class="sr-only">Last Name</label>
+								<input type="text" class="form-control" name="lastName" placeholder="Last Name">
+							</div>
+							<div class="form-group">
+								<label class="sr-only">Username</label>
+								<input type="text" class="form-control" name="userName" placeholder="Desired Username">
+							</div>
+							<div class="form-group">
+								<label class="sr-only">Password</label>
+								<input type="password" class="form-control" name="password" placeholder="Password">
+							</div>
+							<button type="submit" class="btn btn-default">Submit</button>
+						</form>
+					</div>
+				</div>
+			</section>
+		</div>
+		<!--<div id="heading">
 			<h1>New User Creation</h1>
 			<span><?php echo $databaseError; ?></span>
 		</div>
@@ -175,6 +241,6 @@
 				<input type="submit">
 				<span><?php echo $submitResult;?></span>
 			</form>
-		</div>
+		</div>-->
 	</body>
 </html>

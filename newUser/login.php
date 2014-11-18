@@ -1,14 +1,20 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 	<head>
 		<title>Login</title>
-		<link rel="stylesheet" type="text/css" href="../layout-styles.css">
+		<!--CSS-->
+		<link rel="stylesheet" type="text/css" href="../layout-styles.css"/>
+		<link rel="stylesheet" type="text/css" href="../bootstrap/css/bootstrap.min.css"/>
+		<link rel="stylesheet" type="text/css" href="../landing_page/assets/css/styles.css"/>
+		<!--scripts-->
+		<script src="../files/jQuery/jquery-1.11.1.min.js"></script>
+		<script src="../bootstrap/js/bootstrap.min.js"></script>
+		<!--meta-->
 		<meta charset="UTF-8"/>
-		<meta name="viewport" content="width=device-width, user-scalable=no" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" >
 		<link rel="shortcut icon" href="../favicon.ico" />
-
 	</head>
-	<body>
+	<body class="pattern">
 	<?php
 		//need to check and get username/password from user
 		//second to check against stored password hash to see if they're the same.
@@ -87,7 +93,39 @@
 			
 		}//end method post
 	?>
-		<div id="heading">
+		<header class="header">
+			<div class="container">
+				<div id="heading">
+					<h1>Login</h1>
+					<p class="bg-warning"><?php echo $databaseError;?></p>
+				</div>
+			</div>
+		</header>
+		<div class="container sections-wrapper">
+			<section class="section">
+				<div class="section-inner">
+					<div class="center">
+						<p>Login below with your username and password.</p>
+						<p class="bg-danger"><?php echo $userNameError;?></p>
+						<p class="bg-danger"><?php echo $passError;?></p>
+						<form class="form" method="post" role="form" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>">
+							<div class="form-group">
+								<label class="sr-only">Username</label>
+								<input type="text" class="form-control" name="userName" placeholder="Username">
+							</div>
+							<div class="form-group">
+								<label class="sr-only">Password</label>
+								<input type="password" class="form-control" name="password" placeholder="Password">
+							</div>
+							<div class="form-group">
+								<button>Submit</button>
+							</div>
+						</form>
+					</div>
+				</div>
+			</section>
+		</div>
+		<!--<div id="heading">
 			<h1>Login</h1>
 			<span><?php echo $databaseError; ?></span>
 		</div>
@@ -98,6 +136,6 @@
 			<input type="submit" value="login">
 			</form>
 			<span><?php echo $successMessage; ?></span>
-		</div>
+		</div><!---->
 	</body>
 </html>
