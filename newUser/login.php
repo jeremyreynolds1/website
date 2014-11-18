@@ -117,6 +117,9 @@
 								<label class="sr-only">Password</label>
 								<input type="password" class="form-control" name="password" placeholder="Password">
 							</div>
+							<div class="form-group">
+								<button>Submit</button>
+							</div>
 						</form>
 					</div>
 				</div>
