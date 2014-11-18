@@ -196,28 +196,34 @@
 					<p class="bg-danger">
 						<?php echo $userNameError; ?>
 					</p>
+					<!--database error-->
+					<p class="bg-warning">
+						<?php echo $databaseError; ?>
+					</p>
 					<p class="bg-success">
 						<?php echo $submitResult; ?>
 					</p>
-					<form class="form" method="post" role="form" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>">
-						<div class="form-group">
-							<label class="sr-only">First Name</label>
-							<input type="text" class="form-control" name="firstName" placeholder="First Name">
-						</div>
-						<div class="form-group">
-							<label class="sr-only">Last Name</label>
-							<input type="text" class="form-control" name="lastName" placeholder="Last Name">
-						</div>
-						<div class="form-group">
-							<label class="sr-only">Username</label>
-							<input type="text" class="form-control" name="userName" placeholder="Desired Username">
-						</div>
-						<div class="form-group">
-							<label class="sr-only">Password</label>
-							<input type="password" class="form-control" name="password" placeholder="Password">
-						</div>
-						<button type="submit" class="btn btn-default">Submit</button>
-					</form>
+					<div class="center">
+						<form class="form" method="post" role="form" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>">
+							<div class="form-group">
+								<label class="sr-only">First Name</label>
+								<input type="text" class="form-control" name="firstName" placeholder="First Name">
+							</div>
+							<div class="form-group">
+								<label class="sr-only">Last Name</label>
+								<input type="text" class="form-control" name="lastName" placeholder="Last Name">
+							</div>
+							<div class="form-group">
+								<label class="sr-only">Username</label>
+								<input type="text" class="form-control" name="userName" placeholder="Desired Username">
+							</div>
+							<div class="form-group">
+								<label class="sr-only">Password</label>
+								<input type="password" class="form-control" name="password" placeholder="Password">
+							</div>
+							<button type="submit" class="btn btn-default">Submit</button>
+						</form>
+					</div>
 				</div>
 			</section>
 		</div>
