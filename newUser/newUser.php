@@ -170,6 +170,7 @@
 				<div id="heading">
 					<h1>New User Creation</h1>
 					<span><?php echo $databaseError; ?></span>
+				</div>
 			</div>
 		</header>
 		<div class="container sections-wrapper">
