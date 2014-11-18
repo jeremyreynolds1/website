@@ -6,14 +6,11 @@
 		<script src="../jquery-1.11.1.min.js"></script>
 		<link rel="stylesheet" type="text/css" href="../animate.css">
 		<meta charset="UTF-8"/>
-		<meta name="viewport" content="width=device-width, user-scalable=no" >
+		<meta name="viewport" content="width=device-width, initial-scale=1" >
 		<link rel="shortcut icon" href="../favicon.ico" />
 
 	</head>
 	<body>
-		<script>
-			
-		</script>
 		<?php
 		//need to check database for existing username
 		date_default_timezone_set("America/Chicago");
@@ -162,6 +159,9 @@
 		}
 		
 		?>
+		<!--refactor using all bootstrap-->
+		<div class="container">
+		</div>
 		<div id="heading">
 			<h1>New User Creation</h1>
 			<span><?php echo $databaseError; ?></span>
