@@ -50,7 +50,7 @@
     
     <div class="container sections-wrapper">
         <div class="row">
-            <div class="primary col-md-7 col-sm-8 col-xs-12">
+            <div class="primary col-md-7 col-sm-7 col-xs-12">
                 <section id="about" class="about section">
                     <div class="section-inner">
                         <h2 class="heading">About Me</h2>
@@ -148,7 +148,7 @@
             <!-- 
 	            Contains info, skills, education, languages, music
             -->
-            <div class="secondary col-md-5 col-sm-4 col-xs-12">
+            <div class="secondary col-md-5 col-sm-5 col-xs-12">
             
                  <!--<aside class="info aside section">
                     <div class="section-inner">
@@ -289,6 +289,9 @@
 	    //need to create special case for mozilla firefox to scroll
 	    var mozillaTrigger = false;
 	    var counter = 0;
+	    /*$(".header").on("click", function(){
+		   alert(window.innerWidth); 
+	    });//*/
 	    while(counter < 1){
 		    //first group
 		    $(".about").css("display", "none");
@@ -333,7 +336,6 @@
 			   smallDevice = true;
 			   $(".emailButton").css("display", "block");
 			   $(".emailLink").css("display", "none");
-			   
 		    }
 		    //small screen animations.
 		    $(window).on("scroll", function(){
@@ -354,28 +356,28 @@
 				    $(".experience").css("display", "block");
 				    $(".experience").addClass("animated fadeInLeft");
 			    }
-			    //info
+			    /*//info
 			    if(verticalOffset >= 3100){
 				    $(".info").css("display", "block");
 				    $(".info").addClass("animated fadeInRight");
-			    }
+			    }//*/
 			    //skills
-			    if(verticalOffset >= 3200){
+			    if(verticalOffset >= 3000){
 				    $(".skills").css("display", "block");
 				    $(".skills").addClass("animated fadeInLeft");
 			    }
 			    //education
-			    if(verticalOffset >= 3300){
+			    if(verticalOffset >= 3500){
 				    $(".education").css("display", "block");
 				    $(".education").addClass("animated fadeInRight");
 			    }
 			    //languages
-			    if(verticalOffset >= 3400){
+			    if(verticalOffset >= 3700){
 				    $(".languages").css("display", "block");
 				    $(".languages").addClass("animated fadeInLeft");
 			    }
 			    //music
-			    if(verticalOffset >= 4300){
+			    if(verticalOffset >= 3900){
 				    $(".music").css("display", "block");
 				    $(".music").addClass("animated fadeInRight");
 			    } 
