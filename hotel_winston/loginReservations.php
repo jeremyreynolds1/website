@@ -65,7 +65,7 @@
 					
 					$connect = mysqli_connect("localhost", "jeremy", "Snakes12", "reservations");
 					if(!$connect){
-						$warningMessage = "could not connect to database. please notify jreynolds3@me.com";
+						$warningMessage = "could not connect to database. please notify jreynolds323@gmail.com";
 					}
 					$query = "INSERT INTO reservationsTable (email, beginDate, endDate) VALUES ('$email', '$newBeginDate', '$newEndDate')";
 					

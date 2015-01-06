@@ -1,5 +1,7 @@
-body{
-	background: url("files/triangle.png");
+
+/*Need to make media query*/
+.modal-dialog{
+	width: 200px;
 }
 
 .pattern{

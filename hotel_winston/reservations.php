@@ -23,9 +23,6 @@
 
   <body>
   <?php
-  
-  //need to check if email and username exist in users table.
-  
   		if($_SERVER["REQUEST_METHOD"] == "POST"){
   		
   			//clearing out any previous inputs.

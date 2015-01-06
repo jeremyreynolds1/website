@@ -144,7 +144,6 @@
 				if(!$userInsert){
 					$databaseError = "duplicate";
 					$submitSuccess = false;
-
 				}
 				
 				if($submitSuccess == true){
@@ -158,13 +157,11 @@
 					$submitResult = "failed try again";
 				}
 			}//
-			
 			//close connection
 			mysqli_close($connect);
 		}
 		
 		?>
-		<!--refactor using all bootstrap-->
 		<header class="header">
 			<div class="container">
 				<div id="heading">
