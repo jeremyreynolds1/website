@@ -15,7 +15,7 @@
 			//connect to sql database
 			$connection = mysqli_connect("localhost", "jeremy", "Tetapuleli^jurtyza", "auto");
 			//errors to be present
-			$firstNameError = $lastNameError = $emailError = $passwordError = $phoneNumberError = $databaseError = $warning = "";
+			$firstNameError = $lastNameError = $emailError = $passwordError = $phoneNumberError = $databaseError = $warning = $success = "";
 			//variables for use in validation
 			$firstName = $lastName = $email = $password = $phoneNumber = "";
 			$submit = true;
@@ -66,15 +66,15 @@
 			//valid entry
 			//email
 			//^\w+@[a-zA-Z_]+?\.[a-zA-Z]{2,3}$
-			/*if(!preg_match("/^\w+@[a-zA-Z_]+?\.[a-zA-Z]{2,3}$/", $email){
+			if(!preg_match("/^\w+@[a-zA-Z_]+?\.[a-zA-Z]{2,3}$/", $email)){
 				$emailError = "email invalid";
 				$submit = false;
-			}//
+			}//*/
 			//password
 			if(!preg_match("/^[a-zA-Z0-9]\w{3,14}$/", $password)){
 				$passwordError = "password invalid";
 				$submit = false;
-			}
+			}//*/
 			//phoneNumber
 			//([0-9][0-9][0-9])-([0-9][0-9][0-9])-([0-9][0-9][0-9][0-9])
 			if(!preg_match("/([0-9][0-9][0-9])-([0-9][0-9][0-9])-([0-9][0-9][0-9][0-9])/", $phoneNumber)){
@@ -84,6 +84,7 @@
 			//if everything passes, submit to customerInfo table
 			if($submit){
 				$query = mysqli_query($connection, "INSERT INTO customerInfo (firstName, lastName, email, phoneNumber, passHash) VALUES ('$firstName', '$lastName', '$email', '$phoneNumber', '$passHash')");
+				$success = "created new user";
 			}
 			else{
 				$warning = "could not submit";
@@ -107,6 +108,7 @@
 					<p><?php echo $emailError;?></p>
 					<p><?php echo $phoneNumberError;?></p>
 					<p><?php echo $databaseError;?></p>
+					<p><?php echo $success;?></p>
 				</div>
 			</div>
 		</header>
@@ -126,7 +128,7 @@
 							</div>
 							<div class="form-group">
 								<label class="sr-only">Email</label>
-								<input type="text" class="form-control" name="email" placeholder="Desired Username">
+								<input type="text" class="form-control" name="email" placeholder="email">
 							</div>
 							<div class="form-group">
 								<label class="sr-only">Password</label>
