@@ -35,7 +35,9 @@
 					<!--LOGIN-->
 					<button id="login">Login</button>
 					<!--Create new User-->
-					<button id="createNew">Create New User</button>			
+					<button id="createNew">Create New User</button>	
+					<!-- Staff Login -->
+					<button id="staff">Staff Login</button>		
 	            </div><!--//content-->
 	        </div><!--//section-inner-->                 
 	     </section><!--//section-->
@@ -47,6 +49,9 @@
 	   	});
 	   	$("#createNew").on("click", function(){
 		   	window.location.href = "createNewUser.php";
+	   	});
+	   	$("#staff").on("click", function(){
+		   	window.location.href = "staffLogin.php";
 	   	});
 	</script>
 
