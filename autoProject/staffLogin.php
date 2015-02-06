@@ -1,6 +1,5 @@
 <html>
 	<head>
-		<title>admin portal</title>
 		<link href="../bootstrap/css/bootstrap.min.css" rel="stylesheet">
 		<link rel="stylesheet" type="text/css" href="../layout-styles.css"/>
 		<link rel="stylesheet" type="text/css" href="../landing_page/assets/css/styles.css"/>
@@ -10,6 +9,6 @@
 		<link rel="icon" href="http://jeremyreynolds.us/favicon.ico"/>
 	</head>
 	<body class="pattern">
-		<!-- This will represent the "staff" portal-->
+		<!--Staff login ability to search by customer ID/lastName/firstName to see information about cars-->
 	</body>
 </html>
